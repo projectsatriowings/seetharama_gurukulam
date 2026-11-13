@@ -128,7 +128,7 @@ export default function Hero({
               <span className="block font-serif text-[36px] font-bold leading-[1.05] tracking-tight text-maroon sm:text-[48px] md:text-[54px] lg:text-[58px] xl:text-[64px]">
                 Sri Seetharama
               </span>
-              <span className="block font-serif text-[36px] font-semibold italic leading-[1.1] text-saffron-deep sm:text-[48px] md:text-[54px] lg:text-[58px] xl:text-[64px]">
+              <span className="block font-serif text-[36px] font-bold italic leading-[1.1] text-saffron-deep sm:text-[48px] md:text-[54px] lg:text-[58px] xl:text-[64px]">
                 Gurukulam
               </span>
             </h1>
@@ -246,7 +246,7 @@ export default function Hero({
 
                       {/* Card Caption Strip */}
                       <div className="border-t border-gold-soft/70 bg-gradient-to-b from-ivory to-cream px-3.5 py-3">
-                        <p className="truncate font-serif text-[13.5px] font-semibold text-maroon sm:text-[14.5px]">
+                        <p className="truncate font-serif text-[13.5px] font-bold text-maroon sm:text-[14.5px]">
                           {card.label}
                         </p>
                         <p className="mt-0.5 truncate font-sans text-[11px] italic text-saffron-deep font-medium">

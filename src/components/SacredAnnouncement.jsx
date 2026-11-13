@@ -15,7 +15,7 @@ export default function SacredAnnouncement({ event }) {
             <span>Sacred Gathering</span>
           </span>
 
-          <span className="font-serif text-[16px] font-semibold text-maroon sm:text-[18px]">
+          <span className="font-serif text-[16px] font-bold text-maroon sm:text-[18px]">
             {event.title}
           </span>
 

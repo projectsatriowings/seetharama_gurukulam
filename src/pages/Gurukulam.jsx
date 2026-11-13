@@ -38,7 +38,7 @@ export default function Gurukulam() {
           <Reveal><SectionHeading eyebrow="What we teach" title="Subjects of study" /></Reveal>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {subjects.map((s) => (
-              <Card key={s.title} className="h-full"><span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><s.icon size={24} /></span><h3 className="mt-4 font-serif text-2xl font-semibold text-maroon">{s.title}</h3><p className="mt-2 text-ink-soft">{s.text}</p></Card>
+              <Card key={s.title} className="h-full"><span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><s.icon size={24} /></span><h3 className="mt-4 font-serif text-2xl font-bold text-maroon">{s.title}</h3><p className="mt-2 text-ink-soft">{s.text}</p></Card>
             ))}
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Gurukulam() {
             <Reveal delay={0.08}>
               <Card className="h-full bg-cream">
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-deep">Aims &amp; Objectives</p>
-                <h3 className="mt-2 font-serif text-2xl font-semibold text-maroon">Education without any cost</h3>
+                <h3 className="mt-2 font-serif text-2xl font-bold text-maroon">Education without any cost</h3>
                 <p className="mt-3 text-ink-soft">{aimStatement}</p>
                 <p className="mt-5 text-sm font-bold uppercase tracking-wider text-maroon">Provided to students free of cost:</p>
                 <ul className="mt-3 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-1">
@@ -94,7 +94,7 @@ export default function Gurukulam() {
                   <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-saffron-deep">
                     <Award size={16} aria-hidden="true" /> Blessing &amp; Recognition
                   </p>
-                  <h2 className="mt-2 font-serif text-3xl font-semibold text-maroon sm:text-4xl">{award.title}</h2>
+                  <h2 className="mt-2 font-serif text-3xl font-bold text-maroon sm:text-4xl">{award.title}</h2>
                 </div>
                 <span className="rounded-full border border-gold-soft bg-cream px-4 py-1.5 text-sm font-semibold text-maroon">{award.date}</span>
               </div>
@@ -135,7 +135,7 @@ export default function Gurukulam() {
             <SectionHeading eyebrow="Facilities" title="Simple, cared-for spaces" align="left" />
             <div className="mt-8 grid gap-5 sm:grid-cols-2">
               {facilities.map((f) => (
-                <Card key={f.title} className="h-full"><span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><f.icon size={24} /></span><h3 className="mt-4 font-serif text-xl font-semibold text-maroon">{f.title}</h3><p className="mt-2 text-sm text-ink-soft">{f.text}</p></Card>
+                <Card key={f.title} className="h-full"><span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><f.icon size={24} /></span><h3 className="mt-4 font-serif text-xl font-bold text-maroon">{f.title}</h3><p className="mt-2 text-sm text-ink-soft">{f.text}</p></Card>
               ))}
             </div>
           </div>

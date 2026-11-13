@@ -43,7 +43,7 @@ export default function Header() {
             </div>
 
             <div className="flex min-w-0 flex-col">
-              <span className="truncate font-serif text-[15px] font-semibold leading-tight tracking-tight text-maroon transition-colors duration-200 sm:text-[19px] lg:text-[22px]">
+              <span className="truncate font-serif text-[15px] font-bold leading-tight tracking-tight text-maroon transition-colors duration-200 sm:text-[19px] lg:text-[22px]">
                 Sri Seetharama Gurukulam
               </span>
               <div className="flex items-center gap-1.5 pt-0.5">

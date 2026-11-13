@@ -20,7 +20,7 @@ export default function ParayanamPooja() {
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {services.map((s) => (
               <Card key={s.id} className="h-full">
-                <h3 className="font-serif text-2xl font-semibold text-maroon">{s.name}</h3>
+                <h3 className="font-serif text-2xl font-bold text-maroon">{s.name}</h3>
                 <p className="mt-2 text-sm text-ink-soft">{s.description}</p>
                 <p className="mt-3 text-xs font-bold uppercase tracking-widest text-saffron-deep">Typical duration: {s.duration}</p>
               </Card>
@@ -30,7 +30,7 @@ export default function ParayanamPooja() {
             {steps.map(([n, t, d]) => (
               <li key={t} className="rounded-card border border-gold-soft bg-ivory p-5 shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-maroon font-serif text-lg font-bold text-cream">{n}</span>
-                <h3 className="mt-3 font-serif text-2xl font-semibold text-maroon">{t}</h3>
+                <h3 className="mt-3 font-serif text-2xl font-bold text-maroon">{t}</h3>
                 <p className="mt-1 text-sm text-ink-soft">{d}</p>
               </li>
             ))}

@@ -14,7 +14,7 @@ export default function EventCard({ event }) {
           <span className="text-xs font-bold uppercase tracking-widest text-gold-soft">{month}</span>
         </div>
         <div>
-          <h3 className="font-serif text-2xl font-semibold leading-snug text-maroon">{event.title}</h3>
+          <h3 className="font-serif text-2xl font-bold leading-snug text-maroon">{event.title}</h3>
           <p className="mt-1 flex items-center gap-1.5 text-sm text-ink-soft"><Clock size={15} /> {event.time}</p>
           <p className="mt-1 flex items-center gap-1.5 text-sm text-ink-soft"><MapPin size={15} /> {event.venue}</p>
         </div>

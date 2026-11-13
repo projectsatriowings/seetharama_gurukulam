@@ -15,7 +15,7 @@ export default function Contact() {
         <div className="site-container grid gap-10 lg:grid-cols-2">
           <div className="space-y-5">
             <div className="rounded-card border border-gold-soft bg-ivory p-6 shadow-card">
-              <h2 className="font-serif text-2xl font-semibold text-maroon">Visit or reach us</h2>
+              <h2 className="font-serif text-2xl font-bold text-maroon">Visit or reach us</h2>
               <address className="mt-4 space-y-3 not-italic text-ink-soft">
                 <p className="flex gap-2"><MapPin className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.addressLines.join(', ')}</p>
                 <p><a href={`tel:${site.phoneTel}`} className="flex gap-2 hover:text-maroon"><Phone className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.phoneDisplay}</a></p>

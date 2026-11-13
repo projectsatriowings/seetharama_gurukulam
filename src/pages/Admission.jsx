@@ -23,7 +23,7 @@ export default function Admission() {
             {steps.map(([n, t, d]) => (
               <li key={t} className="rounded-card border border-gold-soft bg-ivory p-5 shadow-card">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-maroon font-serif text-lg font-bold text-cream">{n}</span>
-                <h3 className="mt-3 font-serif text-2xl font-semibold text-maroon">{t}</h3>
+                <h3 className="mt-3 font-serif text-2xl font-bold text-maroon">{t}</h3>
                 <p className="mt-1 text-sm text-ink-soft">{d}</p>
               </li>
             ))}
@@ -31,7 +31,7 @@ export default function Admission() {
 
           <Card className="mx-auto mt-10 max-w-4xl">
             <p className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-deep">Student Welfare</p>
-            <h2 className="mt-1 font-serif text-2xl font-semibold text-maroon">Provided to students without any cost</h2>
+            <h2 className="mt-1 font-serif text-2xl font-bold text-maroon">Provided to students without any cost</h2>
             <ul className="mt-4 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
               {vedaPatshala.freeProvisions.map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm font-medium text-ink">

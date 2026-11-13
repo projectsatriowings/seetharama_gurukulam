@@ -50,7 +50,7 @@ export default function Home() {
               <Reveal key={p.title} delay={i * 0.08}>
                 <Card className="h-full text-center">
                   <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><p.icon size={26} /></span>
-                  <h3 className="mt-4 font-serif text-2xl font-semibold text-maroon">{p.title}</h3>
+                  <h3 className="mt-4 font-serif text-2xl font-bold text-maroon">{p.title}</h3>
                   <p className="mt-2 text-ink-soft">{p.text}</p>
                 </Card>
               </Reveal>
@@ -78,7 +78,7 @@ export default function Home() {
               <Reveal key={s.title} delay={i * 0.08}>
                 <li className="h-full rounded-card border border-gold-soft bg-ivory p-6 shadow-card">
                   <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-saffron-deep"><Clock size={15} /> Step {i + 1} · {s.time}</p>
-                  <h3 className="mt-3 font-serif text-2xl font-semibold text-maroon">{s.title}</h3>
+                  <h3 className="mt-3 font-serif text-2xl font-bold text-maroon">{s.title}</h3>
                   <p className="mt-2 text-ink-soft">{s.text}</p>
                 </li>
               </Reveal>
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="pattern-kolam absolute inset-0 opacity-20" aria-hidden="true" />
         <div className="site-container relative">
           <div className="mx-auto max-w-2xl">
-          <h2 className="font-serif text-4xl font-semibold sm:text-5xl">Come, sit, listen — and be part of it.</h2>
+          <h2 className="font-serif text-4xl font-bold sm:text-5xl">Come, sit, listen — and be part of it.</h2>
           <p className="mt-4 text-cream/85">Whether you are seeking admission, a pooja, or a way to connect with the gurukulam, we would be glad to hear from you.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button to="/contact" className="bg-saffron text-maroon-dark hover:bg-[#f0a64a]">Contact us</Button>

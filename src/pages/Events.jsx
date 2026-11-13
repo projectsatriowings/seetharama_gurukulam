@@ -41,7 +41,7 @@ export default function Events() {
                 </div>
                 <div>
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold-soft">Next gathering</p>
-                  <h2 className="mt-2 font-serif text-3xl font-semibold leading-tight sm:text-4xl">{featured.title}</h2>
+                  <h2 className="mt-2 font-serif text-3xl font-bold leading-tight sm:text-4xl">{featured.title}</h2>
                   <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm text-cream/85">
                     <span className="flex items-center gap-1.5"><Clock size={15} /> {featured.time}</span>
                     <span className="flex items-center gap-1.5"><MapPin size={15} /> {featured.venue}</span>

@@ -7,6 +7,7 @@ import EventCard from '../components/EventCard.jsx'
 import GalleryGrid from '../components/GalleryGrid.jsx'
 import Hero from '../components/Hero.jsx'
 import Reveal from '../components/Reveal.jsx'
+import SacredAnnouncement from '../components/SacredAnnouncement.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import SEO, { orgJsonLd } from '../components/SEO.jsx'
 import TestimonialCarousel from '../components/TestimonialCarousel.jsx'
@@ -34,16 +35,12 @@ export default function Home() {
     <>
       <SEO description="Seetharama Gurukulam Trust — traditional Vedic learning, parayanam and pooja services, and a warm welcome for parents, devotees and donors." path="/" jsonLd={orgJsonLd} />
       <Hero
-        title="Preserving the timeless wisdom of the Vedas"
-        subtitle="A traditional gurukulam where students learn the Vedas, Sanskrit and shastras with discipline, devotion and care — and where devotees are always welcome."
-        primary={{ label: 'Admission Enquiry', to: '/admission' }}
-        secondary={{ label: 'Book Parayanam / Pooja', to: '/parayanam-pooja' }}
+        title="Preserving the Timeless Wisdom of the Vedas"
+        subtitle="A sacred institution founded under the divine command and blessings of His Holiness Sri Paramacharyal of Kanchi — imparting authentic Krishna Yajur Veda adhyayanam, Sanskrit, and Shastras with discipline, devotion, and care."
+        primary={{ label: 'Explore the Gurukulam', to: '/gurukulam' }}
+        secondary={{ label: 'Admission Enquiry', to: '/admission' }}
       />
-      {next ? (
-        <div className="bg-saffron px-4 py-3 text-center text-sm font-semibold text-maroon-dark sm:text-base">
-          Next event: {next.title} — {formatDate(next.date)} · <Link to="/events" className="underline underline-offset-4">View all events</Link>
-        </div>
-      ) : null}
+      <SacredAnnouncement event={next} />
 
       <section className="py-16 sm:py-20">
         <div className="site-container">

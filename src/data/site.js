@@ -11,15 +11,15 @@ export const site = {
   // TODO: replace with the trust's real email
   email: 'info@example.org',
   addressLines: [
-    'TODO: Street address, area', // TODO
-    'TODO: City, State — PIN', // TODO
+    'New No: 488, Old No 175',
+    'T.T.K. Road, Alwarpet',
+    'Chennai - 600018, Tamilnadu - INDIA',
   ],
   visitingHours: 'TODO: e.g. 9:00 AM – 12:00 PM and 4:00 PM – 6:00 PM',
   // TODO: replace with the real registration number
   registrationNumber: 'TODO: Registration No. XXXXXX',
   establishedYear: 'TODO: Year established',
-  // TODO: replace with a real Google Maps embed URL (Share > Embed a map)
-  mapEmbedUrl: 'https://www.google.com/maps?q=Chennai,Tamil+Nadu&output=embed',
+  mapEmbedUrl: 'https://www.google.com/maps?q=488+TTK+Road+Alwarpet+Chennai+600018&output=embed',
   siteUrl: 'https://seetharamagurukulam.example.org',
   social: [
     { label: 'YouTube', href: '#', note: 'TODO: add link' },

@@ -28,8 +28,8 @@ export default function Contact() {
               </div>
             </div>
             <div className="overflow-hidden rounded-card border border-gold-soft shadow-card">
-              <iframe title="Map to Seetharama Gurukulam Trust (placeholder location — replace with the real location)" src={site.mapEmbedUrl} width="600" height="360" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="w-full border-0" />
-              <p className="bg-ivory px-4 py-3 text-sm text-ink-soft">Map location is a placeholder. Replace the embed URL in <code>src/data/site.js</code> with the trust’s real location.</p>
+              <iframe title="Map to Seetharama Gurukulam Trust, Alwarpet, Chennai" src={site.mapEmbedUrl} width="600" height="360" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="w-full border-0" />
+              <p className="bg-ivory px-4 py-3 text-sm text-ink-soft">488, T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu</p>
             </div>
           </div>
           <EnquiryForm

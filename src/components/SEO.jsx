@@ -31,4 +31,12 @@ export const orgJsonLd = {
   email: site.email,
   telephone: site.phoneTel,
   url: site.siteUrl,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'New No: 488, Old No 175, T.T.K. Road, Alwarpet',
+    addressLocality: 'Chennai',
+    postalCode: '600018',
+    addressRegion: 'Tamil Nadu',
+    addressCountry: 'IN',
+  },
 }

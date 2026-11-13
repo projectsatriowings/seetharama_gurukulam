@@ -45,3 +45,4 @@ export default function SacredAnnouncement({ event }) {
     </div>
   )
 }
+

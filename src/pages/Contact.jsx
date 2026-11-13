@@ -33,11 +33,24 @@ export default function Contact() {
             </div>
           </div>
           <EnquiryForm
-            formName="General Contact Enquiry" subject="New General Contact Enquiry" whatsappLabel="general contact"
+            formName="General Contact Enquiry" subject="New Contact / Seva Enquiry" whatsappLabel="contact and seva"
             fields={[
               { name: 'name', label: 'Your name *', rules: { required: 'Please enter your name.' } },
               { name: 'phone', label: 'Phone *', type: 'tel', autoComplete: 'tel', placeholder: '10-digit mobile number', rules: phoneRules },
               { name: 'email', label: 'Email *', type: 'email', autoComplete: 'email', rules: emailRules },
+              {
+                name: 'purpose',
+                label: 'Purpose of enquiry *',
+                type: 'select',
+                placeholder: 'Please select a topic…',
+                options: [
+                  'General Enquiry',
+                  'Gurukulam Support / Annadanam / Seva',
+                  'Visit & Darshan',
+                  'Other',
+                ],
+                rules: { required: 'Please choose a purpose.' },
+              },
               { name: 'message', label: 'Message *', type: 'textarea', full: true, rules: { required: 'Please write your message.' } },
             ]}
           />

@@ -17,7 +17,6 @@ const About = lazyPage(() => import('./pages/About.jsx'))
 const Gurukulam = lazyPage(() => import('./pages/Gurukulam.jsx'))
 const Admission = lazyPage(() => import('./pages/Admission.jsx'))
 const ParayanamPooja = lazyPage(() => import('./pages/ParayanamPooja.jsx'))
-const DonationEnquiry = lazyPage(() => import('./pages/DonationEnquiry.jsx'))
 const Events = lazyPage(() => import('./pages/Events.jsx'))
 const Gallery = lazyPage(() => import('./pages/Gallery.jsx'))
 const Contact = lazyPage(() => import('./pages/Contact.jsx'))
@@ -35,7 +34,6 @@ export const routes = [
       { path: 'gurukulam', element: <Gurukulam /> },
       { path: 'admission', element: <Admission /> },
       { path: 'parayanam-pooja', element: <ParayanamPooja /> },
-      { path: 'donation-enquiry', element: <DonationEnquiry /> },
       { path: 'events', element: <Events /> },
       { path: 'gallery', element: <Gallery /> },
       { path: 'contact', element: <Contact /> },
@@ -46,4 +44,4 @@ export const routes = [
   },
 ]
 
-export const sitemapRoutes = ['/', '/about', '/gurukulam', '/admission', '/parayanam-pooja', '/donation-enquiry', '/events', '/gallery', '/contact', '/thank-you', '/privacy']
+export const sitemapRoutes = ['/', '/about', '/gurukulam', '/admission', '/parayanam-pooja', '/events', '/gallery', '/contact', '/thank-you', '/privacy']

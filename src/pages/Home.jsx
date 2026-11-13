@@ -65,7 +65,7 @@ export default function Home() {
           <div className="mt-12 grid gap-5 md:grid-cols-3">
             <EnquiryCard icon={BookOpen} title="Admission" description="For parents considering Vedic education for their child — ask about eligibility, routine and life at the gurukulam." to="/admission" buttonLabel="Admission enquiry" />
             <EnquiryCard icon={Sparkles} title="Parayanam and Pooja" description="Book a recitation or pooja at the gurukulam or at your home, guided by our acharyas." to="/parayanam-pooja" buttonLabel="Book a service" />
-            <EnquiryCard icon={HeartHandshake} title="Support the Gurukulam" description="Annadanam, student sponsorship and general seva — enquire, and we will share official details privately." to="/donation-enquiry" buttonLabel="Donation enquiry" />
+            <EnquiryCard icon={HeartHandshake} title="General & Seva Enquiry" description="For general enquiries, visits, seva, or connecting with our acharyas — reach out and we will respond promptly." to="/contact" buttonLabel="Contact us" />
           </div>
         </div>
       </section>
@@ -120,10 +120,10 @@ export default function Home() {
         <div className="site-container relative">
           <div className="mx-auto max-w-2xl">
           <h2 className="font-serif text-4xl font-semibold sm:text-5xl">Come, sit, listen — and be part of it.</h2>
-          <p className="mt-4 text-cream/85">Whether you are seeking admission, a pooja, or a way to support this work, we would be glad to hear from you.</p>
+          <p className="mt-4 text-cream/85">Whether you are seeking admission, a pooja, or a way to connect with the gurukulam, we would be glad to hear from you.</p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button to="/contact" className="bg-saffron text-maroon-dark hover:bg-[#f0a64a]">Contact us</Button>
-            <Button to="/donation-enquiry" variant="light">Support the Gurukulam</Button>
+            <Button to="/admission" variant="light">Admission enquiry</Button>
           </div>
           <p className="mt-6 text-sm text-cream/70">{site.phoneDisplay} · {site.email}</p>
           </div>

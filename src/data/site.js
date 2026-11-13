@@ -41,6 +41,5 @@ export const whatsappMessages = {
   default: 'Namaste, I would like to know more about Seetharama Gurukulam.',
   '/admission': 'Namaste, I would like to know about admission to Seetharama Gurukulam.',
   '/parayanam-pooja': 'Namaste, I would like to enquire about parayanam / pooja services.',
-  '/donation-enquiry': 'Namaste, I would like to know how I can support the Gurukulam.',
   '/contact': 'Namaste, I would like to get in touch with Seetharama Gurukulam Trust.',
 }

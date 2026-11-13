@@ -205,24 +205,14 @@ export default function MobileMenu({ open, onClose, triggerRef }) {
 
             {/* Call To Action Buttons */}
             <div className="border-t border-gold/25 bg-black/25 px-5 py-5 sm:px-6">
-              <div className="space-y-2.5">
-                <Link
-                  to="/admission"
-                  onClick={onClose}
-                  className="flex min-h-[48px] w-full items-center justify-center gap-2 rounded-full bg-saffron px-5 py-3 text-center text-[15px] font-bold text-maroon-dark shadow-md transition-all hover:bg-[#f0a64a] active:translate-y-px"
-                >
-                  <span>Admission Enquiry</span>
-                  <ArrowRight size={17} aria-hidden="true" />
-                </Link>
-
-                <Link
-                  to="/donation-enquiry"
-                  onClick={onClose}
-                  className="flex min-h-[48px] w-full items-center justify-center gap-2 rounded-full border border-gold bg-white/5 px-5 py-2.5 text-center text-[14.5px] font-semibold text-cream transition-all hover:bg-white/15 active:translate-y-px"
-                >
-                  <span>Support the Gurukulam</span>
-                </Link>
-              </div>
+              <Link
+                to="/admission"
+                onClick={onClose}
+                className="flex min-h-[48px] w-full items-center justify-center gap-2 rounded-full bg-saffron px-5 py-3 text-center text-[15px] font-bold text-maroon-dark shadow-md transition-all hover:bg-[#f0a64a] active:translate-y-px"
+              >
+                <span>Admission Enquiry</span>
+                <ArrowRight size={17} aria-hidden="true" />
+              </Link>
 
               {/* Quick Contact & WhatsApp Links */}
               <div className="mt-5 border-t border-gold/20 pt-4 text-xs text-cream/80">

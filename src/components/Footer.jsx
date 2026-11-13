@@ -30,8 +30,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2">
               <li><Link to="/admission" className="text-cream/85 hover:text-gold-soft">Admission Enquiry</Link></li>
               <li><Link to="/parayanam-pooja" className="text-cream/85 hover:text-gold-soft">Parayanam / Pooja Booking</Link></li>
-              <li><Link to="/donation-enquiry" className="text-cream/85 hover:text-gold-soft">Donation Enquiry</Link></li>
-              <li><Link to="/contact" className="text-cream/85 hover:text-gold-soft">General Contact</Link></li>
+              <li><Link to="/contact" className="text-cream/85 hover:text-gold-soft">General & Seva Contact</Link></li>
             </ul>
           </nav>
           <div>

@@ -143,10 +143,10 @@ export default function Gurukulam() {
       </section>
       <section className="py-14">
         <div className="site-container text-center">
-          <Reveal><SectionHeading eyebrow="Admission &amp; Support" title="Join or support the Veda Patasala" description="Parents interested in traditional Vedic education for their child are invited to submit an admission enquiry. Voluntary contributions also support Vedic students, daily samradhana and scripture preservation." /></Reveal>
+          <Reveal><SectionHeading eyebrow="Admission &amp; Contact" title="Join or connect with the Veda Patasala" description="Parents interested in traditional Vedic education for their child are invited to submit an admission enquiry. For visits, seva or general questions, our team is always glad to assist." /></Reveal>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <Button to="/admission">Start an admission enquiry</Button>
-            <Button to="/donation-enquiry" variant="secondary">Support the Gurukulam</Button>
+            <Button to="/contact" variant="secondary">Contact the Gurukulam</Button>
           </div>
         </div>
       </section>

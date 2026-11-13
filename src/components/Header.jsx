@@ -91,14 +91,6 @@ export default function Header() {
 
           {/* Desktop & Tablet Actions */}
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
-            {/* Desktop Secondary Action: Support Us */}
-            <Link
-              to="/donation-enquiry"
-              className="hidden min-h-[40px] items-center justify-center rounded-full border border-gold bg-transparent px-4 py-2 text-[14px] font-semibold text-maroon whitespace-nowrap transition-all duration-200 hover:-translate-y-px hover:bg-gold-soft/30 active:translate-y-0 xl:inline-flex"
-            >
-              Support Us
-            </Link>
-
             {/* Desktop & Tablet Primary Action: Admission Enquiry */}
             <Link
               to="/admission"

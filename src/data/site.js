@@ -3,11 +3,9 @@ export const site = {
   name: 'Seetharama Gurukulam Trust',
   shortName: 'Seetharama Gurukulam',
   tagline: 'Preserving the timeless wisdom of the Vedas',
-  // TODO: replace with the trust's real phone number
-  phoneDisplay: '+91 XXXXX XXXXX',
-  phoneTel: '+91XXXXXXXXXX',
-  // TODO: digits only, with country code, no + or spaces
-  whatsappNumber: '91XXXXXXXXXX',
+  phoneDisplay: '+91 89030 39176',
+  phoneTel: '+918903039176',
+  whatsappNumber: '918903039176',
   // TODO: replace with the trust's real email
   email: 'info@example.org',
   addressLines: [

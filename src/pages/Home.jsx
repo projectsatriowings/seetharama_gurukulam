@@ -1,19 +1,14 @@
 import { BookOpen, Clock, HandHeart, HeartHandshake, Landmark, Sparkles } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import Button from '../components/Button.jsx'
 import Card from '../components/Card.jsx'
 import EnquiryCard from '../components/EnquiryCard.jsx'
-import EventCard from '../components/EventCard.jsx'
 import GalleryGrid from '../components/GalleryGrid.jsx'
 import Hero from '../components/Hero.jsx'
 import Reveal from '../components/Reveal.jsx'
-import SacredAnnouncement from '../components/SacredAnnouncement.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import SEO, { orgJsonLd } from '../components/SEO.jsx'
 import TestimonialCarousel from '../components/TestimonialCarousel.jsx'
-import events from '../data/events.json'
 import { site } from '../data/site.js'
-import { formatDate, isUpcoming, nextUpcomingEvent } from '../utils/dates.js'
 
 const pillars = [
   { icon: BookOpen, title: 'Vedic Learning', text: 'Daily recitation, Sanskrit and shastra study, taught patiently by experienced acharyas.' },
@@ -29,8 +24,6 @@ const daySteps = [
 ]
 
 export default function Home() {
-  const next = nextUpcomingEvent(events)
-  const upcoming = events.filter((e) => isUpcoming(e)).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 3)
   return (
     <>
       <SEO description="Seetharama Gurukulam Trust — traditional Vedic learning, parayanam and pooja services, and a warm welcome for parents, devotees and donors." path="/" jsonLd={orgJsonLd} />
@@ -40,7 +33,6 @@ export default function Home() {
         primary={{ label: 'Explore the Gurukulam', to: '/gurukulam' }}
         secondary={{ label: 'Admission Enquiry', to: '/admission' }}
       />
-      <SacredAnnouncement event={next} />
 
       <section className="py-16 sm:py-20">
         <div className="site-container">
@@ -90,25 +82,13 @@ export default function Home() {
 
       <section className="bg-ivory py-16 sm:py-20">
         <div className="site-container">
-          <Reveal><SectionHeading eyebrow="Gatherings" title="Upcoming events" /></Reveal>
-          {upcoming.length ? (
-            <div className="mt-12 grid gap-5 md:grid-cols-3">{upcoming.map((e) => <EventCard key={e.id} event={e} />)}</div>
-          ) : (
-            <p className="mt-8 text-center text-ink-soft">No upcoming events right now. Please check back soon.</p>
-          )}
-          <div className="mt-8 text-center"><Button to="/events" variant="secondary">View all events</Button></div>
-        </div>
-      </section>
-
-      <section className="py-16 sm:py-20">
-        <div className="site-container">
           <Reveal><SectionHeading eyebrow="Glimpses" title="Life at the gurukulam" description="Festivals, classes, poojas and campus life." /></Reveal>
           <div className="mt-12"><GalleryGrid limit={6} /></div>
           <div className="mt-8 text-center"><Button to="/gallery" variant="secondary">View full gallery</Button></div>
         </div>
       </section>
 
-      <section className="bg-ivory py-16 sm:py-20">
+      <section className="py-16 sm:py-20">
         <div className="site-container">
           <Reveal><SectionHeading eyebrow="Kind words" title="What families and devotees say" /></Reveal>
           <div className="mt-10"><TestimonialCarousel /></div>

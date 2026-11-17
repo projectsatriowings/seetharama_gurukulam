@@ -29,7 +29,6 @@ export const site = {
     { label: 'About', to: '/about' },
     { label: 'Gurukulam', to: '/gurukulam' },
     { label: 'Parayanam & Pooja', to: '/parayanam-pooja' },
-    { label: 'Events', to: '/events' },
     { label: 'Gallery', to: '/gallery' },
     { label: 'Contact', to: '/contact' },
   ],

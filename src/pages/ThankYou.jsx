@@ -13,7 +13,7 @@ export default function ThankYou() {
         <p className="mx-auto mt-5 max-w-xl text-ink-soft">If your matter is urgent, you can also message us on WhatsApp using the green button at the bottom-right of this page.</p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <Button to="/">Back to home</Button>
-          <Button to="/events" variant="secondary">View events</Button>
+          <Button to="/gallery" variant="secondary">View gallery</Button>
         </div>
       </section>
     </>

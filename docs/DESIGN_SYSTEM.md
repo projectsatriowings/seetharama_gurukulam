@@ -116,8 +116,8 @@ A disciplined 8px-based spatial grid governs all horizontal and vertical rhythm.
    - **Institution Title:** "Sri Seetharama Gurukulam" in Cormorant Garamond Semibold.
    - **Sacred Kicker:** "VEDA PATASALA · ESTD. CHENNAI" in uppercase tracked letterforms (+0.2em).
    - **Entity Badge:** "TRUST" in gold pill badge.
-2. **Navigation List (7 Core Destinations):**
-   - Home (`/`), About (`/about`), Gurukulam (`/gurukulam`), Parayanam & Pooja (`/parayanam-pooja`), Events (`/events`), Gallery (`/gallery`), Contact (`/contact`).
+2. **Navigation List (6 Core Destinations):**
+   - Home (`/`), About (`/about`), Gurukulam (`/gurukulam`), Parayanam & Pooja (`/parayanam-pooja`), Gallery (`/gallery`), Contact (`/contact`).
    - Restrained active indicator: Understated pill badge or warm underline pip with transition.
    - Hover state: Subtle warm gold tint (`bg-gold-soft/30`) with smooth 150ms transition.
 3. **Calls to Action (CTAs):**

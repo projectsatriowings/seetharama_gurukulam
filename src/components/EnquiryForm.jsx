@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { buildEnquiryWhatsAppMessage, whatsappLink } from '../utils/whatsapp.js'
@@ -29,13 +29,22 @@ function Field({ field, register, errors }) {
   return <FormField label={field.label} id={field.name} error={err} hint={field.hint}>{control}</FormField>
 }
 
-export default function EnquiryForm({ formName, subject, fields, whatsappLabel }) {
-  const { register, handleSubmit, watch, formState: { errors } } = useForm({ mode: 'onTouched' })
+export default function EnquiryForm({ formName, subject, fields, whatsappLabel, externalValues }) {
+  const { register, handleSubmit, watch, setValue, formState: { errors } } = useForm({ mode: 'onTouched' })
   const [status, setStatus] = useState('idle')
   const [errorMsg, setErrorMsg] = useState('')
   const navigate = useNavigate()
   const values = watch()
   const key = import.meta.env.VITE_WEB3FORMS_KEY
+
+  useEffect(() => {
+    if (!externalValues) return
+    Object.entries(externalValues).forEach(([fieldName, val]) => {
+      if (val !== undefined && val !== null) {
+        setValue(fieldName, val, { shouldDirty: true })
+      }
+    })
+  }, [externalValues, setValue])
 
   const onSubmit = async (data) => {
     if (data.website) return

@@ -1,28 +1,15 @@
-import { BookOpen, Clock, HandHeart, HeartHandshake, Landmark, Sparkles } from 'lucide-react'
 import AcharyaBlessings from '../components/AcharyaBlessings.jsx'
 import Button from '../components/Button.jsx'
-import Card from '../components/Card.jsx'
-import EnquiryCard from '../components/EnquiryCard.jsx'
 import GalleryGrid from '../components/GalleryGrid.jsx'
+import GuidedEnquiry from '../components/GuidedEnquiry.jsx'
 import Hero from '../components/Hero.jsx'
 import Reveal from '../components/Reveal.jsx'
 import SectionHeading from '../components/SectionHeading.jsx'
 import SEO, { orgJsonLd } from '../components/SEO.jsx'
 import TestimonialCarousel from '../components/TestimonialCarousel.jsx'
+import TrustMission from '../components/TrustMission.jsx'
+import VedicLearningRhythm from '../components/VedicLearningRhythm.jsx'
 import { site } from '../data/site.js'
-
-const pillars = [
-  { icon: BookOpen, title: 'Vedic Learning', text: 'Daily recitation, Sanskrit and shastra study, taught patiently by experienced acharyas.' },
-  { icon: HandHeart, title: 'Discipline and Seva', text: 'Simple living, regular routine and service to others, woven into everyday life at the gurukulam.' },
-  { icon: Landmark, title: 'Cultural Heritage', text: 'Festivals, traditions and values passed on living — not just read about — from guru to student.' },
-]
-
-const daySteps = [
-  { time: 'Early morning (TODO)', title: 'Morning prayers and recitation', text: 'The day begins quietly, with prayer and Vedic chanting.' },
-  { time: 'Morning (TODO)', title: 'Classes in Veda and Sanskrit', text: 'Structured study with acharyas, in small groups.' },
-  { time: 'Afternoon (TODO)', title: 'Study, rest and seva', text: 'Revision, library time and simple service around the campus.' },
-  { time: 'Evening (TODO)', title: 'Evening prayer and reflection', text: 'The day closes with prayer, recitation and time together.' },
-]
 
 export default function Home() {
   return (
@@ -38,51 +25,14 @@ export default function Home() {
       {/* Phase 2.1 — Blessings of His Holiness Sri Paramacharyal */}
       <AcharyaBlessings />
 
-      <section className="py-16 sm:py-20">
-        <div className="site-container">
-          <Reveal><SectionHeading eyebrow="Our mission" title="Learning that lives, not just lessons" description="The gurukulam exists to keep Vedic learning alive in daily life — through study, good conduct and service, in a calm and caring environment." /></Reveal>
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
-            {pillars.map((p, i) => (
-              <Reveal key={p.title} delay={i * 0.08}>
-                <Card className="h-full text-center">
-                  <span className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep"><p.icon size={26} /></span>
-                  <h3 className="mt-4 font-serif text-2xl font-bold text-maroon">{p.title}</h3>
-                  <p className="mt-2 text-ink-soft">{p.text}</p>
-                </Card>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Phase 3 — Section 1: A Day at the Gurukulam (The Rhythm of Vedic Learning) */}
+      <VedicLearningRhythm />
 
-      <section className="bg-ivory py-16 sm:py-20">
-        <div className="site-container">
-          <Reveal><SectionHeading eyebrow="How can we help?" title="Begin with an enquiry" description="Tell us what you need, and our team will respond within 24 to 48 hours. No payment details are ever shared on this website." /></Reveal>
-          <div className="mt-12 grid gap-5 md:grid-cols-3">
-            <EnquiryCard icon={BookOpen} title="Admission" description="For parents considering Vedic education for their child — ask about eligibility, routine and life at the gurukulam." to="/admission" buttonLabel="Admission enquiry" />
-            <EnquiryCard icon={Sparkles} title="Parayanam and Pooja" description="Book a recitation or pooja at the gurukulam or at your home, guided by our acharyas." to="/parayanam-pooja" buttonLabel="Book a service" />
-            <EnquiryCard icon={HeartHandshake} title="General & Seva Enquiry" description="For general enquiries, visits, seva, or connecting with our acharyas — reach out and we will respond promptly." to="/contact" buttonLabel="Contact us" />
-          </div>
-        </div>
-      </section>
+      {/* Phase 3 — Section 2: Our Mission (Heritage Manifesto & Six Trust Objectives) */}
+      <TrustMission />
 
-      <section className="py-16 sm:py-20">
-        <div className="site-container">
-          <Reveal><SectionHeading eyebrow="Daily life" title="A day at the gurukulam" description="A simple, steady rhythm of prayer, study and service. Times below are placeholders — the exact routine will be confirmed by the trust." /></Reveal>
-          <ol className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {daySteps.map((s, i) => (
-              <Reveal key={s.title} delay={i * 0.08}>
-                <li className="h-full rounded-card border border-gold-soft bg-ivory p-6 shadow-card">
-                  <p className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-saffron-deep"><Clock size={15} /> Step {i + 1} · {s.time}</p>
-                  <h3 className="mt-3 font-serif text-2xl font-bold text-maroon">{s.title}</h3>
-                  <p className="mt-2 text-ink-soft">{s.text}</p>
-                </li>
-              </Reveal>
-            ))}
-          </ol>
-          <div className="mt-8 text-center"><Button to="/gurukulam" variant="secondary">Explore life at the gurukulam</Button></div>
-        </div>
-      </section>
+      {/* Phase 3 — Section 3: Begin with an Enquiry (Guided Enquiry Experience) */}
+      <GuidedEnquiry />
 
       <section className="bg-ivory py-16 sm:py-20">
         <div className="site-container">

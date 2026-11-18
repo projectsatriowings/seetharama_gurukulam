@@ -116,7 +116,7 @@ Search the project for `TODO` to find them all. In short:
   and typical durations with the acharyas.
 - `src/data/testimonials.json`: all 3 quotes are flagged SAMPLE — replace with
   real, permissioned testimonials or remove the section.
-- `src/pages/About.jsx`: founder name/bio, trustee names/roles, trust story and
+- `src/pages/About.jsx`: founder name/bio, trust story and
   vision statement.
 - `src/pages/Gurukulam.jsx`: daily-routine times, facility details, age group
   and eligibility criteria.

@@ -1,4 +1,5 @@
 import { BookOpen, Clock, HandHeart, HeartHandshake, Landmark, Sparkles } from 'lucide-react'
+import AcharyaBlessings from '../components/AcharyaBlessings.jsx'
 import Button from '../components/Button.jsx'
 import Card from '../components/Card.jsx'
 import EnquiryCard from '../components/EnquiryCard.jsx'
@@ -33,6 +34,9 @@ export default function Home() {
         primary={{ label: 'Explore the Gurukulam', to: '/gurukulam' }}
         secondary={{ label: 'Admission Enquiry', to: '/admission' }}
       />
+
+      {/* Phase 2.1 — Blessings of His Holiness Sri Paramacharyal */}
+      <AcharyaBlessings />
 
       <section className="py-16 sm:py-20">
         <div className="site-container">

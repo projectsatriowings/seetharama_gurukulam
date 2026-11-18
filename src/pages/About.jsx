@@ -6,13 +6,11 @@ import SEO, { orgJsonLd } from '../components/SEO.jsx'
 import { site } from '../data/site.js'
 import { vedaPatshala } from '../data/vedaPatshala.js'
 
-const trustees = ['Trustee Name (TODO)', 'Trustee Name (TODO)', 'Trustee Name (TODO)', 'Trustee Name (TODO)', 'Trustee Name (TODO)', 'Trustee Name (TODO)']
-
 export default function About() {
   const { leadership, aimStatement, dharma, award } = vedaPatshala
   return (
     <>
-      <SEO title="About" description="The story, vision, patronage and trustees of Seetharama Gurukulam Trust." path="/about" jsonLd={orgJsonLd} />
+      <SEO title="About" description="The story, vision, patronage and leadership of Seetharama Gurukulam Trust." path="/about" jsonLd={orgJsonLd} />
       <PageHero eyebrow="About the trust" title="Rooted in tradition, open to all who seek it" description="Seetharama Gurukulam Trust exists to preserve and pass on Vedic learning — in its traditional form, with care for every student who comes to learn." />
       <section className="py-14">
         <div className="site-container grid gap-10 lg:grid-cols-2">
@@ -60,24 +58,16 @@ export default function About() {
       </section>
       <section className="py-14">
         <div className="site-container">
-          <Reveal><SectionHeading eyebrow="Trustees" title="The trustees" description="Placeholder profiles — replace names, roles and photos before launch." /></Reveal>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {trustees.map((name) => (
-              <Card key={name} className="text-center">
-                <img src="/placeholders/campus-01.svg" alt="Placeholder portrait" width="400" height="400" loading="lazy" className="mx-auto h-24 w-24 rounded-full border border-gold-soft object-cover" />
-                <h3 className="mt-4 font-serif text-2xl font-bold text-maroon">{name}</h3>
-                <p className="text-sm text-ink-soft">Role (TODO)</p>
-              </Card>
-            ))}
-          </div>
-          <Card className="mt-10">
-            <h3 className="font-serif text-2xl font-bold text-maroon">Trust details</h3>
-            <dl className="mt-4 grid gap-3 sm:grid-cols-3">
-              <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Registration number</dt><dd className="mt-1 font-semibold">{site.registrationNumber}</dd></div>
-              <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Established</dt><dd className="mt-1 font-semibold">{site.establishedYear}</dd></div>
-              <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Address</dt><dd className="mt-1 font-semibold">{site.addressLines.join(', ')}</dd></div>
-            </dl>
-          </Card>
+          <Reveal>
+            <Card>
+              <h3 className="font-serif text-2xl font-bold text-maroon">Trust details</h3>
+              <dl className="mt-4 grid gap-3 sm:grid-cols-3">
+                <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Registration number</dt><dd className="mt-1 font-semibold">{site.registrationNumber}</dd></div>
+                <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Established</dt><dd className="mt-1 font-semibold">{site.establishedYear}</dd></div>
+                <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Address</dt><dd className="mt-1 font-semibold">{site.addressLines.join(', ')}</dd></div>
+              </dl>
+            </Card>
+          </Reveal>
         </div>
       </section>
     </>

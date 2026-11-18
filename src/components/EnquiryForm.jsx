@@ -63,9 +63,30 @@ export default function EnquiryForm({ formName, subject, fields, whatsappLabel }
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="rounded-card border border-gold-soft bg-ivory p-6 shadow-card sm:p-8">
       <div className="grid gap-5 sm:grid-cols-2">
-        {fields.map((f) => (
-          <div key={f.name} className={f.full ? 'sm:col-span-2' : ''}><Field field={f} register={register} errors={errors} /></div>
-        ))}
+        {fields.map((f) => {
+          if (f.type === 'section') {
+            return (
+              <div key={f.name} className="sm:col-span-2 pt-3 first:pt-0">
+                <div className="flex items-center gap-2.5 border-b border-gold/40 pb-2">
+                  {f.icon ? (
+                    <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-saffron-soft text-saffron-deep">
+                      <f.icon size={16} aria-hidden="true" />
+                    </span>
+                  ) : null}
+                  <div>
+                    <h4 className="font-serif text-lg font-bold text-maroon sm:text-xl">{f.label}</h4>
+                    {f.hint ? <p className="text-xs text-ink-soft">{f.hint}</p> : null}
+                  </div>
+                </div>
+              </div>
+            )
+          }
+          return (
+            <div key={f.name} className={f.full ? 'sm:col-span-2' : ''}>
+              <Field field={f} register={register} errors={errors} />
+            </div>
+          )
+        })}
       </div>
       <div className="mt-6">
         <label className="flex items-start gap-3 text-[15px] leading-snug">

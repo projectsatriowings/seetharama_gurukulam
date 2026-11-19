@@ -340,7 +340,7 @@ export default function Admission() {
               </h2>
               <p className="mt-3 text-ink-soft">
                 Please complete the details below. Our admissions coordinator and acharyas will
-                review and reach out within 24 to 48 hours.
+                review your details and reach out to you.
               </p>
             </div>
           </Reveal>
@@ -505,7 +505,7 @@ export default function Admission() {
                     label: 'Email address *',
                     type: 'email',
                     autoComplete: 'email',
-                    placeholder: 'name@example.com',
+                    placeholder: 'parent@gmail.com',
                     rules: emailRules,
                   },
 

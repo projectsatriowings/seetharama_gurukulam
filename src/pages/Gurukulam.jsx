@@ -19,12 +19,13 @@ const facilities = [
   { icon: Library, title: 'Books, Stationery & Study', text: 'Free books, stationery and quiet study spaces for Vedic and shastra learning, meetings and publications.' },
   { icon: Sprout, title: 'Student Welfare & Recreation', text: 'One-time free transport, indoor games kits and open campus spaces supporting holistic daily life.' },
 ]
+// Daily Adhyayanam rhythm sequence (clock times pending trust confirmation)
 const routine = [
-  ['Early morning (TODO)', 'Morning prayers and recitation'],
-  ['Morning (TODO)', 'Veda and Sanskrit classes'],
-  ['Midday (TODO)', 'Meal, rest and revision'],
-  ['Afternoon (TODO)', 'Study, library and seva'],
-  ['Evening (TODO)', 'Evening prayer and recitation'],
+  ['Early Morning', 'Morning prayers and recitation (Brahma Muhurtham)'],
+  ['Morning', 'Veda and Sanskrit classes'],
+  ['Midday', 'Meal, rest and revision'],
+  ['Afternoon', 'Study, library and seva'],
+  ['Evening', 'Evening prayer and recitation (Sayam Sandhya)'],
 ]
 
 export default function Gurukulam() {
@@ -121,7 +122,7 @@ export default function Gurukulam() {
       <section className="bg-ivory py-14">
         <div className="site-container grid gap-10 lg:grid-cols-2">
           <div>
-            <SectionHeading eyebrow="Daily routine" title="A steady rhythm" align="left" description="Placeholder times — the trust will confirm the exact routine before launch." />
+            <SectionHeading eyebrow="Daily routine" title="A steady rhythm" align="left" description="A disciplined daily sequence of adhyayanam, prayer, study, and rest." />
             <ol className="mt-8 space-y-4">
               {routine.map(([time, title]) => (
                 <li key={title} className="flex gap-4 rounded-card border border-gold-soft bg-cream p-4">

@@ -241,7 +241,7 @@ export default function MobileMenu({ open, onClose, triggerRef }) {
 
                   <div className="flex items-start gap-2.5 pt-1 text-cream/70">
                     <MapPin size={14} className="mt-0.5 shrink-0 text-gold-soft" aria-hidden="true" />
-                    <span>No. 486, T.T.K. Road, Alwarpet, Chennai - 600018</span>
+                    <span>New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018</span>
                   </div>
                 </div>
               </div>

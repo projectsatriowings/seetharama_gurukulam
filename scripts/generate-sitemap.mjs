@@ -1,6 +1,6 @@
 import { writeFileSync } from 'node:fs'
 
-const base = 'https://seetharamagurukulam.example.org' // TODO: replace with the real domain
+const base = 'https://www.vedicgurukulam.com'
 const routes = ['/', '/about', '/gurukulam', '/admission', '/parayanam-pooja', '/gallery', '/contact', '/thank-you', '/privacy']
 const today = new Date().toISOString().slice(0, 10)
 const urls = routes.map((r) => `  <url><loc>${base}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>${r === '/' ? '1.0' : '0.8'}</priority></url>`).join('\n')

@@ -969,7 +969,7 @@ export default function ParayanamPooja() {
               </h2>
               <p className="mt-3 text-ink-soft">
                 Share your preferred ritual, date, and venue below. Our Gurukulam office will
-                confirm acharya availability and guide you on preparations within 24 to 48 hours.
+                confirm acharya availability and guide you on preparations.
               </p>
             </div>
           </Reveal>
@@ -1114,7 +1114,7 @@ export default function ParayanamPooja() {
                     label: 'Email *',
                     type: 'email',
                     autoComplete: 'email',
-                    placeholder: 'name@example.com',
+                    placeholder: 'devotee@gmail.com',
                     full: true,
                     rules: emailRules,
                   },

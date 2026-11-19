@@ -15,7 +15,7 @@ export default function Footer() {
               <h2 className="font-serif text-2xl font-semibold">{site.name}</h2>
             </div>
             <p className="mt-3 text-[15px] leading-relaxed text-cream/80">{site.tagline}. A place of traditional learning, discipline and seva.</p>
-            <p className="mt-4 text-sm text-gold-soft">{site.registrationNumber} · Established: {site.establishedYear}</p>
+            <p className="mt-4 text-sm text-gold-soft">Patasala Founded 1996 · Trust Registered 2008</p>
           </div>
           <nav aria-label="Footer quick links">
             <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Quick links</h3>
@@ -39,12 +39,12 @@ export default function Footer() {
               <p className="flex gap-2"><MapPin size={18} className="mt-1 shrink-0 text-gold" />{site.addressLines.join(', ')}</p>
               <p><a href={`tel:${site.phoneTel}`} className="flex gap-2 hover:text-gold-soft"><Phone size={18} className="mt-1 shrink-0 text-gold" />{site.phoneDisplay}</a></p>
               <p><a href={`mailto:${site.email}`} className="flex gap-2 hover:text-gold-soft"><Mail size={18} className="mt-1 shrink-0 text-gold" />{site.email}</a></p>
-              <p>Visiting hours: {site.visitingHours}</p>
+              {site.visitingHours ? <p>Visiting hours: {site.visitingHours}</p> : null}
             </address>
           </div>
         </div>
         <div className="mt-12 border-t border-gold/40 pt-6 text-center text-sm text-cream/70">
-          <p>{site.registrationNumber}</p>
+          <p>Seetha Rama Gurukulam Trust · Registered under Indian Trusts Act (2008)</p>
           <p className="mt-2">Made with devotion for the preservation of Vedic wisdom.</p>
           <p className="mt-1 text-xs">Donations are enquiry-only. Our team will share the official donation details after your enquiry.</p>
         </div>

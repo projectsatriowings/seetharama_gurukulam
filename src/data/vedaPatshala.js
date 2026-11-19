@@ -43,15 +43,15 @@ export const vedaPatshala = {
   leadership: {
     founder: {
       role: 'Founder & Patron',
-      name: 'Brahmasri V. Rajagopala Ganapatigal',
-      org: 'Sri Seetharama Gurukulam Trust',
+      name: 'Veda Vidyalankara, Vidya Ratnam Brahmasri V. Rajagopala Ghanapatigal',
+      org: 'Seetha Rama Gurukulam Trust',
       motto: 'Inspiring Sacred Vedic Education',
       image: '/logo-circle.png',
     },
     acharya: {
       role: 'Vedic Teacher & Acharya',
       name: 'Nannilam Brahmasri R. SriKrishna Ganapatigal',
-      org: 'Sri Seetharama Gurukulam Trust',
+      org: 'Seetha Rama Gurukulam Trust',
       motto: 'Guiding Sacred Gurukulam Adhyayana',
       image: '/photos/acharya-srikrishna-ganapatigal.jpg',
     },

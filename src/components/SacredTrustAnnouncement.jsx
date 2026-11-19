@@ -72,9 +72,9 @@ export default function SacredTrustAnnouncement() {
         <Reveal>
           <div className="mx-auto max-w-4xl text-center">
             {/* Sacred Kicker */}
-            <div className="inline-flex items-center gap-2 rounded-full border border-gold-soft bg-ivory px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.24em] text-saffron-deep shadow-xs">
-              <Sparkles size={13} className="text-saffron" aria-hidden="true" />
-              <span>Sacred Trust Announcement · Estd. 1996</span>
+            <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-gold-soft bg-ivory px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-saffron-deep shadow-xs sm:px-3.5 sm:text-[11px] sm:tracking-[0.22em]">
+              <Sparkles size={12} className="shrink-0 text-saffron" aria-hidden="true" />
+              <span className="truncate">Sacred Trust Announcement · Estd. 1996</span>
             </div>
 
             {/* Main Section Heading */}

@@ -94,7 +94,7 @@ export default function Header() {
             {/* Desktop & Tablet Primary Action: Admission Enquiry */}
             <Link
               to="/admission"
-              className="hidden min-h-[40px] items-center justify-center rounded-full bg-saffron px-4.5 py-2 text-[14px] font-bold text-maroon-dark shadow-xs whitespace-nowrap transition-all duration-200 hover:-translate-y-px hover:bg-[#f0a64a] active:translate-y-0 sm:inline-flex"
+              className="hidden h-10 items-center justify-center rounded-full bg-saffron px-6 text-[14px] font-bold text-maroon-dark shadow-xs whitespace-nowrap transition-all duration-200 hover:-translate-y-px hover:bg-[#f0a64a] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron focus-visible:ring-offset-2 active:translate-y-0 sm:inline-flex"
             >
               Admission Enquiry
             </Link>
@@ -107,9 +107,9 @@ export default function Header() {
               aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}
               aria-expanded={open}
               aria-controls="mobile-navigation-drawer"
-              className="flex h-11 w-11 items-center justify-center rounded-full border border-gold-soft bg-ivory text-maroon shadow-xs transition-all duration-200 hover:border-gold hover:bg-gold-soft/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron xl:hidden"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-gold-soft bg-ivory text-maroon shadow-xs transition-all duration-200 hover:border-gold hover:bg-gold-soft/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron xl:hidden"
             >
-              <Menu size={22} aria-hidden="true" />
+              <Menu size={20} aria-hidden="true" />
             </button>
           </div>
         </div>

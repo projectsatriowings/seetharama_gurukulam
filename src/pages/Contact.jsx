@@ -1,4 +1,4 @@
-import { Clock, Mail, MapPin, Phone } from 'lucide-react'
+import { Clock, Globe, Mail, MapPin, Phone } from 'lucide-react'
 import CallButton from '../components/CallButton.jsx'
 import EnquiryForm, { emailRules, phoneRules } from '../components/EnquiryForm.jsx'
 import PageHero from '../components/PageHero.jsx'
@@ -9,8 +9,8 @@ import { whatsappLink } from '../utils/whatsapp.js'
 export default function Contact() {
   return (
     <>
-      <SEO title="Contact" description="Contact Seetharama Gurukulam Trust — address, phone, email, WhatsApp." path="/contact" />
-      <PageHero eyebrow="Contact" title="We would love to hear from you" description="Visit us, call, email or message us on WhatsApp. We welcome your enquiries and support." />
+      <SEO title="Contact" description="Contact Seetharama Gurukulam Trust — address, phone, email, WhatsApp and visiting hours." path="/contact" />
+      <PageHero eyebrow="Contact" title="We would love to hear from you" description="Visit us, call, email or message us on WhatsApp. Our team will be glad to assist you." />
       <section className="py-10">
         <div className="site-container grid gap-10 lg:grid-cols-2">
           <div className="space-y-5">
@@ -20,6 +20,7 @@ export default function Contact() {
                 <p className="flex gap-2"><MapPin className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.addressLines.join(', ')}</p>
                 <p><a href={`tel:${site.phoneTel}`} className="flex gap-2 hover:text-maroon"><Phone className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.phoneDisplay}</a></p>
                 <p><a href={`mailto:${site.email}`} className="flex gap-2 hover:text-maroon"><Mail className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.email}</a></p>
+                <p><a href={site.siteUrl} target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-maroon"><Globe className="mt-1 shrink-0 text-saffron-deep" size={20} />{site.websiteDisplay}</a></p>
                 {site.visitingHours ? <p className="flex gap-2"><Clock className="mt-1 shrink-0 text-saffron-deep" size={20} />Visiting hours: {site.visitingHours}</p> : null}
               </address>
               <div className="mt-5 flex flex-wrap gap-3">
@@ -28,8 +29,8 @@ export default function Contact() {
               </div>
             </div>
             <div className="overflow-hidden rounded-card border border-gold-soft shadow-card">
-              <iframe title="Map to Seetharama Gurukulam Trust, 486 TTK Road, Alwarpet, Chennai" src={site.mapEmbedUrl} width="600" height="360" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="w-full border-0" />
-              <p className="bg-ivory px-4 py-3 text-sm text-ink-soft">New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu, India</p>
+              <iframe title="Map to Seetharama Gurukulam Trust, Alwarpet, Chennai" src={site.mapEmbedUrl} width="600" height="360" loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen className="w-full border-0" />
+              <p className="bg-ivory px-4 py-3 text-sm text-ink-soft">New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu</p>
             </div>
           </div>
           <EnquiryForm

@@ -16,8 +16,8 @@ export default function About() {
         <div className="site-container grid gap-10 lg:grid-cols-2">
           <Reveal>
             <h2 className="font-serif text-3xl font-bold text-maroon sm:text-4xl">Our story</h2>
-            <p className="mt-4 text-ink-soft">Sri Seetharama Gurukulam Veda Patasala was founded at the command and blessings of His Holiness Sri Paramacharyal of Kanchi in the traditional gurukulam method by Nannilam Brahmasri V. Rajagopala Ganapatigal, to impart Vedic sciences and the shastras in depth — through daily classes, weekly meetings and books that bring spiritual study within reach of the general public.</p>
-            <p className="mt-3 text-ink-soft">The same acharya founded and edited the monthly spiritual magazine Vaithikasri, and taught the Vedas, Sanskrit and Dharma Sastra in the same spirit: knowledge lived daily, not merely studied. That tradition continues at the gurukulam today under the guidance of his son and successor, Nannilam Brahmasri R. SriKrishna Ganapatigal.</p>
+            <p className="mt-4 text-ink-soft">Seetha Rama Gurukula Veda Patasala began in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal, with the blessings and grace of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam. Housed originally in his residence as a traditional Gurukulam, the Patasala grew steadily, and Sri Aacharyal directed that a separate trust be instituted for its future upkeep and growth. Accordingly, in 2008, the Trust was constituted and registered as a Non-Profitable Charitable Trust under the Indian Trusts Act.</p>
+            <p className="mt-3 text-ink-soft">The founder also established and edited the monthly spiritual magazine Vaithikasri, imparting Vedic sciences, Sanskrit and Dharma Sastra in the authentic Guru-Shishya tradition. Today, that sacred legacy is carried forward by his son and disciple, Nannilam Brahmasri R. Srikrishna Ganapatigal, ensuring the timeless teachings endure for new generations.</p>
           </Reveal>
           <Reveal delay={0.1}>
             <Card>
@@ -39,7 +39,7 @@ export default function About() {
               <p className="mt-1 text-sm font-bold uppercase tracking-widest text-saffron-deep">Founder, Sri Seetharama Gurukulam &bull; Founder &amp; Editor, Vaithikasri magazine</p>
               <p className="mt-4 text-ink-soft">A Nitya Agnihotri and Salakshana Ganapatee, Brahmasri Rajagopala Ganapatigal was a renowned Vedic scholar and a publisher of many books on Dharma Sastram. He hailed from a family of Deekshithars, and was born in Sengalipuram on 20 August 1963 to Brahmasri Vaidyanatha Dikshitar and Srimathi Rajeswari Ammal.</p>
               <p className="mt-3 text-ink-soft">He performed Jata and Ghana Veda Parayanam in many places, and was well known and respected for his deep knowledge of Sanskrit, Vedic scriptures, Vedic rituals and Dharma Sastra. He was also a priest and lecturer for the Ramayana, Bhagavata and Mahabharata puranas.</p>
-              <p className="mt-3 text-ink-soft">Through Sri Seetharama Gurukulam he imparted Vedic sciences and shastras in the traditional gurukulam method. He passed away on 24 December 2019. The gurukulam is now managed by his eldest son, Nannilam Brahmasri R. SriKrishna Ganapatigal, who is also a Salakshana Ganapatee.</p>
+              <p className="mt-3 text-ink-soft">Through Sri Seetharama Gurukulam he imparted Vedic sciences and shastras in the traditional gurukulam method. He passed away on 24 December 2019. The gurukulam is now managed by his eldest son, Nannilam Brahmasri R. Srikrishna Ganapatigal, who is also a Salakshana Ganapatee.</p>
               <p className="mt-4 text-sm text-ink-soft">Sources: <a href="https://vaithikasri.com/about-us-vaithikasri/" target="_blank" rel="noopener noreferrer" className="font-semibold text-maroon underline decoration-gold underline-offset-2">Vaithikasri &mdash; About Us</a>, <a href="https://vaithikasri.com/veda-patshala" target="_blank" rel="noopener noreferrer" className="font-semibold text-maroon underline decoration-gold underline-offset-2">Vaithikasri &mdash; Veda Patashala</a>, and Mylapore Times, March 2020.</p>
             </div>
           </div>
@@ -66,6 +66,9 @@ export default function About() {
                 <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Established</dt><dd className="mt-1 font-semibold">{site.establishedYear}</dd></div>
                 <div><dt className="text-xs font-bold uppercase tracking-widest text-ink-soft">Address</dt><dd className="mt-1 font-semibold">{site.addressLines.join(', ')}</dd></div>
               </dl>
+              <p className="mt-4 border-t border-gold-soft/60 pt-3 text-xs text-ink-soft">
+                All donations to Seetha Rama Gurukulam Trust attract tax exemption under <strong>Section 80-G</strong> of the Income Tax Act.
+              </p>
             </Card>
           </Reveal>
         </div>

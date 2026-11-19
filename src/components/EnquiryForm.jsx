@@ -119,7 +119,7 @@ export default function EnquiryForm({ formName, subject, fields, whatsappLabel, 
           Send via WhatsApp instead
         </a>
       </div>
-      <p className="mt-5 text-center text-sm text-ink-soft">Your details are used only to respond to this enquiry — see our <a href="/privacy" className="font-semibold text-maroon underline">Privacy Policy</a>.</p>
+      <p className="mt-5 text-center text-sm text-ink-soft">Our team will review your enquiry and respond promptly. Your details are used only to respond to this enquiry — see our <a href="/privacy" className="font-semibold text-maroon underline">Privacy Policy</a>.</p>
     </form>
   )
 }

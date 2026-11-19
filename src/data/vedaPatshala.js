@@ -4,7 +4,7 @@ export const vedaPatshala = {
     title: 'Veda Bhaashya Ratnam Award from the Aacharyas',
     date: 'October 2025',
     summary:
-      'His Holiness Shri. Shri. Shri. Periyava and His Holiness Shri. Shri. Shri. Ilaya Periyava blessed and awarded Vaithikasri Editor Nannilam R. SriKrishna Ganapatigal with the Veda Bhaashya Ratnam award in Tirupati.',
+      'His Holiness Shri. Shri. Shri. Periyava and His Holiness Shri. Shri. Shri. Ilaya Periyava blessed and awarded Vaithikasri Editor Nannilam R. Srikrishna Ganapatigal with the Veda Bhaashya Ratnam award in Tirupati.',
     images: [
       {
         src: '/hero/slide-1.jpg',
@@ -43,15 +43,15 @@ export const vedaPatshala = {
   leadership: {
     founder: {
       role: 'Founder & Patron',
-      name: 'Veda Vidyalankara, Vidya Ratnam Brahmasri V. Rajagopala Ghanapatigal',
-      org: 'Seetha Rama Gurukulam Trust',
+      name: 'Brahmasri V. Rajagopala Ganapatigal',
+      org: 'Sri Seetharama Gurukulam Trust',
       motto: 'Inspiring Sacred Vedic Education',
       image: '/logo-circle.png',
     },
     acharya: {
       role: 'Vedic Teacher & Acharya',
-      name: 'Nannilam Brahmasri R. SriKrishna Ganapatigal',
-      org: 'Seetha Rama Gurukulam Trust',
+      name: 'Nannilam Brahmasri R. Srikrishna Ganapatigal',
+      org: 'Sri Seetharama Gurukulam Trust',
       motto: 'Guiding Sacred Gurukulam Adhyayana',
       image: '/photos/acharya-srikrishna-ganapatigal.jpg',
     },

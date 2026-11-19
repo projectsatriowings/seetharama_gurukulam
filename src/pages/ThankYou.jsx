@@ -7,7 +7,7 @@ export default function ThankYou() {
   return (
     <>
       <SEO title="Thank You" description="Thank you for your enquiry to Seetharama Gurukulam Trust." path="/thank-you" />
-      <PageHero eyebrow="Thank you" title="Your enquiry has been sent" description="We are grateful you reached out. Our team will review your details and respond to your enquiry." />
+      <PageHero eyebrow="Thank you" title="Your enquiry has been sent" description="We are grateful you reached out. Our team will review your details and respond promptly." />
       <section className="site-container py-14 text-center">
         <CheckCircle2 size={56} className="mx-auto text-saffron-deep" aria-hidden="true" />
         <p className="mx-auto mt-5 max-w-xl text-ink-soft">If your matter is urgent, you can also message us on WhatsApp using the green button at the bottom-right of this page.</p>

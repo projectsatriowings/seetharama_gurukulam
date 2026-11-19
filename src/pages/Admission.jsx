@@ -340,7 +340,7 @@ export default function Admission() {
               </h2>
               <p className="mt-3 text-ink-soft">
                 Please complete the details below. Our admissions coordinator and acharyas will
-                review your details and reach out to you.
+                review your application and reach out to guide you on next steps.
               </p>
             </div>
           </Reveal>
@@ -505,7 +505,7 @@ export default function Admission() {
                     label: 'Email address *',
                     type: 'email',
                     autoComplete: 'email',
-                    placeholder: 'parent@gmail.com',
+                    placeholder: 'name@example.com',
                     rules: emailRules,
                   },
 

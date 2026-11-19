@@ -1114,7 +1114,7 @@ export default function ParayanamPooja() {
                     label: 'Email *',
                     type: 'email',
                     autoComplete: 'email',
-                    placeholder: 'devotee@gmail.com',
+                    placeholder: 'name@example.com',
                     full: true,
                     rules: emailRules,
                   },

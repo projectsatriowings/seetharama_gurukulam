@@ -1,27 +1,31 @@
 import AcharyaBlessings from '../components/AcharyaBlessings.jsx'
-import Button from '../components/Button.jsx'
-import GalleryGrid from '../components/GalleryGrid.jsx'
-import GuidedEnquiry from '../components/GuidedEnquiry.jsx'
+import FinalEnquirySection from '../components/FinalEnquirySection.jsx'
+import GurukulamLifeSection from '../components/GurukulamLifeSection.jsx'
+import GurukulamMomentsSection from '../components/GurukulamMomentsSection.jsx'
 import Hero from '../components/Hero.jsx'
-import Reveal from '../components/Reveal.jsx'
+import ParayanamPoojaSection from '../components/ParayanamPoojaSection.jsx'
 import SacredTrustAnnouncement from '../components/SacredTrustAnnouncement.jsx'
-import SectionHeading from '../components/SectionHeading.jsx'
 import SEO, { orgJsonLd } from '../components/SEO.jsx'
-import TrustMission from '../components/TrustMission.jsx'
-import VedicLearningRhythm from '../components/VedicLearningRhythm.jsx'
-import { site } from '../data/site.js'
+import VedicTraditionSection from '../components/VedicTraditionSection.jsx'
 
+/**
+ * Seetharama Gurukulam — Complete Homepage
+ * Phase 2: Hero, Acharyas' Blessings, Sacred Trust Announcement (Preserved)
+ * Phase 2.2: The Tradition of Vedic Learning, Life at the Gurukulam, Parayanam & Pooja, Moments at the Gurukulam, Final Enquiry CTA
+ */
 export default function Home() {
   return (
     <>
       <SEO
         title="Home"
-        description="Seetharama Gurukulam Trust — traditional Vedic learning, parayanam and pooja services, and a warm welcome for parents, devotees and donors."
+        description="Sri Seetharama Gurukulam Trust — traditional Vedic learning in Krishna Yajur Veda, sacred parayanam and pooja services, and a warm welcome for parents, devotees, and donors."
         path="/"
         jsonLd={orgJsonLd}
       />
 
-      {/* Phase 2: Editorial Hero */}
+      {/* ─────────────────────────────────────────────────────────────
+          PRESERVED SECTION: Editorial Hero (Phase 2 Approved)
+         ───────────────────────────────────────────────────────────── */}
       <Hero
         eyebrow="Veda Patasala · Estd. 1996 · Alwarpet, Chennai"
         title="Preserving the Sacred Tradition of Vedic Learning"
@@ -30,67 +34,45 @@ export default function Home() {
         secondary={{ label: 'Admission Enquiry', to: '/admission' }}
       />
 
-      {/* Phase 2: Blessings of His Holiness Sri Paramacharyal (Immediately follows Hero) */}
+      {/* ─────────────────────────────────────────────────────────────
+          PRESERVED SECTION: Blessings of His Holiness Sri Paramacharyal (Phase 2 Approved)
+         ───────────────────────────────────────────────────────────── */}
       <AcharyaBlessings />
 
-      {/* Phase 2: Sacred Trust Announcement & Institutional Introduction */}
+      {/* ─────────────────────────────────────────────────────────────
+          PRESERVED SECTION: Sacred Trust Announcement & 5-Pillar Architecture (Phase 2 Approved)
+         ───────────────────────────────────────────────────────────── */}
       <SacredTrustAnnouncement />
 
-      {/* The Rhythm of Vedic Learning (Oral Tradition: Shravanam, Ucharanam, Smaranam, Prayoga) */}
-      <VedicLearningRhythm />
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE 2.2 SECTION 01: The Tradition of Vedic Learning
+          Asymmetric editorial layout, oral tradition, Shravanam & Smaranam
+         ───────────────────────────────────────────────────────────── */}
+      <VedicTraditionSection />
 
-      {/* Our Mission (Heritage Manifesto & Six Trust Objectives) */}
-      <TrustMission />
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE 2.2 SECTION 02: Life at the Gurukulam
+          Photographic storytelling composition, verified student welfare
+         ───────────────────────────────────────────────────────────── */}
+      <GurukulamLifeSection />
 
-      {/* Begin with an Enquiry (Guided Multi-Pathway Enquiry Experience) */}
-      <GuidedEnquiry />
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE 2.2 SECTION 03: Parayanam & Pooja
+          Distinctive spiritual editorial composition, restrained palette
+         ───────────────────────────────────────────────────────────── */}
+      <ParayanamPoojaSection />
 
-      {/* Visual Glimpses of Gurukulam Life */}
-      <section className="bg-ivory py-16 sm:py-20">
-        <div className="site-container">
-          <Reveal>
-            <SectionHeading
-              eyebrow="Glimpses"
-              title="Life at the gurukulam"
-              description="Festivals, classes, poojas and campus life."
-            />
-          </Reveal>
-          <div className="mt-12">
-            <GalleryGrid limit={6} />
-          </div>
-          <div className="mt-8 text-center">
-            <Button to="/gallery" variant="secondary">
-              View full gallery
-            </Button>
-          </div>
-        </div>
-      </section>
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE 2.2 SECTION 04: Moments at the Gurukulam
+          Asymmetric visual preview from gallery assets
+         ───────────────────────────────────────────────────────────── */}
+      <GurukulamMomentsSection />
 
-      {/* Internal TODO: Testimonials omitted until authentic verified quotes are provided by the client */}
-
-      {/* Final Devotional Call to Action Banner */}
-      <section className="relative overflow-hidden bg-maroon py-16 text-center text-cream sm:py-20">
-        <div className="pattern-kolam absolute inset-0 opacity-20" aria-hidden="true" />
-        <div className="site-container relative">
-          <div className="mx-auto max-w-2xl">
-            <h2 className="font-serif text-4xl font-bold sm:text-5xl">Come, sit, listen — and be part of it.</h2>
-            <p className="mt-4 text-cream/85">
-              Whether you are seeking admission, a pooja, or a way to connect with the gurukulam, we would be glad to hear from you.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <Button to="/contact" className="bg-saffron text-maroon-dark hover:bg-[#f0a64a]">
-                Contact us
-              </Button>
-              <Button to="/admission" variant="light">
-                Admission enquiry
-              </Button>
-            </div>
-            <p className="mt-6 text-sm text-cream/70">
-              {site.phoneDisplay} · {site.email}
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* ─────────────────────────────────────────────────────────────
+          PHASE 2.2 SECTION 05: Final Enquiry CTA
+          Visually strong closing addressing Parents & Devotees
+         ───────────────────────────────────────────────────────────── */}
+      <FinalEnquirySection />
     </>
   )
 }

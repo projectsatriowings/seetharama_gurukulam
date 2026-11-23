@@ -36,17 +36,27 @@ npm run preview    # Preview the pre-rendered production build
 
 The following authoritative institutional details were verified from the client's official brochure (`SGT Folder file correction.pdf`) and are centralized in `src/data/site.js`:
 
-- **Institution:** Sri Seetharama Gurukulam Trust
-- **Veda Patasala Founding Year:** 1996 (founded with two students)
-- **Trust Registration Year:** 2008 (Registered Charitable Trust under the Indian Trusts Act)
-- **Founder & Patron:** *Veda Vidyalankara, Vidya Ratnam* Sri V. Rajagopala Ghanapatigal
-- **Head Acharya & Teacher:** Nannilam Brahmasri R. Srikrishna Ganapatigal
-- **Spiritual Patron:** His Holiness Jagadguru Sri Chandrasekharendra Saraswathi Swamigal (68th Shankaracharya of Sri Kanchi Kamakoti Peetam)
-- **Official Address:** New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu, India
+- **Institution:** Seetha Rama Gurukulam Trust
+- **Educational Institution:** Seetha Rama Gurukula Veda Patasala
+- **Veda Patasala Founding Year:** 1996 (started with two students)
+- **Trust Registration Year:** 2008 (Registered Non-Profitable Charitable Trust under the Indian Trusts Act)
+- **Founder & Guru:** *Veda Vidyalankara, Vidya Ratnam* Sri V. Rajagopala Ghanapatigal
+- **Successor:** Brahmasri R. Srikrishna Ganapatigal (carries forward the sacred work of his father and guru)
+- **Spiritual Patron & Blessings:** His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam
+- **Official Address:** Veda Bhavan, New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu, India
 - **Telephone / WhatsApp:** +91 89030 39176 (`site.phoneDisplay`, `site.phoneTel`, `site.whatsappNumber`)
 - **Official Email:** vedicgurukulam@gmail.com
-- **Tax Exemption:** Eligible for tax exemption under Section 80-G of the Income Tax Act
-- **Student Welfare:** 100% Free boarding, lodging, clothing, books, stationery, healthcare, weekly oil bath, and transport
+- **Official Website:** www.vedicgurukulam.com
+- **Tax Exemption:** Contributions eligible for tax exemption under Section 80-G of the Income Tax Act
+- **Payee for Contributions:** `SEETHA RAMA GURUKULAM TRUST` (Accepted: Cash, G.Pay, Cheque, Demand Draft, NEFT)
+- **Student Facilities (Verified from PDF):**
+  1. Free Vedic education throughout the course
+  2. Free boarding and lodging
+  3. Free clothing
+  4. Medical care
+  5. Travelling expenses to hometown
+- **Age Eligibility Note:** Documented discrepancy in the official source PDF (Section "Pattern of Education" states 8–11 years, while Section "Courses and Admission" states 8–12 years). Kept documented without asserting an unconfirmed single figure.
+- **Curriculum & Services:** Krishna Yajur Veda prescribed Shakhas, oral adhyayanam (hearing, repeating, memorising, swara/pitch), Prayoga training for selected students (Upanayanam, Vivaham, Seemantham, other functions), and proposed Srowtha classes (clearly noted as future proposal). No public service/pooja commercial booking catalogue is advertised.
 
 ---
 

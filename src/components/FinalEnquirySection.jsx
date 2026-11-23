@@ -50,7 +50,7 @@ export default function FinalEnquirySection() {
             </h2>
 
             <p className="mt-4 text-base text-cream/85 sm:text-lg">
-              We warmly welcome parents seeking Vedic adhyayanam for their sons, and devotees desiring traditional parayanams and sacred blessings.
+              We warmly welcome parents seeking traditional Vedic adhyayanam for their sons, and devotees wishing to support our sacred educational mission.
             </p>
           </div>
         </Reveal>
@@ -76,12 +76,12 @@ export default function FinalEnquirySection() {
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-cream/80 sm:text-[15px]">
-                  Enrol your son in traditional Krishna Yajur Veda adhyayanam under qualified Ganapatigals. Complete boarding, lodging, clothing, and study materials are provided 100% free of cost.
+                  Enrol your son in traditional Krishna Yajur Veda adhyayanam. Candidates are screened and selected after Upanayanam. All facilities—free Vedic education throughout the course, boarding, lodging, clothing, medical care, and travel expenses to hometown—are provided.
                 </p>
 
                 <div className="mt-4 inline-flex items-center gap-2 text-xs text-gold-soft/90">
                   <span className="h-1.5 w-1.5 rounded-full bg-saffron" aria-hidden="true" />
-                  <span>Ages 7–12 · Full Residential Care · Free Education</span>
+                  <span>Krishna Yajur Veda · 10–12 Years Course · Free of Cost</span>
                 </div>
               </div>
 
@@ -100,7 +100,7 @@ export default function FinalEnquirySection() {
             </div>
           </Reveal>
 
-          {/* Visitor Group 2: Devotees interested in spiritual services */}
+          {/* Visitor Group 2: Devotees & Well-Wishers */}
           <Reveal>
             <div className="flex h-full flex-col justify-between rounded-2xl border border-gold/30 bg-maroon-dark/80 p-6 sm:p-8 backdrop-blur-xs transition hover:border-gold/60 shadow-warm">
               <div>
@@ -110,21 +110,21 @@ export default function FinalEnquirySection() {
                   </div>
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-soft">
-                      For Devotees & Patrons
+                      For Devotees & Well-Wishers
                     </span>
                     <h3 className="font-serif text-xl font-bold text-cream sm:text-2xl">
-                      Parayanam & Sacred Services
+                      Spiritual Studies & Seva
                     </h3>
                   </div>
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-cream/80 sm:text-[15px]">
-                  Arrange traditional Veda Parayanam, Sri Rudra Parayanam, Griha Pravesham, or sacred homams for auspicious occasions and family wellbeing at your home or at the Gurukulam.
+                  Connect with the Trust regarding our Vedic educational mission, student welfare support, Corpus Fund contributions, and traditional spiritual studies.
                 </p>
 
                 <div className="mt-4 inline-flex items-center gap-2 text-xs text-gold-soft/90">
                   <span className="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden="true" />
-                  <span>Conducted by Qualified Pandits & Acharyas</span>
+                  <span>Recognised Charitable Trust · 80-G Tax Exemption</span>
                 </div>
               </div>
 

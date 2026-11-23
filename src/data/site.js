@@ -1,52 +1,56 @@
-// Single source of truth. Authoritative details verified from client's official brochure (SGT Folder file correction.pdf).
+// Authoritative source: SGT Folder file correction.pdf ONLY.
+// No external sources, assumptions, or unconfirmed details are permitted.
+
 export const site = {
-  // Institutional Names
-  name: 'Seetharama Gurukulam Trust',
-  shortName: 'Seetharama Gurukulam',
+  // Official Institutional Names (Strict PDF)
+  name: 'Seetha Rama Gurukulam Trust',
+  shortName: 'Seetha Rama Gurukulam',
   institution: 'Seetha Rama Gurukulam Trust',
   patasalaName: 'Seetha Rama Gurukula Veda Patasala',
   legalName: 'Seetha Rama Gurukulam Trust',
-  tagline: 'Preserving the timeless wisdom of the Vedas',
+  tagline: 'The Vedas – Eternal Glory of Our Tradition',
 
-  // Official Communication Channels
-  phoneDisplay: '+91 89030 39176',
+  // Official Communication Channels (Strict PDF)
+  phoneDisplay: '89030 39176',
   phoneTel: '+918903039176',
   whatsappNumber: '918903039176',
   email: 'vedicgurukulam@gmail.com',
   websiteDisplay: 'www.vedicgurukulam.com',
   siteUrl: 'https://www.vedicgurukulam.com',
 
-  // Official Institutional Address
+  // Official Institutional Address (Strict PDF)
   addressLines: [
     'New No. 486 (Old No. 176)',
     'T.T.K. Road, Alwarpet',
-    'Chennai – 600018, Tamil Nadu, India',
+    'Chennai – 600018, Tamil Nadu',
   ],
-  fullAddress: 'New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu, India',
-  mapEmbedUrl: 'https://www.google.com/maps?q=486+TTK+Road+Alwarpet+Chennai+600018&output=embed',
+  fullAddress: 'New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu',
+  locationName: 'Veda Bhavan, Alwarpet, Chennai',
 
-  // Internal TODO: Official public visiting hours pending specific client confirmation before displaying publicly
-  visitingHours: null,
-
-  // Chronology & Legal Standing (verified from client brochure)
+  // Chronology & Legal Standing (Strict PDF)
   patasalaStartedYear: '1996',
   trustRegisteredYear: '2008',
-  establishedYear: '1996 (Patasala) · 2008 (Trust)',
-  registrationNumber: 'Registered Charitable Trust (2008)',
-  // Internal TODO: Obtain exact alphanumeric registration certificate number from client
-  taxExemption: 'Contributions to Seetha Rama Gurukulam Trust are eligible for tax exemption under Section 80-G of the Income Tax Act.',
+  trustType: 'Non-Profitable Charitable Trust under the Indian Trusts Act',
+  taxExemption: 'Contributions are eligible for tax exemption under Section 80-G of the Income Tax Act.',
 
-  // Verified Institutional Facts
-  verifiedFacts: {
-    patasalaFounded: '1996',
-    initialStudents: 2,
-    founder: 'Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal',
-    currentHead: 'Nannilam Brahmasri R. Srikrishna Ganapatigal',
-    divineGuidance: 'His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam',
-    trustRegistered: '2008',
-    trustType: 'Non-Profitable Charitable Trust under the Indian Trusts Act',
-    vedicTradition: 'Krishna Yajur Veda Adhyayanam & Shastras',
-    freeProvisions: 'Boarding, lodging, clothing, books, and medicines provided 100% free to students',
+  // Official Contributions & Solicitations (Strict PDF)
+  contributions: {
+    solicitedFrom: [
+      'Mutts',
+      'Well-wishers',
+      'Philanthropists',
+      'Patrons',
+      'Charitable Trusts and Institutions',
+    ],
+    schemes: [
+      'Corpus Fund',
+      'Endowment and sponsorship schemes',
+      'Contributions for birthdays, wedding anniversaries and ancestral commemorations',
+      'General monetary or in-kind contributions such as Rice, Dal and Oil',
+    ],
+    paymentModes: ['Cash', 'G.Pay', 'Cheque', 'Demand Draft', 'NEFT'],
+    payeeName: 'SEETHA RAMA GURUKULAM TRUST',
+    taxExemption: 'Section 80-G of the Income Tax Act',
   },
 
   // Centralised Calls to Action (CTAs)
@@ -55,59 +59,55 @@ export const site = {
       label: 'Admission Enquiry',
       to: '/admission',
       shortLabel: 'Admission',
-      ariaLabel: 'Apply for Gurukulam student admission',
+      ariaLabel: 'Enquire for Gurukulam student admission',
     },
     contact: {
       label: 'Contact Us',
       to: '/contact',
-      ariaLabel: 'Contact Seetharama Gurukulam Trust',
+      ariaLabel: 'Contact Seetha Rama Gurukulam Trust',
     },
-    parayanam: {
-      label: 'Book Parayanam & Pooja',
+    prayoga: {
+      label: 'Prayoga & Vedic Studies',
       to: '/parayanam-pooja',
-      shortLabel: 'Parayanam',
-      ariaLabel: 'Enquire for Vedic parayanam and sacred pooja services',
+      shortLabel: 'Prayoga',
+      ariaLabel: 'Learn about Prayoga training and proposed Srowtha classes',
     },
     gallery: {
-      label: 'Visual Heritage Journal',
+      label: 'Gurukulam Gallery',
       to: '/gallery',
       shortLabel: 'Gallery',
-      ariaLabel: 'View the visual heritage gallery of the Gurukulam',
+      ariaLabel: 'View photographs of the Gurukulam',
     },
   },
 
-  // Social Channels
-  social: [
-    { label: 'YouTube', href: '#' },
-    { label: 'Facebook', href: '#' },
-    { label: 'Instagram', href: '#' },
-  ],
+  // Social channels removed as none are present in official client PDF
+  social: [],
 
   // Primary Navigation (6 Core Pages)
   nav: [
     { label: 'Home', to: '/' },
     { label: 'About', to: '/about' },
     { label: 'Gurukulam', to: '/gurukulam' },
-    { label: 'Parayanam & Pooja', to: '/parayanam-pooja' },
+    { label: 'Prayoga & Studies', to: '/parayanam-pooja' },
     { label: 'Gallery', to: '/gallery' },
     { label: 'Contact', to: '/contact' },
   ],
 
-  // Footer Quick Links
+  // Footer Navigation
   footerNav: [
-    { label: 'About Our Heritage', to: '/about' },
-    { label: 'Veda Patasala Life', to: '/gurukulam' },
-    { label: 'Parayanam & Poojas', to: '/parayanam-pooja' },
-    { label: 'Student Admission', to: '/admission' },
-    { label: 'Visual Gallery', to: '/gallery' },
-    { label: 'Contact & Location', to: '/contact' },
+    { label: 'About the Trust', to: '/about' },
+    { label: 'Veda Patasala', to: '/gurukulam' },
+    { label: 'Prayoga & Studies', to: '/parayanam-pooja' },
+    { label: 'Admission Enquiry', to: '/admission' },
+    { label: 'Gurukulam Gallery', to: '/gallery' },
+    { label: 'Contact Details', to: '/contact' },
     { label: 'Privacy Policy', to: '/privacy' },
   ],
 }
 
 export const whatsappMessages = {
-  default: 'Namaste, I would like to know more about Seetharama Gurukulam.',
-  '/admission': 'Namaste, I would like to know about admission to Seetharama Gurukulam.',
-  '/parayanam-pooja': 'Namaste, I would like to enquire about parayanam / pooja services.',
-  '/contact': 'Namaste, I would like to get in touch with Seetharama Gurukulam Trust.',
+  default: 'Namaste, I would like to get in touch with Seetha Rama Gurukulam Trust.',
+  '/admission': 'Namaste, I would like to enquire about student admission to Seetha Rama Gurukula Veda Patasala.',
+  '/parayanam-pooja': 'Namaste, I would like to know more about Vedic education and Prayoga at the Gurukulam.',
+  '/contact': 'Namaste, I would like to contact Seetha Rama Gurukulam Trust.',
 }

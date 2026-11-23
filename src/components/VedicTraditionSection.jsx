@@ -1,12 +1,13 @@
-import { ArrowRight, BookOpen } from 'lucide-react'
+import { ArrowRight, BookOpen, Volume2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import Reveal from './Reveal.jsx'
 
 /**
- * PHASE 2.2 — SECTION 01: THE TRADITION OF VEDIC LEARNING
- * Purpose: Introduce the actual Vedic educational tradition followed by the Gurukulam.
- * Themes: Krishna Yajur Veda Adhyayanam, Traditional oral learning, Shravanam & Smaranam, Guru-Shishya Parampara.
- * Design: Asymmetric editorial layout, strong serif heading, authentic photograph, concise narrative, minimal details.
+ * PHASE 2.2 / PDF CORRECTION — SECTION 01: THE TRADITION OF VEDIC LEARNING
+ * Authoritative Source: SGT Folder file correction.pdf ONLY.
+ * Content: Krishna Yajur Veda, Prescribed Shakhas, Gurukula oral Vedic education,
+ * oral chanting, hearing, repeating, committing to memory, correct intonation and Swara / Pitch, Prayoga training.
+ * All unsupported references (Taittiriya Shakha, Shravanam, Smaranam) removed.
  */
 export default function VedicTraditionSection() {
   return (
@@ -15,7 +16,6 @@ export default function VedicTraditionSection() {
       aria-labelledby="vedic-tradition-heading"
       className="relative overflow-hidden bg-ivory py-16 sm:py-20 lg:py-24 border-b border-gold-soft/40"
     >
-      {/* Ambient background accent */}
       <div
         className="pointer-events-none absolute right-0 top-1/4 h-80 w-80 rounded-full bg-gold/8 blur-3xl"
         aria-hidden="true"
@@ -34,48 +34,49 @@ export default function VedicTraditionSection() {
                 </span>
               </div>
 
-              {/* Sanskrit Kicker */}
-              <p className="mt-3 font-serif text-sm tracking-wide text-maroon/70 sm:text-base">
-                ॥ स्वाध्यायोऽध्येतव्यः · गुरुशिष्यपरम्परा ॥
-              </p>
-
-              {/* Strong Serif Heading */}
+              {/* Serif Heading */}
               <h2
                 id="vedic-tradition-heading"
-                className="mt-2 font-serif text-3xl font-bold tracking-tight text-maroon sm:text-4xl lg:text-[42px] leading-[1.15]"
+                className="mt-3 font-serif text-3xl font-bold tracking-tight text-maroon sm:text-4xl lg:text-[42px] leading-[1.15]"
               >
-                The Living Oral Stream of <br className="hidden sm:inline" />
+                Gurukula Oral Vedic Education in <br className="hidden sm:inline" />
                 <span className="italic font-normal text-saffron-deep">Krishna Yajur Veda</span>
               </h2>
 
-              {/* Concise Supporting Editorial Narrative */}
+              {/* Exact PDF Content */}
               <p className="mt-5 text-[16px] leading-relaxed text-ink-soft sm:text-[17px]">
-                At Sri Seetharama Gurukulam, Vedic learning is not approached as an academic subject, but as a living oral stream received directly from Guru to Shishya. Through the time-honoured disciplines of <strong className="font-semibold text-ink">Shravanam</strong> (receptive listening to the Acharya's swara) and <strong className="font-semibold text-ink">Smaranam</strong> (continuous internal recitation), vidyaarthis commit the sacred Taittiriya Shakha to heart—preserving every intonation, syllable, and accent in pristine clarity.
+                At Seetha Rama Gurukula Veda Patasala, education is imparted through the traditional
+                Gurukula method in the prescribed Shakhas of <strong>Krishna Yajur Veda</strong>.
+                Teaching is conducted entirely by oral chanting — students learn through attentive
+                hearing, repeating, and committing every mantra to memory with strict adherence to
+                correct intonation, Swara, and Pitch.
               </p>
 
-              {/* Minimal Supporting Visual Details: Two Quiet Pillars of Oral Transmission */}
+              {/* Verified PDF Method Highlights */}
               <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 pt-6 border-t border-gold-soft/50">
                 <div className="rounded-lg bg-cream/70 p-4 border border-gold-soft/40">
                   <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-saffron" aria-hidden="true" />
+                    <Volume2 className="h-4 w-4 text-saffron-deep" aria-hidden="true" />
                     <h3 className="font-serif text-base font-bold text-maroon">
-                      Shravanam <span className="text-xs font-normal text-ink-muted">· श्रवणम्</span>
+                      Oral Chanting &amp; Memorising
                     </h3>
                   </div>
                   <p className="mt-1.5 text-xs sm:text-[13px] leading-relaxed text-ink-soft">
-                    Attentive, direct auditory transmission from the Acharya, absorbing accurate Vedic swara and phonetics without textual distortion.
+                    Learning proceeds by hearing and repeating, committing the sacred text to memory
+                    with precise Swara and Pitch under direct acharya guidance.
                   </p>
                 </div>
 
                 <div className="rounded-lg bg-cream/70 p-4 border border-gold-soft/40">
                   <div className="flex items-center gap-2">
-                    <span className="h-1.5 w-1.5 rounded-full bg-gold" aria-hidden="true" />
+                    <BookOpen className="h-4 w-4 text-gold" aria-hidden="true" />
                     <h3 className="font-serif text-base font-bold text-maroon">
-                      Smaranam <span className="text-xs font-normal text-ink-muted">· स्मरणम्</span>
+                      Prayoga Training
                     </h3>
                   </div>
                   <p className="mt-1.5 text-xs sm:text-[13px] leading-relaxed text-ink-soft">
-                    Repetition and contemplative internalization, transforming learned mantras into permanent spiritual knowledge and daily lived practice.
+                    Selected students are given practical training in Prayoga for Upanayanam,
+                    Vivaham, Seemantham, and other Vedic functions.
                   </p>
                 </div>
               </div>
@@ -93,7 +94,7 @@ export default function VedicTraditionSection() {
                   />
                 </Link>
                 <span className="hidden sm:inline text-xs text-ink-muted">
-                  Curriculum & Traditional Method
+                  Curriculum &amp; Gurukula Method
                 </span>
               </div>
             </Reveal>
@@ -103,18 +104,16 @@ export default function VedicTraditionSection() {
           <div className="lg:col-span-5">
             <Reveal>
               <div className="relative mx-auto max-w-md lg:max-w-none">
-                {/* Decorative hairline offset frame */}
                 <div
                   className="absolute -inset-2.5 rounded-2xl border border-gold/40 bg-cream/30 -rotate-1 hidden sm:block"
                   aria-hidden="true"
                 />
 
                 <div className="relative overflow-hidden rounded-xl border border-gold-soft bg-surface shadow-card">
-                  {/* Authentic Learning Photograph */}
                   <div className="relative aspect-[4/3] sm:aspect-[5/4] w-full overflow-hidden bg-cream">
                     <img
                       src="/photos/gurukulam-hall-gathering.jpg"
-                      alt="Students and Acharyas engaged in traditional Krishna Yajur Veda recitation in the gurukulam prayer hall"
+                      alt="Students seated in the patasala hall for daily Vedic recitation"
                       loading="lazy"
                       className="h-full w-full object-cover object-center transition-transform duration-500 hover:scale-105"
                     />
@@ -123,29 +122,26 @@ export default function VedicTraditionSection() {
                       aria-hidden="true"
                     />
 
-                    {/* Image corner badge */}
                     <div className="absolute top-3 left-3 rounded-full bg-ivory/95 px-3 py-1 text-[10px] font-bold tracking-wider uppercase text-maroon backdrop-blur-xs border border-gold-soft shadow-xs">
-                      Alwarpet, Chennai
+                      Veda Bhavan, Alwarpet
                     </div>
 
-                    {/* In-image caption tag */}
                     <div className="absolute bottom-3 left-3 right-3 text-cream">
                       <p className="font-serif text-sm font-medium tracking-wide sm:text-base">
-                        Daily Adhyayanam in the Gurukulam Hall
+                        Vedic Adhyayanam Class
                       </p>
                       <p className="text-[11px] text-cream/80">
-                        Taittiriya Shakha Recitation & Swara Abhyasa
+                        Krishna Yajur Veda · Hearing, Repeating &amp; Memorising
                       </p>
                     </div>
                   </div>
 
-                  {/* Architectural metadata caption strip */}
                   <div className="flex items-center justify-between border-t border-gold-soft/50 bg-cream/60 px-4 py-2.5 text-xs text-ink-soft">
                     <span className="flex items-center gap-1.5 font-medium">
                       <BookOpen className="h-3.5 w-3.5 text-saffron-deep" aria-hidden="true" />
-                      Oral Guru-Shishya Transmission
+                      Traditional Gurukula Method
                     </span>
-                    <span className="text-[11px] text-ink-muted">Estd. 1996</span>
+                    <span className="text-[11px] text-ink-muted">Chennai – 600018</span>
                   </div>
                 </div>
               </div>

@@ -1,106 +1,26 @@
 [
   {
-    "id": "s1",
-    "numeral": "I",
-    "name": "Veda Parayanam",
-    "sanskrit": "वेद पारायणम्",
-    "category": "Parayanam",
-    "deityOrFocus": "Krishna Yajur Veda",
-    "description": "Traditional recitation by trained students and acharyas.",
-    "detail": "Chanting of sacred Vedic mantras with strict adherence to traditional swara and pronunciation by our acharyas and vidyarthis.",
-    "duration": "1–3 hours (typical)",
-    "venue": "Gurukulam or Home",
-    "occasions": ["Family wellbeing", "Auspicious days", "Festivals"]
+    "id": "prayoga-training",
+    "name": "Prayoga Training",
+    "status": "Active Curriculum for Selected Students",
+    "description": "Selected students of Seetha Rama Gurukula Veda Patasala receive practical training in Vedic rituals and Samskaras under the traditional Gurukula method.",
+    "areas": [
+      "Upanayanam",
+      "Vivaham",
+      "Seemantham",
+      "Other Vedic functions"
+    ],
+    "isProposal": false
   },
   {
-    "id": "s2",
-    "numeral": "II",
-    "name": "Ganapathi Homam",
-    "sanskrit": "गणपति होमः",
-    "category": "Homam",
-    "deityOrFocus": "Sri Maha Ganapathi",
-    "description": "Auspicious homam for new beginnings and removal of obstacles.",
-    "detail": "Invoking Lord Vigneshwara through sacred fire offerings to remove obstacles and bless new undertakings with harmony.",
-    "duration": "About 2 hours",
-    "venue": "Home or Gurukulam",
-    "occasions": ["New beginnings", "New venture", "Housewarming"]
-  },
-  {
-    "id": "s3",
-    "numeral": "III",
-    "name": "Ayush Homam",
-    "sanskrit": "आयुष्य होमः",
-    "category": "Homam",
-    "deityOrFocus": "Ayur Devata",
-    "description": "Prayers for health, longevity and wellbeing.",
-    "detail": "Vedic fire ritual praying for good health, vitality, protection, and long life — especially auspicious on Janma Nakshatram.",
-    "duration": "About 2 hours",
-    "venue": "Home or Gurukulam",
-    "occasions": ["Birthdays", "1st year (Abdhapoorthi)", "60th & 80th milestones"]
-  },
-  {
-    "id": "s4",
-    "numeral": "IV",
-    "name": "Navagraha Homam",
-    "sanskrit": "नवग्रह होमः",
-    "category": "Homam",
-    "deityOrFocus": "Nava Grahas",
-    "description": "Homam honouring the nine grahas, for balance and peace of mind.",
-    "detail": "Dedicated ahutis honouring all nine celestial grahas with traditional samit and mantras to restore balance and serenity.",
-    "duration": "About 2–3 hours",
-    "venue": "Home or Gurukulam",
-    "occasions": ["Planetary harmony", "Peace of mind", "Life transitions"]
-  },
-  {
-    "id": "s5",
-    "numeral": "V",
-    "name": "Rudra Parayanam",
-    "sanskrit": "श्री रुद्र पारायणम्",
-    "category": "Parayanam",
-    "deityOrFocus": "Sri Rudram (Namakam & Chamakam)",
-    "description": "Recitation of the Rudram, in full or in part, as advised.",
-    "detail": "Reverent chanting of Sri Rudra Prashna (Ekadasa Rudram or Namakam-Chamakam) invoking the grace of Lord Parameshwara.",
-    "duration": "1–4 hours (typical)",
-    "venue": "Gurukulam or Home",
-    "occasions": ["Health & healing", "Pradosham & Shivaratri", "Inner peace"]
-  },
-  {
-    "id": "s6",
-    "numeral": "VI",
-    "name": "Lalitha Sahasranamam Parayanam",
-    "sanskrit": "श्री ललिता सहस्रनामम्",
-    "category": "Parayanam",
-    "deityOrFocus": "Sri Lalitha Tripurasundari",
-    "description": "Recitation of the thousand names, individually or in a group.",
-    "detail": "Devotional recitation of the thousand sacred names of Devi Lalitha, bringing grace, auspiciousness, and spiritual upliftment.",
-    "duration": "About 1 hour",
-    "venue": "Gurukulam or Home",
-    "occasions": ["Fridays & Pournami", "Navaratri", "Household harmony"]
-  },
-  {
-    "id": "s7",
-    "numeral": "VII",
-    "name": "Griha Pravesham Pooja",
-    "sanskrit": "गृहप्रवेश पूजा",
-    "category": "Pooja & Rites",
-    "deityOrFocus": "Vastu & Griha Devatas",
-    "description": "Blessings for a new home, performed at your home or at the gurukulam.",
-    "detail": "Complete traditional housewarming rites including Punyahavachanam, Ganapathi Pooja, and Vastu blessings for a peaceful home.",
-    "duration": "About 2–3 hours",
-    "venue": "At your new home",
-    "occasions": ["New residence", "Vastu shanti", "Family relocation"]
-  },
-  {
-    "id": "s8",
-    "numeral": "VIII",
-    "name": "Shraddham / Tarpanam Guidance",
-    "sanskrit": "श्राद्ध एवं तर्पणम्",
-    "category": "Pooja & Rites",
-    "deityOrFocus": "Pitru Devatas",
-    "description": "Guidance and support for ancestral rites, as per family tradition.",
-    "detail": "Compassionate, shastra-compliant guidance and priestly support for ancestral rites tailored to your family's Sutra and custom.",
-    "duration": "As advised by the acharya",
-    "venue": "As per family tradition",
-    "occasions": ["Annual Tithi", "Amavasya", "Mahalaya Paksham"]
+    "id": "srowtha-proposal",
+    "name": "Proposed Srowtha Classes",
+    "status": "Proposal Only (Not Currently Active)",
+    "description": "A proposed future programme to introduce advanced Srowtha classes covering rituals and Yagnas. This is a proposal mentioned in the institutional brochure and is not currently available.",
+    "areas": [
+      "Vedic Rituals",
+      "Yagnas"
+    ],
+    "isProposal": true
   }
 ]

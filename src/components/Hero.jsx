@@ -1,78 +1,75 @@
 import { useState } from 'react'
 import { ArrowRight, Pause, Play, Sparkles } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import Button from './Button.jsx'
 
-// Authentic Gurukulam cards for infinite scrolling showcase
+// Verified Gurukulam cards for infinite scrolling showcase (strictly from PDF facts)
 const galleryCards = [
   {
     id: 'c1',
     src: '/hero/slide-2.jpg',
-    tag: 'Parampara',
-    label: 'Guru-Shishya Adhyayanam',
-    sub: 'Living Vedic Tradition',
+    tag: 'Tradition',
+    label: 'Gurukula Oral Education',
+    sub: 'Hearing, Repeating, Memorising',
     rotate: '-rotate-2',
   },
   {
     id: 'c2',
     src: '/hero/slide-1.jpg',
-    tag: 'Veda Vidya',
+    tag: 'Veda Adhyayanam',
     label: 'Krishna Yajur Veda',
-    sub: 'Sacred Recitation',
+    sub: 'Prescribed Shakhas',
     rotate: 'rotate-1',
   },
   {
     id: 'c3',
     src: '/hero/slide-3.jpg',
-    tag: 'Gurukulam',
-    label: 'Vidyaarthi Life',
-    sub: 'Discipline & Devotion',
+    tag: 'Intonation',
+    label: 'Swara & Pitch',
+    sub: 'Strict Oral Accuracy',
     rotate: '-rotate-1',
   },
   {
     id: 'c4',
     src: '/photos/acharya-srikrishna-ganapatigal.jpg',
-    tag: 'Margadarshak',
-    label: 'Sri Acharya Ganapatigal',
-    sub: 'Veda Bhashyam & Guidance',
+    tag: 'Veda Teacher',
+    label: 'Brahmasri R. Srikrishna Ganapatigal',
+    sub: 'Carrying Forward the Work',
     rotate: 'rotate-2',
   },
   {
     id: 'c5',
     src: '/photos/acharya-teaching-session.jpg',
-    tag: 'Jnana',
-    label: 'Sanskrit & Shastras',
-    sub: 'Preserving Ancient Wisdom',
+    tag: 'Curriculum',
+    label: 'Prayoga Training',
+    sub: 'Selected Students',
     rotate: '-rotate-2',
   },
   {
     id: 'c6',
     src: '/photos/gurukulam-courtyard-vidyarthis.jpg',
-    tag: 'Sampradaya',
-    label: 'Residential Sanctuary',
-    sub: 'Unbroken Vedic Lineage',
+    tag: 'Sanctuary',
+    label: 'Seetha Rama Gurukulam',
+    sub: 'Veda Bhavan, Alwarpet',
     rotate: 'rotate-1',
   },
 ]
 
-// Stats strip data
+// Verified stats from PDF
 const stats = [
-  { value: '1996', label: 'Patasala Estd.' },
-  { value: '100%', label: 'Free Education' },
+  { value: '1996', label: 'Started (2 Students)' },
+  { value: '2008', label: 'Trust Registered' },
+  { value: '100% Free', label: 'Vedic Education' },
   { value: 'Sec. 80-G', label: 'Tax Exemption' },
-  { value: 'Guru-Shishya', label: 'Parampara' },
 ]
 
 export default function Hero({
-  eyebrow = 'Veda Patasala · Estd. 1996 · Alwarpet, Chennai',
-  title = 'Preserving the Sacred Tradition of Vedic Learning',
-  subtitle = 'Sri Seetharama Gurukulam is an authentic traditional Veda Patasala dedicated to the preservation of Krishna Yajur Veda adhyayanam and Dharma Shastras. Guided by the sacred Guru-Shishya Parampara, we nurture young vidyaarthis in a residential sanctuary of discipline, chanting, and devotion.',
+  eyebrow = 'Seetha Rama Gurukula Veda Patasala · Estd. 1996 · Alwarpet, Chennai',
+  title = 'The Vedas – Eternal Glory of Our Tradition',
+  subtitle = 'Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting traditional Gurukula oral education in Krishna Yajur Veda.',
   primary = { label: 'Explore the Gurukulam', to: '/gurukulam' },
   secondary = { label: 'Admission Enquiry', to: '/admission' },
 }) {
   const [isPaused, setIsPaused] = useState(false)
-
-  // Duplicate cards for seamless 100% infinite loop
   const infiniteCards = [...galleryCards, ...galleryCards]
 
   return (
@@ -117,28 +114,26 @@ export default function Hero({
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10">
           {/* ── LEFT: Editorial content ── */}
           <div className="lg:col-span-5 xl:col-span-5">
-            {/* Eyebrow — small editorial tagline */}
+            {/* Eyebrow badge */}
             <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-gold-soft/90 bg-ivory px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-saffron-deep shadow-xs sm:px-3.5 sm:text-[11px] sm:tracking-[0.22em]">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
               <span className="truncate">{eyebrow}</span>
             </div>
 
-            {/* Split-font headline */}
-            <h1 className="mt-3">
-              <span className="block font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[52px] xl:text-[58px] font-bold leading-[1.08] tracking-tight text-maroon">
-                Preserving the Sacred Tradition of
-              </span>
-              <span className="block font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[52px] xl:text-[58px] font-bold italic leading-[1.1] text-saffron-deep">
-                Vedic Learning
+            {/* Exact PDF Heading: The Vedas – Eternal Glory of Our Tradition */}
+            <h1 className="mt-3 font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[52px] xl:text-[56px] font-bold leading-[1.1] tracking-tight text-maroon">
+              The Vedas –{' '}
+              <span className="block font-serif italic font-normal text-saffron-deep">
+                Eternal Glory of Our Tradition
               </span>
             </h1>
 
-            {/* Supporting description */}
+            {/* Supporting description based strictly on PDF */}
             <p className="mt-4 max-w-[500px] font-sans text-[15px] leading-relaxed text-ink-soft sm:text-[16.5px]">
               {subtitle}
             </p>
 
-            {/* CTAs */}
+            {/* Action Pathways */}
             <div className="mt-7 flex flex-wrap items-center gap-3 sm:gap-4">
               <Button to={primary.to} variant="primary" size="lg" className="shadow-md">
                 <span>{primary.label}</span>
@@ -151,11 +146,11 @@ export default function Hero({
               )}
             </div>
 
-            {/* Stats strip — inline on desktop */}
+            {/* Verified Stats strip */}
             <div className="mt-10 hidden grid-cols-4 divide-x divide-gold-soft/60 border-t border-gold-soft/60 pt-7 sm:grid lg:mt-12">
               {stats.map(({ value, label }) => (
                 <div key={label} className="px-3 first:pl-0 last:pr-0">
-                  <p className="font-serif text-[22px] font-bold leading-none text-maroon lg:text-[26px]">
+                  <p className="font-serif text-[20px] font-bold leading-none text-maroon lg:text-[24px]">
                     {value}
                   </p>
                   <p className="mt-1 text-[10px] font-medium uppercase tracking-wider text-ink-soft">
@@ -174,7 +169,7 @@ export default function Hero({
                 <div className="flex items-center gap-2">
                   <span className="flex h-2 w-2 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
                   <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-maroon/80">
-                    Gurukulam Adhyayanam · Continuous Gliding Showcase
+                    Gurukula Oral Vedic Education · Continuous Showcase
                   </span>
                 </div>
 
@@ -201,7 +196,6 @@ export default function Hero({
 
               {/* Seamless Scrolling Container with Soft Edge Fade Masks */}
               <div className="relative overflow-hidden py-4">
-                {/* Left & Right Soft Fade Masks for seamless edge dissolving */}
                 <div
                   className="pointer-events-none absolute inset-y-0 left-0 z-20 w-8 bg-gradient-to-r from-[#FDFAF3] via-[#FDFAF3]/80 to-transparent sm:w-14"
                   aria-hidden="true"
@@ -254,14 +248,14 @@ export default function Hero({
                 </div>
               </div>
 
-              {/* Bottom helper footnote with Sanskrit motto */}
+              {/* Bottom helper footnote with verified motto */}
               <div className="mt-1 flex items-center justify-between border-t border-gold-soft/40 pt-2 px-1 text-[11px] text-ink-soft">
                 <div className="flex items-center gap-1.5">
                   <Sparkles size={12} className="text-saffron-deep" />
-                  <span className="italic">Glides continuously · Hover over any card to pause</span>
+                  <span className="italic">Hover over any card to pause</span>
                 </div>
                 <span className="hidden sm:inline font-serif font-semibold text-maroon">
-                  ॥ धर्मो रक्षति रक्षितः ॥
+                  Seetha Rama Gurukula Veda Patasala
                 </span>
               </div>
             </div>
@@ -273,8 +267,8 @@ export default function Hero({
       <div className="mt-10 grid grid-cols-2 gap-px border-t border-gold-soft/50 bg-gold-soft/20 sm:hidden">
         {stats.map(({ value, label }) => (
           <div key={label} className="bg-[#FDFAF3] px-5 py-4">
-            <p className="font-serif text-[22px] font-bold text-maroon">{value}</p>
-            <p className="text-[10.5px] font-medium uppercase tracking-wider text-ink-soft">{label}</p>
+            <p className="font-serif text-[20px] font-bold text-maroon">{value}</p>
+            <p className="text-[10px] font-medium uppercase tracking-wider text-ink-soft">{label}</p>
           </div>
         ))}
       </div>

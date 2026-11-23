@@ -24,12 +24,12 @@ export default function Home() {
       />
 
       {/* ─────────────────────────────────────────────────────────────
-          PRESERVED SECTION: Editorial Hero (Phase 2 Approved)
+          PRESERVED SECTION: Editorial Hero (PDF Heading & Content)
          ───────────────────────────────────────────────────────────── */}
       <Hero
-        eyebrow="Veda Patasala · Estd. 1996 · Alwarpet, Chennai"
-        title="Preserving the Sacred Tradition of Vedic Learning"
-        subtitle="Sri Seetharama Gurukulam is an authentic traditional Veda Patasala dedicated to the preservation of Krishna Yajur Veda adhyayanam and Dharma Shastras. Guided by the sacred Guru-Shishya Parampara, we nurture young vidyaarthis in a residential sanctuary of discipline, chanting, and devotion."
+        eyebrow="Seetha Rama Gurukula Veda Patasala · Estd. 1996 · Alwarpet, Chennai"
+        title="The Vedas – Eternal Glory of Our Tradition"
+        subtitle="Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting traditional Gurukula oral education in Krishna Yajur Veda."
         primary={{ label: 'Explore the Gurukulam', to: '/gurukulam' }}
         secondary={{ label: 'Admission Enquiry', to: '/admission' }}
       />

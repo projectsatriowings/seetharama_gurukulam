@@ -3,84 +3,70 @@
     "id": "g01",
     "album": "Campus",
     "src": "/photos/gurukulam-vidyarthis.jpg",
-    "caption": "Vidyarthis of Sri Seetharama Gurukulam",
-    "alt": "Young Vedic students of Sri Seetharama Gurukulam sitting together in traditional attire"
+    "caption": "Students of Seetha Rama Gurukula Veda Patasala",
+    "alt": "Students of Seetha Rama Gurukula Veda Patasala seated together in traditional attire"
   },
   {
     "id": "g02",
     "album": "Classes",
     "src": "/photos/acharya-teaching-session.jpg",
-    "caption": "Acharya Conducting Shastra Class",
-    "alt": "Acharya Sri Srikrishna Ganapatigal teaching students and devotees in the gurukulam hall"
+    "caption": "Vedic Adhyayanam Class",
+    "alt": "Students and teacher seated for Vedic adhyayanam recitation in the patasala hall"
   },
   {
     "id": "g03",
-    "album": "Poojas",
+    "album": "Chanting",
     "src": "/photos/veda-parayanam-recitation.jpg",
-    "caption": "Veda Parayanam & Chanting Session",
-    "alt": "Devotees and students gathered with Vedic scriptures during parayanam"
+    "caption": "Vedic Chanting Gathering",
+    "alt": "Vedic students and elders gathered with scriptures during chanting"
   },
   {
     "id": "g04",
-    "album": "Festivals",
+    "album": "Excursions",
     "src": "/photos/vidyarthis-temple-visit.jpg",
-    "caption": "Vidyarthis at Sacred Temple Visit",
-    "alt": "Gurukulam students and elders seated on traditional temple stone steps"
+    "caption": "Students at Temple Steps",
+    "alt": "Patasala students seated on traditional stone steps"
   },
   {
     "id": "g05",
     "album": "Campus",
     "src": "/photos/gurukulam-courtyard-vidyarthis.jpg",
-    "caption": "Vidyarthis in Gurukulam Courtyard",
-    "alt": "Young students of Sri Seetharama Gurukulam gathered in the campus courtyard"
+    "caption": "Students in the Campus Courtyard",
+    "alt": "Students of Seetha Rama Gurukula Veda Patasala gathered in the campus courtyard"
   },
   {
     "id": "g06",
-    "album": "Poojas",
+    "album": "Chanting",
     "src": "/photos/acharya-parayanam-recitation.jpg",
-    "caption": "Acharya Leading Sacred Veda Parayanam",
-    "alt": "Acharya Sri Srikrishna Ganapatigal and scholars reciting Vedic stotras"
+    "caption": "Vedic Recitation Session",
+    "alt": "Scholars and teacher engaged in Vedic recitation"
   },
   {
     "id": "g07",
-    "album": "Festivals",
+    "album": "Excursions",
     "src": "/photos/vidyarthis-ganesha-hanuman-mural.jpg",
-    "caption": "Vidyarthis at Ganesha & Hanuman Sannidhi",
-    "alt": "Vidyarthis and elders standing before Sri Ganesha and Sri Hanuman temple mural"
+    "caption": "Students at Sannidhi",
+    "alt": "Students and elders standing before Sri Ganesha and Sri Hanuman mural"
   },
   {
     "id": "g08",
     "album": "Classes",
     "src": "/photos/gurukulam-hall-gathering.jpg",
-    "caption": "Daily Adhyayanam & Devotional Gathering",
-    "alt": "Students and devotees gathered in the prayer hall for Vedic recitation and study"
+    "caption": "Adhyayanam Gathering in the Hall",
+    "alt": "Students seated in the patasala hall for daily Vedic recitation"
   },
   {
     "id": "g09",
-    "album": "Poojas",
+    "album": "Chanting",
     "src": "/photos/naimisharanya-mandapam-pandits.jpg",
-    "caption": "Veda Pandits Assembly at Mandapam",
-    "alt": "Vedic pandits and acharyas standing in rows during parayanam at Naimisharanya Mandapam"
+    "caption": "Vedic Scholars Assembly",
+    "alt": "Assembly of Vedic scholars and teachers standing in rows during recitation"
   },
   {
     "id": "g10",
-    "album": "Festivals",
-    "src": "/photos/dignitary-visit-felicitation.jpg",
-    "caption": "Special Gathering & Dignitary Felicitation",
-    "alt": "Dignitaries, acharyas, and students gathered during a sacred gurukulam event"
-  },
-  {
-    "id": "g11",
     "album": "Campus",
     "src": "/photos/gurukulam-students-assembly.jpg",
-    "caption": "Gurukulam Students Assembly",
-    "alt": "Veda Patasala students seated together in the gurukulam prayer hall"
-  },
-  {
-    "id": "g12",
-    "album": "Campus",
-    "src": "/photos/gurukulam-special-blessing-event.jpg",
-    "caption": "Dignitary Visit with Acharyas and Vidyarthis",
-    "alt": "Acharyas, vidyarthis, and guests gathered for blessings at the gurukulam"
+    "caption": "Students Morning Assembly",
+    "alt": "Patasala students seated together in morning assembly"
   }
 ]

@@ -141,9 +141,27 @@ export default function AcharyaBlessings() {
                       ॥ श्री काञ्ची कामकोटि पीठम् ॥
                     </p>
 
-                    {/* Sacred Peetam Emblem */}
-                    <div className="my-5 flex justify-center">
-                      <PeetamEmblem />
+                    {/* Sacred Portrait of His Holiness Sri Paramacharyal */}
+                    <div className="relative my-5 mx-auto max-w-[220px] sm:max-w-[240px]">
+                      {/* Soft sacred aura */}
+                      <div
+                        className="pointer-events-none absolute -inset-1.5 rounded-2xl bg-gradient-to-t from-saffron/25 via-gold/30 to-saffron/15 blur-sm"
+                        aria-hidden="true"
+                      />
+                      {/* Outer ornate gold border */}
+                      <div className="relative overflow-hidden rounded-xl border-2 border-gold/75 bg-[#1C0505] p-1.5 shadow-2xl transition-transform duration-300 hover:scale-[1.01]">
+                        {/* Inner gold hairline frame */}
+                        <div className="relative overflow-hidden rounded-lg border border-gold/40 bg-black/40">
+                          <img
+                            src="/photos/paramacharyal-blessing.jpg"
+                            alt="His Holiness Jagadguru Sri Chandrasekharendra Saraswathi Swamigal, Sri Paramacharyal of Kanchi, raising hand in divine blessing (Abhaya Mudra)"
+                            width="693"
+                            height="1000"
+                            loading="lazy"
+                            className="aspect-[693/1000] w-full object-cover object-center"
+                          />
+                        </div>
+                      </div>
                     </div>
 
                     {/* Paramacharyal Reverential Typography */}

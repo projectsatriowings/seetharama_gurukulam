@@ -1,7 +1,6 @@
 import {
   CheckCircle2,
   Globe,
-  HeartHandshake,
   Mail,
   MapPin,
   MessageCircle,

@@ -134,7 +134,7 @@ async function main() {
       const res = await fetch('http://127.0.0.1:9222/json/list')
       targets = await res.json()
       if (targets && targets.length > 0) break
-    } catch {}
+    } catch { }
   }
 
   if (!targets || targets.length === 0) {
@@ -298,7 +298,6 @@ async function main() {
 
   const sectionsToCapture = [
     { id: 'acharyas-blessings', filename: 'acharyas-blessings-card.png', title: 'Acharyas Blessings & Divine Guidance' },
-    { id: 'sacred-trust-announcement', filename: 'sacred-trust-redesigned.png', title: 'Sacred Trust Announcement & Objectives' },
     { id: 'vedic-tradition', filename: 'section-01-vedic-tradition.png', title: 'Section 01: Vedic Tradition' },
     { id: 'gurukulam-life', filename: 'section-02-gurukulam-life.png', title: 'Section 02: Life at Gurukulam' },
     { id: 'parayanam-pooja-section', filename: 'section-03-parayanam-pooja.png', title: 'Section 03: Parayanam & Pooja' },

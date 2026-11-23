@@ -16,11 +16,10 @@ The Seetharama Gurukulam homepage has been rebuilt into an editorial homepage th
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│  Section A: Contemporary Vedic Editorial Hero with Infinite Scroll     │
+│  [PRESERVED] Section A: Contemporary Vedic Editorial Hero             │
 │  · Eyebrow: Veda Patasala · Estd. 1996 · Alwarpet, Chennai            │
 │  · Headline: Preserving the Sacred Tradition of Vedic Learning         │
-│  · Showcase: Continuous gliding infinite scroll track of authentic     │
-│    Gurukulam cards with pause-on-hover & interactive toggle controls   │
+│  · Authentic photograph: Acharya Conducting Shastra Class              │
 │  · Dual CTAs: Explore the Gurukulam / Admission Enquiry                │
 ├────────────────────────────────────────────────────────────────────────┤
 │  [PRESERVED] Section B: Blessings of His Holiness Sri Paramacharyal   │

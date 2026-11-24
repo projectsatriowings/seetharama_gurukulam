@@ -47,7 +47,7 @@ const stats = [
   { value: '1996', label: 'Started (2 Students)' },
   { value: '2008', label: 'Trust Registered' },
   { value: '100% Free', label: 'Vedic Education' },
-  { value: 'Sec. 80-G', label: 'Tax Exemption' },
+  { value: 'Sec. 80\u2011G', label: 'Tax Exemption' },
 ]
 
 export default function Hero({
@@ -228,7 +228,7 @@ export default function Hero({
       <div className="site-container relative">
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10">
           {/* ── LEFT: Editorial content ── */}
-          <div className="lg:col-span-5 xl:col-span-5">
+          <div className="lg:col-span-6 xl:col-span-5">
             {/* Eyebrow badge */}
             <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-gold-soft/90 bg-ivory px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-saffron-deep shadow-xs sm:px-3.5 sm:text-[11px] sm:tracking-[0.22em]">
               <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
@@ -236,7 +236,7 @@ export default function Hero({
             </div>
 
             {/* Exact PDF Heading: The Vedas – Eternal Glory of Our Tradition */}
-            <h1 className="mt-3 font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[52px] xl:text-[56px] font-bold leading-[1.1] tracking-tight text-maroon">
+            <h1 className="mt-3 font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[50px] xl:text-[56px] font-bold leading-[1.1] tracking-tight text-maroon">
               The Vedas –{' '}
               <span className="block font-serif italic font-normal text-saffron-deep">
                 Eternal Glory of Our Tradition
@@ -262,13 +262,15 @@ export default function Hero({
             </div>
 
             {/* Verified Stats strip */}
-            <div className="mt-10 hidden grid-cols-4 divide-x divide-gold-soft/60 border-t border-gold-soft/60 pt-7 sm:grid lg:mt-12">
+            <div className="mt-9 hidden grid-cols-4 divide-x divide-gold-soft/60 border-t border-gold-soft/60 pt-6 sm:grid lg:mt-11">
               {stats.map(({ value, label }) => (
-                <div key={label} className="px-3 first:pl-0 last:pr-0">
-                  <p className="font-sans text-[20px] font-bold leading-none text-maroon lg:text-[24px]">
-                    {value}
-                  </p>
-                  <p className="mt-1 text-[10px] font-medium uppercase tracking-wider text-ink-soft">
+                <div key={label} className="flex flex-col justify-start px-2 sm:px-3 lg:px-2.5 xl:px-3.5 first:pl-0 last:pr-0">
+                  <div className="flex h-7 items-center">
+                    <p className="font-sans text-[17px] sm:text-[19px] md:text-[21px] lg:text-[19px] xl:text-[22px] font-bold leading-none text-maroon whitespace-nowrap tracking-tight">
+                      {value}
+                    </p>
+                  </div>
+                  <p className="mt-1 text-[10px] sm:text-[10.5px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">
                     {label}
                   </p>
                 </div>
@@ -277,7 +279,7 @@ export default function Hero({
           </div>
 
           {/* ── RIGHT: 3D Coverflow Cards Showcase (Image 1 Design) ── */}
-          <div className="min-w-0 lg:col-span-7 xl:col-span-7">
+          <div className="min-w-0 lg:col-span-6 xl:col-span-7">
             <div
               className="relative w-full"
               onMouseEnter={() => setIsHovered(true)}
@@ -427,8 +429,8 @@ export default function Hero({
       <div className="mt-10 grid grid-cols-2 gap-px border-t border-gold-soft/50 bg-gold-soft/20 sm:hidden">
         {stats.map(({ value, label }) => (
           <div key={label} className="bg-[#FDFAF3] px-5 py-4">
-            <p className="font-sans text-[20px] font-bold text-maroon">{value}</p>
-            <p className="text-[10px] font-medium uppercase tracking-wider text-ink-soft">{label}</p>
+            <p className="font-sans text-[20px] font-bold text-maroon whitespace-nowrap">{value}</p>
+            <p className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">{label}</p>
           </div>
         ))}
       </div>

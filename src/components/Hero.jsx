@@ -42,14 +42,6 @@ const galleryCards = [
   },
 ]
 
-// Verified stats from PDF
-const stats = [
-  { value: '1996', label: 'Started (2 Students)' },
-  { value: '2008', label: 'Trust Registered' },
-  { value: '100% Free', label: 'Vedic Education' },
-  { value: 'Sec. 80\u2011G', label: 'Tax Exemption' },
-]
-
 export default function Hero({
   eyebrow = 'Seetha Rama Gurukula Veda Patasala · Estd. 1996 · Alwarpet, Chennai',
   title = 'The Vedas – Eternal Glory of Our Tradition',
@@ -462,14 +454,8 @@ export default function Hero({
         <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10">
           {/* ── LEFT: Editorial content ── */}
           <div className="lg:col-span-6 xl:col-span-5">
-            {/* Eyebrow badge */}
-            <div className="inline-flex max-w-full items-center gap-2 rounded-full border border-gold-soft/90 bg-ivory px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em] text-saffron-deep shadow-xs sm:px-3.5 sm:text-[11px] sm:tracking-[0.22em]">
-              <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
-              <span className="truncate">{eyebrow}</span>
-            </div>
-
             {/* Exact PDF Heading: The Vedas – Eternal Glory of Our Tradition */}
-            <h1 className="mt-3 font-serif text-[32px] sm:text-[44px] md:text-[50px] lg:text-[50px] xl:text-[56px] font-bold leading-[1.1] tracking-tight text-maroon">
+            <h1 className="font-serif text-[34px] sm:text-[46px] md:text-[52px] lg:text-[52px] xl:text-[58px] font-bold leading-[1.1] tracking-tight text-maroon">
               The Vedas –{' '}
               <span className="block font-serif italic font-normal text-saffron-deep">
                 Eternal Glory of Our Tradition
@@ -492,22 +478,6 @@ export default function Hero({
                   <span>{secondary.label}</span>
                 </Button>
               )}
-            </div>
-
-            {/* Verified Stats strip */}
-            <div className="mt-8 border-t border-gold-soft/60 pt-6 hidden sm:block lg:mt-10">
-              <div className="grid grid-cols-2 gap-x-5 gap-y-4 sm:grid-cols-4 sm:gap-x-3 lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 xl:grid-cols-4 xl:gap-x-4">
-                {stats.map(({ value, label }) => (
-                  <div key={label} className="min-w-0 border-l-2 border-gold-soft/80 pl-3">
-                    <p className="font-sans text-[17px] sm:text-[18px] md:text-[20px] lg:text-[19px] xl:text-[21px] font-bold leading-tight text-maroon tracking-tight">
-                      {value}
-                    </p>
-                    <p className="mt-0.5 text-[10px] sm:text-[10.5px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">
-                      {label}
-                    </p>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
 
@@ -634,16 +604,6 @@ export default function Hero({
             </div>
           </div>
         </div>
-      </div>
-
-      {/* ── Stats strip (mobile only) ── */}
-      <div className="mt-10 grid grid-cols-2 gap-px border-t border-gold-soft/50 bg-gold-soft/20 sm:hidden">
-        {stats.map(({ value, label }) => (
-          <div key={label} className="min-w-0 bg-[#FDFAF3] px-5 py-4">
-            <p className="font-sans text-[19px] font-bold text-maroon">{value}</p>
-            <p className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">{label}</p>
-          </div>
-        ))}
       </div>
     </section>
   )

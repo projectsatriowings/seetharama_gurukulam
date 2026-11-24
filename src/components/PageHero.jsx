@@ -19,14 +19,29 @@ function Mandala() {
   )
 }
 
-export default function PageHero({ eyebrow, title, description }) {
+export default function PageHero({
+  eyebrow,
+  title,
+  description,
+  maxWidth = 'max-w-4xl lg:max-w-5xl',
+  titleClassName = 'sm:text-[34px] md:text-[38px] lg:text-[44px] md:whitespace-nowrap',
+  className = '',
+}) {
   return (
     <section className="relative overflow-hidden bg-ivory py-14 sm:py-16">
       <div aria-hidden="true" className="pointer-events-none absolute -right-24 top-1/2 hidden -translate-y-1/2 opacity-[0.07] sm:block">
         <Mandala />
       </div>
       <div className="site-container relative">
-        <SectionHeading eyebrow={eyebrow} title={title} description={description} align="left" />
+        <SectionHeading
+          eyebrow={eyebrow}
+          title={title}
+          description={description}
+          align="left"
+          maxWidth={maxWidth}
+          titleClassName={titleClassName}
+          className={className}
+        />
       </div>
     </section>
   )

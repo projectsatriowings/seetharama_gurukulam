@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { ArrowRight, Pause, Play, Sparkles } from 'lucide-react'
+import { ArrowRight, Sparkles } from 'lucide-react'
 import Button from './Button.jsx'
 
 // Authentic Gurukulam photography for the 3D coverflow showcase
@@ -58,7 +58,6 @@ export default function Hero({
   secondary = { label: 'Admission Enquiry', to: '/admission' },
 }) {
   const [activeIndex, setActiveIndex] = useState(0)
-  const [isPaused, setIsPaused] = useState(false)
   const [isHovered, setIsHovered] = useState(false)
   const touchStartX = useRef(0)
   const touchEndX = useRef(0)
@@ -72,14 +71,14 @@ export default function Hero({
     setActiveIndex((prev) => (prev + 1) % count)
   }, [count])
 
-  // Continuous smooth auto-slide every 2 seconds (pauses on hover or manual toggle)
+  // Continuous smooth auto-slide every 2 seconds (pauses on hover)
   useEffect(() => {
-    if (isPaused || isHovered) return
+    if (isHovered) return
     const timer = setInterval(() => {
       handleNext()
     }, 2000)
     return () => clearInterval(timer)
-  }, [isPaused, isHovered, handleNext])
+  }, [isHovered, handleNext])
 
   // Touch swipe handlers
   const handleTouchStart = (e) => {
@@ -286,33 +285,11 @@ export default function Hero({
               onMouseLeave={() => setIsHovered(false)}
             >
               {/* Showcase Top Header Pill */}
-              <div className="mb-3 flex items-center justify-between gap-3 px-2">
-                <div className="flex items-center gap-2">
-                  <span className="flex h-2 w-2 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
-                  <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-maroon/80">
-                    Gurukula Oral Vedic Education · Visual Showcase
-                  </span>
-                </div>
-
-                {/* Pause / Play interactive toggle button */}
-                <button
-                  type="button"
-                  onClick={() => setIsPaused((prev) => !prev)}
-                  className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory/90 px-3 py-1 text-[11px] font-medium text-maroon shadow-2xs transition hover:bg-gold-soft/30 hover:border-gold focus-visible:outline-2 cursor-pointer"
-                  aria-label={isPaused ? 'Resume showcase playback' : 'Pause showcase playback'}
-                >
-                  {isPaused ? (
-                    <>
-                      <Play size={12} className="text-saffron-deep" />
-                      <span>Resume</span>
-                    </>
-                  ) : (
-                    <>
-                      <Pause size={12} className="text-saffron-deep" />
-                      <span>{isHovered ? 'Paused' : 'Pause on Hover'}</span>
-                    </>
-                  )}
-                </button>
+              <div className="mb-3 flex items-center gap-2 px-2">
+                <span className="flex h-2 w-2 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
+                <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-maroon/80">
+                  Gurukula Oral Vedic Education · Visual Showcase
+                </span>
               </div>
 
               {/* 3D Coverflow Cards Stage */}

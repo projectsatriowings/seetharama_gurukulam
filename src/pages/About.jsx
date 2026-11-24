@@ -71,12 +71,12 @@ export default function About() {
               {/* Verified Chronology Tiles */}
               <div className="mt-8 grid grid-cols-2 gap-4">
                 <div className="rounded-xl border border-gold-soft bg-cream p-4">
-                  <span className="font-serif text-2xl font-bold text-saffron-deep sm:text-3xl">1996</span>
+                  <span className="font-sans text-2xl font-bold text-saffron-deep sm:text-3xl">1996</span>
                   <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-maroon">Patasala Founded</p>
                   <p className="mt-1 text-xs text-ink-soft">Started with two students under Sri V. Rajagopala Ganapatigal.</p>
                 </div>
                 <div className="rounded-xl border border-gold-soft bg-cream p-4">
-                  <span className="font-serif text-2xl font-bold text-saffron-deep sm:text-3xl">2008</span>
+                  <span className="font-sans text-2xl font-bold text-saffron-deep sm:text-3xl">2008</span>
                   <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-maroon">Trust Registered</p>
                   <p className="mt-1 text-xs text-ink-soft">Registered under the Indian Trusts Act as directed by Sri Aacharyal.</p>
                 </div>

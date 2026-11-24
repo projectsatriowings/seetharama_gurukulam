@@ -261,11 +261,10 @@ export default function SacredTrustAnnouncement() {
                     key={obj.id}
                     type="button"
                     onClick={() => setActiveTab(idx)}
-                    className={`relative flex items-center gap-2 shrink-0 rounded-full px-4 py-2 text-xs font-bold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${
-                      isSelected
+                    className={`relative flex items-center gap-2 shrink-0 rounded-full px-4 py-2 text-xs font-bold transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${isSelected
                         ? 'text-maroon shadow-sm'
                         : 'text-ink-soft hover:text-maroon hover:bg-gold-soft/30'
-                    }`}
+                      }`}
                   >
                     {isSelected && mounted && !reduceMotion && (
                       <motion.div
@@ -388,9 +387,8 @@ export default function SacredTrustAnnouncement() {
                     type="button"
                     onClick={() => setActiveTab(i)}
                     aria-label={`Go to objective ${i + 1}`}
-                    className={`h-2 rounded-full transition-all duration-300 ${
-                      activeTab === i ? 'w-8 bg-saffron' : 'w-2 bg-gold/40 hover:bg-gold'
-                    }`}
+                    className={`h-2 rounded-full transition-all duration-300 ${activeTab === i ? 'w-8 bg-saffron' : 'w-2 bg-gold/40 hover:bg-gold'
+                      }`}
                   />
                 ))}
               </div>

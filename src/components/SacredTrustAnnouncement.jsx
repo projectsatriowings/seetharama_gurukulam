@@ -9,8 +9,6 @@ import {
   BookOpen,
   Building,
   CheckCircle2,
-  ChevronRight,
-  Flame,
   Heart,
   History,
   Library,
@@ -98,7 +96,7 @@ const milestones = [
   {
     year: '1996',
     title: 'Patasala Founded',
-    subtitle: 'Started with 2 students under Sri V. Rajagopala Ghanapatigal with the blessings of Sri Paramacharyal',
+    subtitle: 'Started with 2 students under Sri V. Rajagopala Ganapatigal with the blessings of Sri Paramacharyal',
     icon: History,
   },
   {
@@ -175,7 +173,7 @@ export default function SacredTrustAnnouncement() {
             <p className="mx-auto mt-4 max-w-3xl font-sans text-base leading-relaxed text-ink-soft sm:text-lg">
               Seetha Rama Gurukula Veda Patasala started in <strong>1996</strong> with two students under{' '}
               <em className="text-maroon font-medium">Veda Vidyalankara, Vidya Ratnam</em> Sri V.
-              Rajagopala Ghanapatigal with the blessings and grace of His Holiness Sri Paramacharyal of
+              Rajagopala Ganapatigal with the blessings and grace of His Holiness Sri Paramacharyal of
               Sri Kanchi Kamakoti Peetam. Following its growth, the Trust was constituted and
               registered in <strong>2008</strong> as a Non-Profitable Charitable Trust under the
               Indian Trusts Act, later shifting to{' '}
@@ -378,66 +376,22 @@ export default function SacredTrustAnnouncement() {
                   </div>
                 </motion.div>
               </AnimatePresence>
+
+              {/* Minimal Pagination Dots */}
+              <div className="mt-8 flex items-center justify-center gap-2 pt-2 border-t border-gold-soft/30">
+                {officialObjectives.map((_, i) => (
+                  <button
+                    key={i}
+                    type="button"
+                    onClick={() => setActiveTab(i)}
+                    aria-label={`Go to objective ${i + 1}`}
+                    className={`h-2 rounded-full transition-all duration-300 ${
+                      activeTab === i ? 'w-8 bg-saffron' : 'w-2 bg-gold/40 hover:bg-gold'
+                    }`}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-
-          {/* ── Interactive 5-Pillar Grid (Clickable Cards with Active State & Shimmer) ── */}
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5 max-w-5xl mx-auto">
-            {officialObjectives.map((obj, idx) => {
-              const isSelected = activeTab === idx
-              const Icon = obj.icon
-              return (
-                <button
-                  key={obj.id}
-                  type="button"
-                  onClick={() => setActiveTab(idx)}
-                  className={`group relative flex flex-col justify-between text-left rounded-2xl border p-4 sm:p-5 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${
-                    isSelected
-                      ? 'border-gold bg-ivory shadow-card ring-2 ring-gold/40 scale-[1.02]'
-                      : 'border-gold-soft/60 bg-cream/70 hover:border-gold hover:bg-ivory hover:shadow-warm hover:-translate-y-1'
-                  }`}
-                >
-                  <div>
-                    <div className="flex items-center justify-between">
-                      <span
-                        className={`font-mono text-xs font-bold ${
-                          isSelected ? 'text-saffron-deep' : 'text-gold-soft'
-                        }`}
-                      >
-                        {obj.number}
-                      </span>
-                      <div
-                        className={`flex h-8 w-8 items-center justify-center rounded-xl transition-colors ${
-                          isSelected
-                            ? 'bg-saffron text-maroon-dark'
-                            : 'bg-ivory text-maroon border border-gold-soft/60 group-hover:bg-saffron/20'
-                        }`}
-                      >
-                        <Icon size={16} />
-                      </div>
-                    </div>
-
-                    <h5 className="mt-3 font-serif text-[15px] font-bold leading-snug text-maroon line-clamp-2">
-                      {obj.title}
-                    </h5>
-                  </div>
-
-                  <div className="mt-4 flex items-center justify-between border-t border-gold-soft/40 pt-2.5 text-[11px] font-semibold">
-                    <span className={isSelected ? 'text-saffron-deep font-bold' : 'text-ink-soft'}>
-                      {isSelected ? 'Currently Viewing' : 'Select'}
-                    </span>
-                    <ChevronRight
-                      size={14}
-                      className={`transition-transform ${
-                        isSelected
-                          ? 'text-saffron-deep translate-x-1'
-                          : 'text-ink-soft group-hover:translate-x-1'
-                      }`}
-                    />
-                  </div>
-                </button>
-              )
-            })}
           </div>
         </div>
       </div>

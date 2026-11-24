@@ -229,7 +229,7 @@ export default function AcharyaBlessings() {
               <p className="mt-4 font-sans text-[15.5px] leading-relaxed text-cream/85 sm:text-[16.5px]">
                 Seetha Rama Gurukula Veda Patasala began its journey in 1996 with the blessings and
                 grace of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam. What began
-                with two students under the guidance of Sri V. Rajagopala Ghanapatigal grew into an
+                with two students under the guidance of Sri V. Rajagopala Ganapatigal grew into an
                 institution dedicated to preserving the sacred tradition of Vedic learning.
               </p>
 

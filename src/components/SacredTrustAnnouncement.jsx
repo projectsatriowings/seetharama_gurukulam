@@ -91,24 +91,24 @@ const officialObjectives = [
   },
 ]
 
-// Verified Chronology Milestones from PDF
+// Verified Chronology Milestones from PDF - Concise & Balanced
 const milestones = [
   {
     year: '1996',
     title: 'Patasala Founded',
-    subtitle: 'Started with 2 students under Sri V. Rajagopala Ganapatigal with the blessings of Sri Paramacharyal',
+    subtitle: 'Started with 2 students under Sri V. Rajagopala Ganapatigal with Sri Paramacharyal’s blessings.',
     icon: History,
   },
   {
     year: '2008',
     title: 'Trust Registered',
-    subtitle: 'Constituted as a Non-Profitable Charitable Trust under the Indian Trusts Act as directed by Sri Aacharyal',
+    subtitle: 'Registered Non-Profitable Charitable Trust under the Indian Trusts Act.',
     icon: ShieldCheck,
   },
   {
     year: 'Today',
     title: 'Veda Bhavan, Alwarpet',
-    subtitle: 'Brahmasri R. Srikrishna Ganapatigal carries forward the sacred work of his father and guru',
+    subtitle: 'Brahmasri R. Srikrishna Ganapatigal carries forward the sacred legacy.',
     icon: MapPin,
   },
 ]
@@ -183,26 +183,29 @@ export default function SacredTrustAnnouncement() {
             </p>
           </Reveal>
 
-          {/* ── 3-Stage Milestone Horizon (Motion Timeline) ── */}
-          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5 text-left">
+          {/* ── 3-Stage Milestone Horizon (Compact Motion Timeline) ── */}
+          <div className="mt-7 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4 text-left">
             {milestones.map((item, idx) => {
               const ItemIcon = item.icon
               return (
-                <Reveal key={item.year} delay={idx * 0.1}>
-                  <div className="group relative flex h-full flex-col justify-between rounded-2xl border border-gold-soft bg-ivory/90 p-5 shadow-xs backdrop-blur-xs transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-card">
-                    {/* Top connector bar indicator */}
-                    <div className="flex items-center justify-between pb-3 border-b border-gold-soft/40">
-                      <span className="font-serif text-2xl font-bold text-saffron-deep sm:text-3xl">
-                        {item.year}
-                      </span>
-                      <div className="flex h-8 w-8 items-center justify-center rounded-full bg-saffron/10 text-maroon transition-transform duration-300 group-hover:scale-110">
-                        <ItemIcon size={16} aria-hidden="true" />
+                <Reveal key={item.year} delay={idx * 0.08}>
+                  <div className="group relative flex h-full flex-col justify-between rounded-xl border border-gold-soft/80 bg-ivory/95 p-3.5 sm:p-4 shadow-2xs backdrop-blur-xs transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:shadow-card">
+                    <div className="flex items-start justify-between gap-2">
+                      <div>
+                        <span className="font-serif text-xl sm:text-2xl font-bold text-saffron-deep leading-none">
+                          {item.year}
+                        </span>
+                        <h3 className="mt-1 font-serif text-sm sm:text-base font-bold text-maroon leading-tight">
+                          {item.title}
+                        </h3>
+                      </div>
+                      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-saffron/10 text-maroon transition-transform duration-300 group-hover:scale-110">
+                        <ItemIcon size={14} aria-hidden="true" />
                       </div>
                     </div>
-                    <div className="mt-3">
-                      <h3 className="font-serif text-base font-bold text-maroon">{item.title}</h3>
-                      <p className="mt-1 text-xs text-ink-soft leading-relaxed">{item.subtitle}</p>
-                    </div>
+                    <p className="mt-2 text-[11.5px] sm:text-xs text-ink-soft leading-relaxed">
+                      {item.subtitle}
+                    </p>
                   </div>
                 </Reveal>
               )

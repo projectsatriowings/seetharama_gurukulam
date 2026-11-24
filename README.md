@@ -40,7 +40,7 @@ The following authoritative institutional details were verified from the client'
 - **Educational Institution:** Seetha Rama Gurukula Veda Patasala
 - **Veda Patasala Founding Year:** 1996 (started with two students)
 - **Trust Registration Year:** 2008 (Registered Non-Profitable Charitable Trust under the Indian Trusts Act)
-- **Founder & Guru:** *Veda Vidyalankara, Vidya Ratnam* Sri V. Rajagopala Ghanapatigal
+- **Founder & Guru:** *Veda Vidyalankara, Vidya Ratnam* Sri V. Rajagopala Ganapatigal
 - **Successor:** Brahmasri R. Srikrishna Ganapatigal (carries forward the sacred work of his father and guru)
 - **Spiritual Patron & Blessings:** His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam
 - **Official Address:** Veda Bhavan, New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu, India

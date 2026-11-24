@@ -1,56 +1,44 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { ArrowRight, Pause, Play, Sparkles } from 'lucide-react'
 import Button from './Button.jsx'
 
-// Verified Gurukulam cards for infinite scrolling showcase (strictly from PDF facts)
+// Authentic Gurukulam photography for the 3D coverflow showcase
+// User requested: pure image cards with NO words/text on them
 const galleryCards = [
   {
     id: 'c1',
     src: '/hero/slide-2.jpg',
-    tag: 'Tradition',
-    label: 'Gurukula Oral Education',
-    sub: 'Hearing, Repeating, Memorising',
-    rotate: '-rotate-2',
+    alt: 'Traditional oral Vedic education at Sri Seetharama Gurukulam',
   },
   {
     id: 'c2',
     src: '/hero/slide-1.jpg',
-    tag: 'Veda Adhyayanam',
-    label: 'Krishna Yajur Veda',
-    sub: 'Prescribed Shakhas',
-    rotate: 'rotate-1',
+    alt: 'Krishna Yajur Veda adhyayanam session',
   },
   {
     id: 'c3',
-    src: '/hero/slide-3.jpg',
-    tag: 'Intonation',
-    label: 'Swara & Pitch',
-    sub: 'Strict Oral Accuracy',
-    rotate: '-rotate-1',
+    src: '/photos/acharya-srikrishna-ganapatigal.jpg',
+    alt: 'Brahmasri R. Srikrishna Ganapatigal carrying forward the work',
   },
   {
     id: 'c4',
-    src: '/photos/acharya-srikrishna-ganapatigal.jpg',
-    tag: 'Veda Teacher',
-    label: 'Brahmasri R. Srikrishna Ganapatigal',
-    sub: 'Carrying Forward the Work',
-    rotate: 'rotate-2',
+    src: '/photos/acharya-teaching-session.jpg',
+    alt: 'Acharya conducting sacred teaching session',
   },
   {
     id: 'c5',
-    src: '/photos/acharya-teaching-session.jpg',
-    tag: 'Curriculum',
-    label: 'Prayoga Training',
-    sub: 'Selected Students',
-    rotate: '-rotate-2',
+    src: '/photos/gurukulam-courtyard-vidyarthis.jpg',
+    alt: 'Vidyarthis gathered in the Gurukulam courtyard',
   },
   {
     id: 'c6',
-    src: '/photos/gurukulam-courtyard-vidyarthis.jpg',
-    tag: 'Sanctuary',
-    label: 'Seetha Rama Gurukulam',
-    sub: 'Veda Bhavan, Alwarpet',
-    rotate: 'rotate-1',
+    src: '/hero/slide-3.jpg',
+    alt: 'Vedic recitation and swara intonation practice',
+  },
+  {
+    id: 'c7',
+    src: '/photos/vidyarthis-temple-visit.jpg',
+    alt: 'Vidyarthis and elders on sacred temple visit',
   },
 ]
 
@@ -65,12 +53,139 @@ const stats = [
 export default function Hero({
   eyebrow = 'Seetha Rama Gurukula Veda Patasala · Estd. 1996 · Alwarpet, Chennai',
   title = 'The Vedas – Eternal Glory of Our Tradition',
-  subtitle = 'Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting traditional Gurukula oral education in Krishna Yajur Veda.',
+  subtitle = 'Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ganapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting traditional Gurukula oral education in Krishna Yajur Veda.',
   primary = { label: 'Explore the Gurukulam', to: '/gurukulam' },
   secondary = { label: 'Admission Enquiry', to: '/admission' },
 }) {
+  const [activeIndex, setActiveIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
-  const infiniteCards = [...galleryCards, ...galleryCards]
+  const [isHovered, setIsHovered] = useState(false)
+  const touchStartX = useRef(0)
+  const touchEndX = useRef(0)
+  const count = galleryCards.length
+
+  const handlePrev = useCallback(() => {
+    setActiveIndex((prev) => (prev - 1 + count) % count)
+  }, [count])
+
+  const handleNext = useCallback(() => {
+    setActiveIndex((prev) => (prev + 1) % count)
+  }, [count])
+
+  // Continuous smooth auto-slide every 2 seconds (pauses on hover or manual toggle)
+  useEffect(() => {
+    if (isPaused || isHovered) return
+    const timer = setInterval(() => {
+      handleNext()
+    }, 2000)
+    return () => clearInterval(timer)
+  }, [isPaused, isHovered, handleNext])
+
+  // Touch swipe handlers
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX
+    touchEndX.current = e.touches[0].clientX
+  }
+
+  const handleTouchMove = (e) => {
+    touchEndX.current = e.touches[0].clientX
+  }
+
+  const handleTouchEnd = () => {
+    const diff = touchStartX.current - touchEndX.current
+    if (diff > 45) {
+      handleNext()
+    } else if (diff < -45) {
+      handlePrev()
+    }
+  }
+
+  // Calculate cyclic shortest difference from activeIndex
+  const getDiff = (index) => {
+    let diff = (index - activeIndex) % count
+    if (diff > count / 2) diff -= count
+    if (diff < -count / 2) diff += count
+    return diff
+  }
+
+  // 3D Coverflow geometry matching Image 1
+  const getCardTransform = (diff) => {
+    if (diff === 0) {
+      return {
+        xPercent: 0,
+        scale: 1.06,
+        rotateY: 0,
+        zOffset: 45,
+        zIndex: 30,
+        opacity: 1,
+        boxShadow:
+          '0 25px 50px -12px rgba(74, 18, 18, 0.28), 0 10px 24px -4px rgba(43, 26, 20, 0.14), 0 0 0 1px rgba(201, 162, 75, 0.25)',
+        cursor: 'default',
+        isClickable: false,
+      }
+    } else if (diff === -1) {
+      return {
+        xPercent: -58,
+        scale: 0.86,
+        rotateY: -26,
+        zOffset: -20,
+        zIndex: 20,
+        opacity: 0.88,
+        boxShadow: '0 16px 32px -8px rgba(43, 26, 20, 0.2)',
+        cursor: 'pointer',
+        isClickable: true,
+      }
+    } else if (diff === 1) {
+      return {
+        xPercent: 58,
+        scale: 0.86,
+        rotateY: 26,
+        zOffset: -20,
+        zIndex: 20,
+        opacity: 0.88,
+        boxShadow: '0 16px 32px -8px rgba(43, 26, 20, 0.2)',
+        cursor: 'pointer',
+        isClickable: true,
+      }
+    } else if (diff === -2) {
+      return {
+        xPercent: -100,
+        scale: 0.72,
+        rotateY: -36,
+        zOffset: -70,
+        zIndex: 10,
+        opacity: 0.52,
+        boxShadow: '0 10px 22px -6px rgba(43, 26, 20, 0.14)',
+        cursor: 'pointer',
+        isClickable: true,
+      }
+    } else if (diff === 2) {
+      return {
+        xPercent: 100,
+        scale: 0.72,
+        rotateY: 36,
+        zOffset: -70,
+        zIndex: 10,
+        opacity: 0.52,
+        boxShadow: '0 10px 22px -6px rgba(43, 26, 20, 0.14)',
+        cursor: 'pointer',
+        isClickable: true,
+      }
+    } else {
+      const sign = diff < 0 ? -1 : 1
+      return {
+        xPercent: sign * 135,
+        scale: 0.56,
+        rotateY: sign * 45,
+        zOffset: -120,
+        zIndex: 0,
+        opacity: 0,
+        boxShadow: 'none',
+        cursor: 'default',
+        isClickable: false,
+      }
+    }
+  }
 
   return (
     <section className="relative overflow-hidden bg-[#FDFAF3] pt-24 pb-12 sm:pt-28 sm:pb-16 lg:pt-32 lg:pb-20 border-b border-gold-soft/40">
@@ -161,15 +276,19 @@ export default function Hero({
             </div>
           </div>
 
-          {/* ── RIGHT: Infinite Scrolling Cards Showcase ── */}
+          {/* ── RIGHT: 3D Coverflow Cards Showcase (Image 1 Design) ── */}
           <div className="min-w-0 lg:col-span-7 xl:col-span-7">
-            <div className="relative w-full">
+            <div
+              className="relative w-full"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
               {/* Showcase Top Header Pill */}
-              <div className="mb-3 flex items-center justify-between gap-3 px-1">
+              <div className="mb-3 flex items-center justify-between gap-3 px-2">
                 <div className="flex items-center gap-2">
                   <span className="flex h-2 w-2 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
                   <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-maroon/80">
-                    Gurukula Oral Vedic Education · Continuous Showcase
+                    Gurukula Oral Vedic Education · Visual Showcase
                   </span>
                 </div>
 
@@ -178,7 +297,7 @@ export default function Hero({
                   type="button"
                   onClick={() => setIsPaused((prev) => !prev)}
                   className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory/90 px-3 py-1 text-[11px] font-medium text-maroon shadow-2xs transition hover:bg-gold-soft/30 hover:border-gold focus-visible:outline-2 cursor-pointer"
-                  aria-label={isPaused ? 'Resume infinite scroll' : 'Pause infinite scroll'}
+                  aria-label={isPaused ? 'Resume showcase playback' : 'Pause showcase playback'}
                 >
                   {isPaused ? (
                     <>
@@ -188,71 +307,112 @@ export default function Hero({
                   ) : (
                     <>
                       <Pause size={12} className="text-saffron-deep" />
-                      <span>Pause on Hover</span>
+                      <span>{isHovered ? 'Paused' : 'Pause on Hover'}</span>
                     </>
                   )}
                 </button>
               </div>
 
-              {/* Seamless Scrolling Container with Soft Edge Fade Masks */}
-              <div className="relative overflow-hidden py-4">
+              {/* 3D Coverflow Cards Stage */}
+              <div
+                className="relative h-[340px] sm:h-[390px] lg:h-[420px] w-full overflow-hidden py-3"
+                style={{
+                  perspective: '1100px',
+                  perspectiveOrigin: 'center center',
+                }}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
+              >
+                {/* Subtle soft edge gradient vignette */}
                 <div
-                  className="pointer-events-none absolute inset-y-0 left-0 z-20 w-8 bg-gradient-to-r from-[#FDFAF3] via-[#FDFAF3]/80 to-transparent sm:w-14"
+                  className="pointer-events-none absolute inset-y-0 left-0 z-25 w-6 sm:w-12 bg-gradient-to-r from-[#FDFAF3] via-[#FDFAF3]/70 to-transparent"
                   aria-hidden="true"
                 />
                 <div
-                  className="pointer-events-none absolute inset-y-0 right-0 z-20 w-8 bg-gradient-to-l from-[#FDFAF3] via-[#FDFAF3]/80 to-transparent sm:w-14"
+                  className="pointer-events-none absolute inset-y-0 right-0 z-25 w-6 sm:w-12 bg-gradient-to-l from-[#FDFAF3] via-[#FDFAF3]/70 to-transparent"
                   aria-hidden="true"
                 />
 
-                {/* The Infinite Scrolling Track */}
-                <div
-                  className="animate-infinite-scroll flex gap-4 sm:gap-5 py-2"
-                  style={{
-                    animationPlayState: isPaused ? 'paused' : undefined,
-                  }}
-                >
-                  {infiniteCards.map((card, idx) => (
+                {/* Coverflow Cards */}
+                {galleryCards.map((card, idx) => {
+                  const diff = getDiff(idx)
+                  const transform = getCardTransform(diff)
+                  const isVisible = Math.abs(diff) <= 2
+
+                  return (
                     <div
-                      key={`${card.id}-${idx}`}
-                      className={`group relative w-[210px] shrink-0 sm:w-[240px] lg:w-[250px] overflow-hidden rounded-2xl border border-gold-soft/90 bg-white shadow-card transition-all duration-300 hover:z-30 hover:-translate-y-2 hover:rotate-0 hover:border-gold hover:shadow-elevated ${card.rotate}`}
+                      key={card.id}
+                      onClick={() => {
+                        if (transform.isClickable) {
+                          setActiveIndex(idx)
+                        }
+                      }}
+                      className="absolute left-1/2 top-1/2 w-[215px] h-[285px] sm:w-[255px] sm:h-[340px] lg:w-[275px] lg:h-[365px] transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] select-none"
+                      style={{
+                        transform: `translate(-50%, -50%) translateX(${transform.xPercent}%) translateZ(${transform.zOffset}px) rotateY(${transform.rotateY}deg) scale(${transform.scale})`,
+                        transformStyle: 'preserve-3d',
+                        zIndex: transform.zIndex,
+                        opacity: transform.opacity,
+                        cursor: transform.cursor,
+                        pointerEvents: isVisible ? 'auto' : 'none',
+                      }}
+                      role={diff === 0 ? 'group' : 'button'}
+                      aria-label={card.alt}
+                      tabIndex={transform.isClickable ? 0 : -1}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter' || e.key === ' ') {
+                          setActiveIndex(idx)
+                        }
+                      }}
                     >
-                      {/* Card Image */}
-                      <div className="relative aspect-[4/5] w-full overflow-hidden bg-cream">
-                        <img
-                          src={card.src}
-                          alt={card.label}
-                          loading={idx < 4 ? 'eager' : 'lazy'}
-                          className="h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-108"
-                        />
-                        {/* Top Tag Pill */}
-                        <div className="absolute left-2.5 top-2.5">
-                          <span className="inline-flex items-center gap-1 rounded-full border border-gold-soft/80 bg-ivory/95 px-2.5 py-0.5 text-[9.5px] font-bold uppercase tracking-wider text-maroon shadow-xs backdrop-blur-xs">
-                            <span className="text-saffron-deep">✦</span>
-                            <span>{card.tag}</span>
-                          </span>
+                      {/* White framed card container matching Image 1 (NO words on the card) */}
+                      <div
+                        className="h-full w-full rounded-[24px] sm:rounded-[28px] bg-white p-2.5 sm:p-3 border border-gold-soft/60 transition-shadow duration-300"
+                        style={{ boxShadow: transform.boxShadow }}
+                      >
+                        <div className="h-full w-full overflow-hidden rounded-[18px] sm:rounded-[22px] bg-cream">
+                          <img
+                            src={card.src}
+                            alt={card.alt}
+                            loading={Math.abs(diff) <= 1 ? 'eager' : 'lazy'}
+                            className="h-full w-full object-cover object-center pointer-events-none select-none"
+                            draggable={false}
+                          />
                         </div>
                       </div>
-
-                      {/* Card Caption Strip */}
-                      <div className="border-t border-gold-soft/70 bg-gradient-to-b from-ivory to-cream px-3.5 py-3">
-                        <p className="truncate font-serif text-[13.5px] font-bold text-maroon sm:text-[14.5px]">
-                          {card.label}
-                        </p>
-                        <p className="mt-0.5 truncate font-sans text-[11px] italic text-saffron-deep font-medium">
-                          {card.sub}
-                        </p>
-                      </div>
                     </div>
-                  ))}
-                </div>
+                  )
+                })}
               </div>
 
-              {/* Bottom helper footnote with verified motto */}
-              <div className="mt-1 flex items-center justify-between border-t border-gold-soft/40 pt-2 px-1 text-[11px] text-ink-soft">
+              {/* Coverflow Pagination Dots (matching Image 1) */}
+              <div className="mt-4 flex items-center justify-center gap-1.5" role="tablist" aria-label="Select card">
+                {galleryCards.map((card, idx) => {
+                  const isActive = idx === activeIndex
+                  return (
+                    <button
+                      key={card.id}
+                      type="button"
+                      onClick={() => setActiveIndex(idx)}
+                      aria-label={`Go to slide ${idx + 1}`}
+                      aria-selected={isActive}
+                      role="tab"
+                      className={`transition-all duration-300 rounded-full cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-saffron ${
+                        isActive
+                          ? 'h-2 w-7 bg-maroon'
+                          : 'h-2 w-2 bg-gold-soft/80 hover:bg-gold hover:scale-125'
+                      }`}
+                    />
+                  )
+                })}
+              </div>
+
+              {/* Bottom helper footnote */}
+              <div className="mt-2.5 flex items-center justify-between border-t border-gold-soft/40 pt-2 px-1 text-[11px] text-ink-soft">
                 <div className="flex items-center gap-1.5">
                   <Sparkles size={12} className="text-saffron-deep" />
-                  <span className="italic">Hover over any card to pause</span>
+                  <span className="italic">Hover over any card to pause · Click or swipe to explore</span>
                 </div>
                 <span className="hidden sm:inline font-serif font-semibold text-maroon">
                   Seetha Rama Gurukula Veda Patasala

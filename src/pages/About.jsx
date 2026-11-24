@@ -40,7 +40,7 @@ export default function About() {
                   <strong className="text-maroon">Seetha Rama Gurukula Veda Patasala</strong> was
                   started in the year <strong>1996</strong> with initially two students under{' '}
                   <strong className="text-maroon">
-                    Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal
+                    Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ganapatigal
                   </strong>
                   .
                 </p>
@@ -49,7 +49,7 @@ export default function About() {
                   <strong className="text-maroon">
                     His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam
                   </strong>
-                  . Housed originally in Sri Ghanapatigal&apos;s residence as a traditional Gurukulam,
+                  . Housed originally in Sri Ganapatigal&apos;s residence as a traditional Gurukulam,
                   the Patasala grew steadily over the years.
                 </p>
                 <p>
@@ -73,7 +73,7 @@ export default function About() {
                 <div className="rounded-xl border border-gold-soft bg-cream p-4">
                   <span className="font-serif text-2xl font-bold text-saffron-deep sm:text-3xl">1996</span>
                   <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-maroon">Patasala Founded</p>
-                  <p className="mt-1 text-xs text-ink-soft">Started with two students under Sri V. Rajagopala Ghanapatigal.</p>
+                  <p className="mt-1 text-xs text-ink-soft">Started with two students under Sri V. Rajagopala Ganapatigal.</p>
                 </div>
                 <div className="rounded-xl border border-gold-soft bg-cream p-4">
                   <span className="font-serif text-2xl font-bold text-saffron-deep sm:text-3xl">2008</span>
@@ -177,7 +177,10 @@ export default function About() {
                     width="80"
                     height="80"
                     loading="lazy"
-                    className="h-20 w-20 rounded-full border-2 border-gold object-cover shadow-sm"
+                    onError={(e) => {
+                      e.currentTarget.src = '/logo-photo-original.png'
+                    }}
+                    className="h-20 w-20 shrink-0 rounded-full border-2 border-gold object-cover object-top shadow-sm"
                   />
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-saffron-deep">
@@ -206,7 +209,7 @@ export default function About() {
                     width="80"
                     height="80"
                     loading="lazy"
-                    className="h-20 w-20 rounded-full border-2 border-gold object-cover object-top shadow-sm"
+                    className="h-20 w-20 shrink-0 rounded-full border-2 border-gold object-cover object-top shadow-sm"
                   />
                   <div>
                     <span className="text-[10px] font-bold uppercase tracking-wider text-saffron-deep">
@@ -218,7 +221,7 @@ export default function About() {
                   </div>
                 </div>
                 <p className="mt-4 text-sm leading-relaxed text-ink-soft">
-                  Son and disciple of Sri V. Rajagopala Ghanapatigal, Brahmasri R. Srikrishna Ganapatigal
+                  Son and disciple of Sri V. Rajagopala Ganapatigal, Brahmasri R. Srikrishna Ganapatigal
                   carries forward the sacred work of his father and guru, guiding the Vidyarthis in oral
                   Veda adhyayanam, correct intonation, swara, and traditional discipline.
                 </p>

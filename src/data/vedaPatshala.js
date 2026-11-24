@@ -9,13 +9,13 @@ export const vedaPatshala = {
   // Hero Heading & Theme (Exact PDF)
   heroHeading: 'The Vedas – Eternal Glory of Our Tradition',
   heroSubtitle:
-    'Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting Gurukula oral Vedic education in Krishna Yajur Veda.',
+    'Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ganapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting Gurukula oral Vedic education in Krishna Yajur Veda.',
 
   // Historical Facts (Exact PDF)
   history: {
     startedYear: '1996',
     initialStudents: 2,
-    founder: 'Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ghanapatigal',
+    founder: 'Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ganapatigal',
     blessings: 'His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam',
     trustRegisteredYear: '2008',
     trustNature: 'Non-Profitable Charitable Trust under the Indian Trusts Act',
@@ -42,10 +42,10 @@ export const vedaPatshala = {
   // Leadership (Strictly from PDF)
   leadership: {
     founder: {
-      name: 'Sri V. Rajagopala Ghanapatigal',
+      name: 'Sri V. Rajagopala Ganapatigal',
       role: 'Founder & Guru',
       title: 'Veda Vidyalankara, Vidya Ratnam',
-      image: '/photos/founder-rajagopala-ghanapatigal.jpg',
+      image: '/photos/founder-rajagopala-ganapatigal.jpg',
     },
     acharya: {
       name: 'Brahmasri R. Srikrishna Ganapatigal',

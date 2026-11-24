@@ -1,0 +1,2644 @@
+{
+  "2026-11-24": {
+    "Business_growth_assocites": [
+      {
+        "time": "11:32:07",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): update Admin, Accounts, and Technical credentials to official email accounts with Admin@123"
+      }
+    ],
+    "digitalghuru-franchise": [
+      {
+        "time": "12:42:11",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(mobile): apply safe area insets to prevent status bar overlay and embed brand logo in dashboard header, bump versionCode to 7"
+      },
+      {
+        "time": "11:58:14",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(mobile): embed official brand logo, fix API array response parsing to eliminate post-login crash, bump versionCode to 6"
+      },
+      {
+        "time": "11:01:30",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): configure live production backend url https://franchise.digitalghuru.com/api and bump versionCode to 5"
+      },
+      {
+        "time": "10:38:15",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/digitalghuru-franchise into padhma-priya"
+      },
+      {
+        "time": "10:31:59",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'sharika'"
+      },
+      {
+        "time": "10:31:23",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix: ensure server listens when managed under PM2"
+      },
+      {
+        "time": "10:22:39",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "docs: complete mobile startup crash investigation report with device verification"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "12:36:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "refactor(home): eliminate duplicate founding narrative and redundant milestone cards between Acharya Blessings and Trust sections"
+      },
+      {
+        "time": "11:48:52",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(contact): configure mapEmbedUrl and interactive Google Maps directions on Contact page"
+      },
+      {
+        "time": "11:43:18",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(tradition): redesign Vedic Tradition as 3-card sacred bento pavilion to ensure distinct visual identity"
+      },
+      {
+        "time": "11:29:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(whatsapp): ensure robust whatsapp connection across all cards, buttons, footer, and mobile drawer"
+      },
+      {
+        "time": "11:20:38",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(tradition): redesign Vedic Tradition section with modern motion animations and interactive storytelling"
+      },
+      {
+        "time": "11:09:28",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(trust): compact and shorten milestone cards layout"
+      },
+      {
+        "time": "11:02:18",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(trust): remove redundant bottom card grid and add clean pagination dots"
+      },
+      {
+        "time": "10:55:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(design): modern motion-rich redesign of Sacred Trust Announcement & Objectives"
+      },
+      {
+        "time": "10:30:06",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore: remove unused SVG placeholders, legacy components, and test scripts"
+      },
+      {
+        "time": "10:13:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore: remove unused screenshots and audit reports from docs folder"
+      }
+    ]
+  },
+  "2026-11-21": {
+    "Business_growth_assocites": [
+      {
+        "time": "16:51:06",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(notifications): ensure notification toast background is fully opaque and clearly readable at all times"
+      },
+      {
+        "time": "16:38:20",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: initialize prisma database schema with core models and enums"
+      },
+      {
+        "time": "16:20:52",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: enforce mandatory documents and profile image for BGA registration and profile view"
+      },
+      {
+        "time": "16:06:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(pdf): fix layout spacing and eliminate overlapping party and scope text in quotation pdf"
+      },
+      {
+        "time": "15:50:14",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(ui): add comprehensive skeleton loading animations across all portals and tabs"
+      },
+      {
+        "time": "15:49:47",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(admin): remove commission settings sub-tab to show approvals ledger directly"
+      },
+      {
+        "time": "15:44:33",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(auth): strictly deliver OTP via email and prevent in-browser exposure"
+      },
+      {
+        "time": "15:31:37",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(accounts): add comprehensive real-time validation for bank reference and utr in payout modal"
+      },
+      {
+        "time": "15:15:10",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(notifications): send final payment collection reminder to bga upon technical completion"
+      },
+      {
+        "time": "14:50:53",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(payment): display truthful payment status badges in bga portal and prevent premature completion"
+      },
+      {
+        "time": "14:30:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore: change button text to Send to BGA in technical portal feedback modal"
+      },
+      {
+        "time": "13:12:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add district field to BGA registration form and persist in database and profile"
+      },
+      {
+        "time": "12:59:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(resources): remove re-seeding of sample resources and delete dummy items from database"
+      },
+      {
+        "time": "12:28:15",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add BGA registration page component with multi-step flow and document uploads"
+      },
+      {
+        "time": "11:54:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(auth): enforce lowercase on email input and completely eliminate mobile OTP controls"
+      },
+      {
+        "time": "11:33:50",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(register): automatically transform text inputs to uppercase in real-time across all registration fields except passwords"
+      },
+      {
+        "time": "11:18:11",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(register): split bga registration into 4 compact tabs to eliminate vertical page scroll and lock branding panel in place"
+      },
+      {
+        "time": "11:08:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "refactor(auth): remove mobile OTP requirement and enforce strict format and unique mobile validation"
+      },
+      {
+        "time": "10:57:47",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(ui): clean up DOB visual badges and maintain dynamic yearly rollover"
+      },
+      {
+        "time": "10:43:36",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): enforce strict 18+ age requirement on DatePicker and registration flow"
+      },
+      {
+        "time": "10:34:45",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(ui): include current year 2026 in DatePicker year selection"
+      },
+      {
+        "time": "10:28:34",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(ui): implement modern unified DatePicker with fast Year/Month selector across website"
+      }
+    ],
+    "digitalghuru-franchise": [
+      {
+        "time": "17:55:07",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #4 from projectsatriowings/sharika"
+      },
+      {
+        "time": "16:00:21",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement centralized payments, revenue sharing, and franchise management modules"
+      }
+    ]
+  },
+  "2026-11-20": {
+    "Business_growth_assocites": [
+      {
+        "time": "18:00:58",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(auth): enhance OTP verification UI with explicit call-to-action cue and resilient fallback delivery"
+      },
+      {
+        "time": "17:34:45",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): complete email and mobile OTP verification for BGA registration"
+      },
+      {
+        "time": "17:23:44",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(register): attach registrationSessionId on registration submission"
+      },
+      {
+        "time": "17:22:22",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(notifications-audit): ensure internal note privacy, welcome email pending status, and startup durable email retry recovery"
+      },
+      {
+        "time": "17:09:32",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(notifications): complete centralized role-based in-app and email notification system with delivery tracking and technical team email routing"
+      },
+      {
+        "time": "15:57:04",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(bga-dashboard): balance dashboard cards, eliminate empty space in service distribution and add compact leaderboard view"
+      },
+      {
+        "time": "15:44:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(pdf): replace header with PROFESSIONAL QUOTATION across all quotation pdfs"
+      },
+      {
+        "time": "15:39:22",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(portal): restore sticky sidebar and header across all portals by removing overflow-x on body"
+      },
+      {
+        "time": "15:36:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): add local-only 1-click demo credentials to login page (hidden on live)"
+      },
+      {
+        "time": "15:00:14",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(responsive): resolve container overflow, navbar clipping on laptops, and adaptive hero typography"
+      },
+      {
+        "time": "14:56:01",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(pdf): replace BUSINESS QUOTATION header with QUOTATION in quotation pdf template"
+      },
+      {
+        "time": "14:42:39",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(auth): polish bga registration form inputs and step flow"
+      },
+      {
+        "time": "14:42:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(register): add aadhaar document upload, clean input layout, and rename bank proof to Bank passbook"
+      },
+      {
+        "time": "14:41:45",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(auth): update support modal with official corporate contact details from landing page"
+      },
+      {
+        "time": "14:27:19",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): match exact reference layout and background image for authentication suite"
+      },
+      {
+        "time": "14:04:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): high-fidelity corporate authentication redesign across login, registration, forgot-password, and reset-password"
+      },
+      {
+        "time": "12:22:46",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add BgaPortal component for business growth associate dashboard and management"
+      },
+      {
+        "time": "12:19:12",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(bga): populate client requiredService and expectedBudget from enquiry relation"
+      },
+      {
+        "time": "11:51:05",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(timeline): refine quotation history commission verification and activity timeline sequence"
+      },
+      {
+        "time": "11:45:12",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(bga): move acceptanceModal and revisionModal to global main container so they work inside client detail view"
+      },
+      {
+        "time": "11:35:10",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(quotations): display proposed/approved bga commission in accounts history, bga timeline, and bga quotations"
+      },
+      {
+        "time": "11:18:21",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(accounts): add proposed commission inputs to quotation builder and review"
+      },
+      {
+        "time": "10:55:44",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(timeline): distinguish requested quotation draft from prepared quote and filter completed follow-ups"
+      }
+    ],
+    "digitalghuru-franchise": [
+      {
+        "time": "17:54:03",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): configure unified single-project monorepo with outputDirectory and api serverless routing"
+      },
+      {
+        "time": "17:44:42",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(auth): safe client IP extraction in rate-limiter for serverless proxy environments and trust proxy"
+      },
+      {
+        "time": "17:39:06",
+        "author": "Sounderrajan S",
+        "email": "soundhersenthil07@gmail.com",
+        "msg": "Merge pull request #3 from projectsatriowings/Soundher-S"
+      },
+      {
+        "time": "17:31:02",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): prevent app.listen invocation in serverless environments, add root api serverless entrypoint"
+      },
+      {
+        "time": "16:54:51",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): include compiled server dist, resilient express handler, and dual api routing"
+      },
+      {
+        "time": "14:50:51",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): configure server entrypoint to index.js, guard db-bridge and dns for serverless, add argon2 fallback"
+      },
+      {
+        "time": "14:05:05",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(prisma): pin npx prisma@5 in postinstall and build scripts to prevent prisma 8 rc download"
+      },
+      {
+        "time": "13:35:24",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(build): resolve prisma CLI path in postinstall hook using npx and remove legacy api directory"
+      },
+      {
+        "time": "13:29:03",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "feat(server): add top-level entrypoint server/index.ts re-exporting src/index.js"
+      },
+      {
+        "time": "13:24:39",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): add entrypoint src/index.ts for server service and postinstall build hook"
+      },
+      {
+        "time": "13:19:57",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "feat(vercel): configure multi-service monorepo for web (apps/web) and server (server)"
+      },
+      {
+        "time": "12:52:44",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "fix(vercel): configure vercel serverless api adapter, output directory, and resolve deployment errors"
+      }
+    ]
+  },
+  "2026-11-19": {
+    "Business_growth_assocites": [
+      {
+        "time": "19:02:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites"
+      },
+      {
+        "time": "18:33:04",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(landing): replace internal approval jargon with clean partner-facing value points"
+      },
+      {
+        "time": "18:26:24",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(commissions): remove all fixed rates, implement dynamic Admin-configured ranges and informational policy"
+      },
+      {
+        "time": "16:46:41",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #11 from projectsatriowings/sharika"
+      },
+      {
+        "time": "16:45:45",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "16:42:36",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(workspace): unified client workspace with complete activity timeline, canonical deduplication, and single follow-up modal"
+      },
+      {
+        "time": "16:42:21",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(accounts): display FINAL PAYMENT VERIFIED instead of advance and streamline payment record/verification flow"
+      },
+      {
+        "time": "15:11:56",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #10 from projectsatriowings/sharika"
+      },
+      {
+        "time": "15:11:13",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "14:38:51",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(technical): authorize BGA role for technical portal communication and project feedback"
+      },
+      {
+        "time": "14:29:44",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(payments-history): sync advance and final payment verification and follow-up trail to BGA and Accounts client history"
+      },
+      {
+        "time": "14:21:02",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(client): auto-recover from stale chunks on deploy and add no-cache headers for index.html"
+      },
+      {
+        "time": "13:36:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(validation): enforce strict number, length and format validation across all form inputs"
+      },
+      {
+        "time": "13:12:09",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #9 from projectsatriowings/sharika"
+      },
+      {
+        "time": "13:10:47",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "13:10:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'padhma-priya'"
+      },
+      {
+        "time": "13:09:35",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites"
+      },
+      {
+        "time": "13:09:00",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into padhma-priya"
+      },
+      {
+        "time": "13:08:57",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "12:38:51",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(server): robustly resolve server .env path"
+      },
+      {
+        "time": "12:38:19",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(admin): polish associate profile view login time format and audit log styling"
+      },
+      {
+        "time": "12:37:49",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): enforce password complexity rules and live checklist on BGA registration"
+      },
+      {
+        "time": "12:35:46",
+        "author": "projectsatriowings",
+        "email": "projects.atriowings@gmail.com",
+        "msg": "Update README.md"
+      },
+      {
+        "time": "12:26:37",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(admin): commit pending associate profile view enhancements"
+      },
+      {
+        "time": "12:25:28",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): remove request identity correction option from profile identity & kyc view"
+      },
+      {
+        "time": "12:18:30",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): remove signed associate agreement document upload from registration and admin portal"
+      },
+      {
+        "time": "12:04:57",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "chore: add prisma generate to build scripts before tsc"
+      },
+      {
+        "time": "11:56:42",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #8 from projectsatriowings/sharika"
+      },
+      {
+        "time": "11:54:54",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "11:54:24",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement core authentication context, BGA onboarding flow, and admin management portal"
+      },
+      {
+        "time": "11:19:59",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(register): add bank name mandatory field and separate city, state, pincode fields"
+      },
+      {
+        "time": "11:06:31",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(dashboard): add rich analytics graphs, conversion funnels, and associate peer leaderboard to all portals"
+      },
+      {
+        "time": "10:56:16",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #7 from projectsatriowings/sharika"
+      },
+      {
+        "time": "10:53:42",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "10:48:00",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add BgaPortal component for BGA management interface"
+      },
+      {
+        "time": "10:41:48",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add role-specific portals for accounts, admin, bga, and technical users"
+      },
+      {
+        "time": "10:40:30",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(notifications): ensure notification tab closes only via cross icon and all notifications redirect accurately"
+      },
+      {
+        "time": "10:31:28",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): remove change password icon from top nav bar and maintain working modal in profile view"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "19:49:51",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add homepage hero, reveal animation, sacred trust announcement, and visual quality audit"
+      },
+      {
+        "time": "16:38:09",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add core components, pages, and website data for Seetharama Gurukulam"
+      },
+      {
+        "time": "13:06:58",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add core site components, pages, and sitemap generation script"
+      },
+      {
+        "time": "11:46:43",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add sitemap, gallery grid and lightbox, header navigation, and gallery page"
+      }
+    ]
+  },
+  "2026-11-18": {
+    "Business_growth_assocites": [
+      {
+        "time": "17:55:08",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #6 from projectsatriowings/sharika"
+      },
+      {
+        "time": "17:54:08",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "17:48:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(workflow): implement complete post-completion workflow, final payment clearance, admin commission governance and payouts"
+      },
+      {
+        "time": "17:32:44",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "chore: set default port to 5018 in ecosystem.config.cjs"
+      },
+      {
+        "time": "17:26:08",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(ui): add close cross icon and outside-click dismissal to notifications dropdown"
+      },
+      {
+        "time": "16:56:56",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #5 from projectsatriowings/sharika"
+      },
+      {
+        "time": "16:40:06",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "chore(deploy): add ecosystem.config.cjs, server env template, and install:all script for Hostinger VPS"
+      },
+      {
+        "time": "16:31:31",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "16:02:15",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(deliverables): add download option for technical deliverables and client documents"
+      },
+      {
+        "time": "15:33:55",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(technical): remove manual progress modal and streamline deliverable tracking"
+      },
+      {
+        "time": "15:31:54",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(technical): completely remove manual progress percentage modal and button"
+      },
+      {
+        "time": "15:13:55",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(server): implement automatic port 5000 release and self-healing startup"
+      },
+      {
+        "time": "14:42:42",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(workflow): ensure advance-verified work orders auto-release to technical portal and accurately reflect production status"
+      },
+      {
+        "time": "14:10:47",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(quotation-pdf): dynamically generate quotation PDF to reflect exact GST and commercial totals"
+      },
+      {
+        "time": "14:00:36",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(bga): clean up back button to display icon only in client workspace header"
+      },
+      {
+        "time": "13:38:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(workflow): automatic technical project release after advance payment verification"
+      },
+      {
+        "time": "13:16:52",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(admin): restore PDF Awaiting Draft badge for un-drafted requested quotations"
+      },
+      {
+        "time": "13:01:23",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(admin): add inline expandable Version 1 history, rejection reasons and audit directly on quotation monitoring table"
+      },
+      {
+        "time": "12:55:47",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(accounts): remove Tab A Payment Verification subtab and simplify Work Orders view"
+      },
+      {
+        "time": "12:51:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(admin): completely remove Services & Pricing page and tabs"
+      },
+      {
+        "time": "12:44:06",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'origin/main' into padhma-priya"
+      },
+      {
+        "time": "12:40:52",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: integrate QuotationHistoryTimeline component across all portals"
+      },
+      {
+        "time": "12:37:17",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #4 from projectsatriowings/sharika"
+      },
+      {
+        "time": "12:36:17",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement accounts portal frontend and backend routes"
+      },
+      {
+        "time": "12:27:25",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(vite): update proxy target to 127.0.0.1 to prevent Windows IPv6 timeout"
+      },
+      {
+        "time": "12:18:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(resources): add file upload for PPT, PDF and images in company resources"
+      },
+      {
+        "time": "12:15:11",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement AccountsPortal, AdminPortal, and utrValidator utilities"
+      },
+      {
+        "time": "12:04:50",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(quotations): hide PDF download for un-drafted requested quotations"
+      },
+      {
+        "time": "11:57:54",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(accounts): display approval remarks and workflow state for approved quotations instead of rejection warnings"
+      },
+      {
+        "time": "11:45:46",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'sharika' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "11:45:37",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "11:44:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'sharika' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "11:42:24",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add AdminPortal component with dashboard, associate management, and operations support"
+      },
+      {
+        "time": "11:35:43",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'sharika' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "11:32:39",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(quotation): align BGA pipeline & actions with real Accounts quotation lifecycle"
+      },
+      {
+        "time": "11:20:11",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(bga): resolve false overdue follow-up status and include contact activities in client list"
+      },
+      {
+        "time": "11:17:34",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): implement professional sequential Associate ID (AT-BGA-100X)"
+      },
+      {
+        "time": "11:01:12",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): add show/hide password toggle and real-time validation across all fields"
+      },
+      {
+        "time": "10:34:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(ui): clean up branding, simplify login page and portal headers/sidebars"
+      },
+      {
+        "time": "10:17:19",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(branding): complete Atriowings Technologies brand identity integration across all portals"
+      },
+      {
+        "time": "09:46:39",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge remote-tracking branch 'origin/main' into padhma-priya - resolve BgaPortal conflicts"
+      },
+      {
+        "time": "09:38:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga,admin): add client media upload and inspection workflows"
+      }
+    ],
+    "digitalghuru-franchise": [
+      {
+        "time": "17:14:36",
+        "author": "Sounderrajan S",
+        "email": "soundhersenthil07@gmail.com",
+        "msg": "Merge pull request #2 from projectsatriowings/Soundher-S"
+      },
+      {
+        "time": "16:50:36",
+        "author": "mansarajkumar18",
+        "email": "manasac2305@gmail.com",
+        "msg": "feat(ui,perf,courses): improve UX labels, fix password modal layering, optimize loading speed, enhance Course Management, and upgrade software typography"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "22:50:54",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add Vedic Gurukulam website pages, components, and services data"
+      },
+      {
+        "time": "18:12:16",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add enquiry form component and admission page"
+      },
+      {
+        "time": "15:31:35",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add AcharyaBlessings component, gallery photos, and sitemap"
+      }
+    ]
+  },
+  "2026-11-17": {
+    "Business_growth_assocites": [
+      {
+        "time": "18:27:11",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add BgaPortal component for Business Growth Associate dashboard"
+      },
+      {
+        "time": "18:26:31",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add media uploader component and portals for BGA and technical workflows"
+      },
+      {
+        "time": "18:26:25",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #3 from projectsatriowings/sharika"
+      },
+      {
+        "time": "18:25:06",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Enable Accountant correction and resubmission workflow for rejected/revised quotations until Admin approval"
+      },
+      {
+        "time": "18:04:25",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: implement routing, BGA and Technical portals, and server initialization"
+      },
+      {
+        "time": "18:01:38",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Add notification badge for pending quotation approvals in Admin Quotation Monitoring"
+      },
+      {
+        "time": "17:59:29",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'sharika' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "17:48:16",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Convert quotation reminder to direct 1-click notification and display prominent reminder alert in Accounts portal"
+      },
+      {
+        "time": "17:47:24",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(bga): clean up button text and deliverable handlers"
+      },
+      {
+        "time": "17:45:32",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style: polish button labels and technical deliverables view"
+      },
+      {
+        "time": "17:45:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(bga): remove redundant literal plus from add buttons"
+      },
+      {
+        "time": "17:42:32",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(technical): remove obsolete progressModal and align with milestone auto-progress"
+      },
+      {
+        "time": "17:37:53",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: complete client project portal and deliverables tracking"
+      },
+      {
+        "time": "17:36:54",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'sharika' into padhma-priya and resolve conflicts"
+      },
+      {
+        "time": "17:29:22",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(ui): global full-viewport modal backdrop, scroll-lock & fixed sidebar across all portals"
+      },
+      {
+        "time": "17:20:49",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Add enquiry rejection alert to BGA, client informing follow-up, and Admin visibility"
+      },
+      {
+        "time": "16:56:03",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Add BGA client consultation follow-up workflow and Admin verification"
+      },
+      {
+        "time": "16:49:03",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(admin): display complete client registration details in enquiry list and full details modal"
+      },
+      {
+        "time": "16:37:49",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'sharika' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "16:31:19",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(accounts): implement comprehensive operations dashboard and live financial command center"
+      },
+      {
+        "time": "16:28:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge remote-tracking branch 'origin/sharika' into padhma-priya"
+      },
+      {
+        "time": "16:18:11",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(navbar): reposition Portal Login next to Contact and enhance Become a Growth Associate visibility"
+      },
+      {
+        "time": "16:18:08",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Add clean:port utility script to package.json to release port 5000"
+      },
+      {
+        "time": "16:11:37",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(landing): resolve navbar collision and word-wrapping layout overflow"
+      },
+      {
+        "time": "16:06:20",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Business_growth_assocites into sharika"
+      },
+      {
+        "time": "16:06:03",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): enhance empty state messaging for commission ledger"
+      },
+      {
+        "time": "16:01:36",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "refactor(bga): remove 11-Stage Business Conversion Funnel component"
+      },
+      {
+        "time": "16:00:30",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(accounts): enhance quotation PDF download resilience and stream error handling"
+      },
+      {
+        "time": "15:51:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): unify My Clients with requests pipeline and implement comprehensive My Earnings dashboard"
+      },
+      {
+        "time": "15:45:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(client): extract BUSINESS_CATEGORIES constant to resolve Vite Fast Refresh HMR error"
+      },
+      {
+        "time": "15:27:45",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(accounts): hide record payment button once advance payment is verified"
+      },
+      {
+        "time": "15:04:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): completely remove Company Services page and navigation"
+      },
+      {
+        "time": "14:45:37",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(ui): upgrade all popups to modern animated modals and replace all native alerts with toast notifications"
+      },
+      {
+        "time": "14:38:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore(portals): synchronize portal components with zero build warnings"
+      },
+      {
+        "time": "14:35:32",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(bga): integrate official Atriowings contact details and support request desk into Associate Support"
+      },
+      {
+        "time": "14:27:52",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Fix BGA enquiry card falsely displaying 'Quotation Issued' when quotation is only in REQUESTED status"
+      },
+      {
+        "time": "14:10:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(client-mgmt): prevent accidental registration on Enter and implement comprehensive client editing"
+      },
+      {
+        "time": "13:03:18",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(server): handle EADDRINUSE error gracefully without leaving zombie process"
+      },
+      {
+        "time": "12:50:36",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'origin/main' into padhma-priya"
+      },
+      {
+        "time": "12:47:53",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: create landing and login page components"
+      },
+      {
+        "time": "12:45:49",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #2 from projectsatriowings/sharika"
+      },
+      {
+        "time": "12:44:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(portfolio): redesign showcase cards with modern glassmorphic framing and deliverable chips"
+      },
+      {
+        "time": "12:38:08",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(landing): remove full directory option and keep only dynamic stream in partner network"
+      },
+      {
+        "time": "12:36:20",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore(landing): sync streamlined partner stream and verified showcase updates"
+      },
+      {
+        "time": "12:35:08",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(landing): remove full directory option and keep only dynamic stream for verified brand network"
+      },
+      {
+        "time": "12:33:51",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(landing): remove url bar component from portfolio browser canvas"
+      },
+      {
+        "time": "12:22:12",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(landing): verify all lucide icon imports and stabilize interactive showcase carousel"
+      },
+      {
+        "time": "12:19:08",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(landing): enrich interactive FAQ assistant and streamline verified showcases"
+      },
+      {
+        "time": "12:16:01",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(portfolio): redesign featured work into compact interactive MotionSites showcase"
+      },
+      {
+        "time": "12:13:01",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(branding): set Atriowings emblem as official favicon and clean journey indicators"
+      },
+      {
+        "time": "12:08:39",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge origin/main into sharika: Adopt official Atriowings design and theme while preserving UTR validation and anti-flash loaders"
+      },
+      {
+        "time": "11:54:25",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mailer): integrate Nodemailer SMTP service and synchronize landing page phases"
+      },
+      {
+        "time": "11:35:57",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add Accounts and Admin portal pages, UTR validator, and API routes"
+      },
+      {
+        "time": "11:34:44",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore(server): update dependencies"
+      },
+      {
+        "time": "11:33:20",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(branding): use official Atriowings Technologies India Private Limited logo, remove BGA Enterprise from navbar, and redesign professional navbar"
+      },
+      {
+        "time": "11:22:04",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(branding): clean authentic client brand showcase"
+      },
+      {
+        "time": "11:20:16",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(portfolio): enrich client brand categories and add interactive view mode"
+      },
+      {
+        "time": "11:15:01",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(branding): integrate official Atriowings Technologies parent branding, verified portfolio assets, and backend contact API"
+      },
+      {
+        "time": "10:46:35",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add initial client components, portals, and landing page layout"
+      },
+      {
+        "time": "10:34:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): clean BGA login UI with 4 Quick Access demo accounts and safe JSON response handling"
+      },
+      {
+        "time": "10:01:56",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix: install compression and regenerate prisma client for server dev startup"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "18:16:31",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: initialize site design system, home page, routes, and sitemap generation"
+      },
+      {
+        "time": "18:16:22",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: establish master design system, site data, and core pages for Gurukulam web app"
+      }
+    ]
+  },
+  "2026-11-16": {
+    "Business_growth_assocites": [
+      {
+        "time": "18:11:23",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #1 from projectsatriowings/sharika"
+      },
+      {
+        "time": "18:08:27",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add accounts, admin, bga, and technical portals with backend routes, schema, and tests"
+      },
+      {
+        "time": "16:57:11",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge origin/main into sharika: resolve conflicts preserving performance optimizations, profile views, and error boundaries"
+      },
+      {
+        "time": "16:12:38",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'padhma-priya'"
+      },
+      {
+        "time": "16:12:11",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore: add TypeScript build info file"
+      },
+      {
+        "time": "16:11:31",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: implement BGA portal pages, routing, error boundary, and client management system"
+      },
+      {
+        "time": "16:10:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix: harden express server against malformed json payloads and add uncaught exception traps"
+      },
+      {
+        "time": "16:02:14",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: initialize Business Growth Associates management system and role-based portals"
+      },
+      {
+        "time": "15:40:47",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix: resolve admin dashboard stats property mismatch causing white screen, add ErrorBoundary"
+      },
+      {
+        "time": "15:25:34",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: audit admin portal, vertical associate profile navigation, and module integration"
+      },
+      {
+        "time": "14:56:26",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: complete associate profile view and full-width layout across all portals"
+      },
+      {
+        "time": "14:19:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add client frontend and server backend for Business Growth Associates management system"
+      },
+      {
+        "time": "14:12:34",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: complete Business Growth Associates Management System with four role-based login portals"
+      }
+    ]
+  },
+  "2026-11-23": {
+    "digitalghuru-franchise": [
+      {
+        "time": "18:09:39",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #5 from projectsatriowings/sharika"
+      },
+      {
+        "time": "18:06:33",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/digitalghuru-franchise into sharika"
+      },
+      {
+        "time": "18:06:15",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add mobile app screens, shared UI components, and backend controller modules"
+      },
+      {
+        "time": "18:03:22",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add mobile configuration, web package manifest, and crash investigation report"
+      },
+      {
+        "time": "17:40:54",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/digitalghuru-franchise into padhma-priya"
+      },
+      {
+        "time": "17:37:21",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add mobile application and backend modules for student, parent, and teacher portals"
+      },
+      {
+        "time": "17:30:26",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add franchise revenue and monthly settlements modules with payment integration"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "13:06:56",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: implement homepage completion components and visual audit tooling"
+      },
+      {
+        "time": "13:06:10",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add vercel configuration with routing and SPA rewrites"
+      },
+      {
+        "time": "12:57:53",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(homepage): redesign Sacred Trust Announcement and Aims & Objectives section"
+      },
+      {
+        "time": "12:20:16",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(acharyas): remove black frame and dark border around Paramacharyal portrait"
+      },
+      {
+        "time": "12:10:54",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: embed framed portrait of His Holiness Sri Paramacharyal in blessings memorial card"
+      },
+      {
+        "time": "12:01:00",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(vite): ignore temp SSG directory in server watcher and remove unused import"
+      },
+      {
+        "time": "11:54:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(audit): strict PDF-only content correction and verification across all pages and components"
+      },
+      {
+        "time": "11:31:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(hero): restore continuous gliding infinite scroll showcase in hero section"
+      },
+      {
+        "time": "11:09:10",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: complete Phase 2.2 homepage rebuild with remaining sections, full verification, and screenshots"
+      }
+    ]
+  },
+  "2026-11-14": {
+    "digitalghuru-franchise": [
+      {
+        "time": "20:00:29",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #1 from projectsatriowings/sharika"
+      },
+      {
+        "time": "19:55:18",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/digitalghuru-franchise into sharika"
+      },
+      {
+        "time": "19:47:39",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: implement franchise management frontend view and backend controllers"
+      },
+      {
+        "time": "19:31:20",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement application routing, franchise owner dashboard, and fees management module"
+      },
+      {
+        "time": "19:13:18",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(franchise): implement permanent franchise owner credentials and Super Admin management"
+      },
+      {
+        "time": "18:47:00",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement fees management module with frontend page and backend controller"
+      },
+      {
+        "time": "17:19:42",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(franchise): set mustChangePassword in creation response and update automated verification test suite"
+      },
+      {
+        "time": "16:57:07",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(franchise): atomic interactive transaction, duplicate-check endpoint, and double-click submission prevention"
+      },
+      {
+        "time": "16:15:36",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(franchise): resolve duplicate email registration collision, atomic transaction, and double-click prevention"
+      },
+      {
+        "time": "15:41:56",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/digitalghuru-franchise into sharika"
+      },
+      {
+        "time": "15:41:35",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add FranchiseCourses and StudentManagement pages with course enrollment and transfer features"
+      },
+      {
+        "time": "14:53:03",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore(audit): format sanitized remediation scripts"
+      },
+      {
+        "time": "14:38:58",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore(remediation): record database duplicate-email remediation, sanitized audit log, and postgres index verification"
+      },
+      {
+        "time": "14:19:49",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add staff management modules and components with validation utils"
+      },
+      {
+        "time": "13:49:09",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: merge all institute duplicate validation, details drawer, franchise dropdown and franchise management features into main"
+      },
+      {
+        "time": "13:42:40",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "git"
+      },
+      {
+        "time": "13:34:47",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(institutes): implement A08 duplicate institute validation, race-condition safety, and pre-migration guard"
+      },
+      {
+        "time": "12:53:54",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(super-admin): enable clicking institute row to open details drawer"
+      },
+      {
+        "time": "12:16:55",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(franchise): resolve React Router future flag warnings, optimize installment fetching, and prevent 400/500 errors on franchise creation"
+      },
+      {
+        "time": "11:19:08",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(super-admin): load available franchise centres in Add New Institute dropdown with loading, error retry, and status labeling"
+      },
+      {
+        "time": "11:09:19",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "chore: update super admin credentials and quick-login presets to superadmin@gmail.com"
+      }
+    ]
+  },
+  "2026-11-13": {
+    "digitalghuru-franchise": [
+      {
+        "time": "16:19:25",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "test: add unit test script for database safety guard validations"
+      },
+      {
+        "time": "16:17:25",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(safety): enforce dual-condition test db guard and verify 5-course media nullability"
+      },
+      {
+        "time": "16:09:34",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(phase-2): resolve authentic brochure file sizes, enforce pre-import safety guard, and verify media nullability"
+      },
+      {
+        "time": "15:48:36",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(phase-2): reconcile authentic course catalogue content, durations, attachments and test safety"
+      },
+      {
+        "time": "15:23:29",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(phase-2): complete global course catalogue e2e verification and governance suite"
+      },
+      {
+        "time": "14:57:07",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(milestone-1): complete genuine postgresql integration suite and align query media token verification"
+      },
+      {
+        "time": "14:35:47",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add Prisma client singleton with auto-reconnect middleware and transaction retry"
+      },
+      {
+        "time": "14:33:36",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(phase-1.1.4): correct CoursePlayer single retry and enforce genuine test db integration"
+      },
+      {
+        "time": "14:30:15",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(prisma): correct global singleton reference from basePrisma to prisma"
+      },
+      {
+        "time": "14:25:34",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(phase-2): clean singleton prisma export, stream error ui handling, and bounded player retry"
+      },
+      {
+        "time": "14:21:05",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' into feat/global-course-catalogue-integration"
+      },
+      {
+        "time": "14:20:26",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(phase-2): add E2E verification test and prisma connection hardening"
+      },
+      {
+        "time": "13:51:36",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(phase-1.1.3): final corrections for independent media secret, child-process restart persistence, db authorization integration, and player auto-refresh"
+      },
+      {
+        "time": "13:25:59",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add CoursePlayer component and test scripts for storage hardening and phase 1 verification"
+      },
+      {
+        "time": "13:06:30",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(phase-1.1.2): complete media security isolation, exact identity, media tokens, and storage integrity"
+      },
+      {
+        "time": "12:01:44",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add automated verification suite for Phase 1.1 storage hardening"
+      },
+      {
+        "time": "12:01:28",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add Phase 1 storage hardening verification and configuration modules"
+      },
+      {
+        "time": "10:30:29",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add courses controller with tenant authorization and management endpoints"
+      },
+      {
+        "time": "10:30:19",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add course player component and backend media security routes"
+      }
+    ],
+    "seetharama_gurukulam": [
+      {
+        "time": "15:57:25",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(contact): update official contact and whatsapp number to 8903039176"
+      },
+      {
+        "time": "15:52:36",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(contact): update official trust address to TTK Road, Alwarpet, Chennai"
+      },
+      {
+        "time": "15:14:03",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "style: make all headings bold across the entire website"
+      },
+      {
+        "time": "15:02:30",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "refactor: remove redundant support us page and consolidate enquiries into contact"
+      },
+      {
+        "time": "14:54:21",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(hero): add infinite scrolling card showcase to homepage hero"
+      },
+      {
+        "time": "12:35:45",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(hero): Phase 2 homepage hero and sacred trust announcement rebuild"
+      },
+      {
+        "time": "11:55:10",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: Seetharama Gurukulam website with master design system, veda-patshala content integration, and accessible header rebuild"
+      }
+    ]
+  },
+  "2026-11-12": {
+    "digitalghuru-franchise": [
+      {
+        "time": "22:34:02",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add curriculum management, student portal, and franchise course features"
+      }
+    ]
+  },
+  "2026-11-11": {
+    "digitalghuru-franchise": [
+      {
+        "time": "18:36:45",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: initialize web app frontend and franchise management server modules"
+      }
+    ]
+  },
+  "2026-11-10": {
+    "digitalghuru-franchise": [
+      {
+        "time": "20:10:39",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add franchise controller with tenant isolation and royalty management"
+      },
+      {
+        "time": "20:10:28",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add franchise management frontend and backend modules"
+      },
+      {
+        "time": "19:23:40",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add FranchiseManagement page component for franchise administration"
+      },
+      {
+        "time": "19:23:29",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add geofenced institute mapping and franchise management dashboard pages"
+      }
+    ]
+  },
+  "2026-11-06": {
+    "digitalghuru-franchise": [
+      {
+        "time": "18:22:06",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: implement frontend core layouts, navigation, and backend franchise modules"
+      },
+      {
+        "time": "14:09:56",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(db): add 30s Neon pooler transaction timeout and ignore uploads"
+      }
+    ]
+  },
+  "2026-11-03": {
+    "digitalghuru-franchise": [
+      {
+        "time": "20:20:27",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: initial project structure with web app, server, and shared packages"
+      }
+    ],
+    "promotional page kids": [
+      {
+        "time": "18:42:00",
+        "author": "ksyashwanth490",
+        "email": "ksyashwanth490@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page-"
+      },
+      {
+        "time": "18:41:16",
+        "author": "ksyashwanth490",
+        "email": "ksyashwanth490@gmail.com",
+        "msg": "new changes"
+      },
+      {
+        "time": "15:37:17",
+        "author": "Sangeethapriya S",
+        "email": "ssangeethapriya94@gmail.com",
+        "msg": "Merge pull request #3 from projectsatriowings/feature/unified-promo"
+      },
+      {
+        "time": "15:32:41",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "feat(announcement): upgrade top announcement bar with glowing beacon, gold badge, glass hotline pill and emerald WhatsApp button"
+      },
+      {
+        "time": "15:13:12",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "fix(navbar & icons): change 4 kids to 3 kids courses, streamline navbar links, replace emojis with professional lucide icons, and add rich hover animations"
+      },
+      {
+        "time": "14:39:29",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "feat(kids): integrate official brochure content for 3 grade courses (Grades 6-8, 9-10, 11-12) with 3-card layout"
+      },
+      {
+        "time": "14:07:24",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "fix: remove Faculty Mentors card from gallery section"
+      },
+      {
+        "time": "14:01:00",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "fix(nav): keep all navigation within promotional app and remove external digitalghuru links"
+      },
+      {
+        "time": "11:57:06",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "feat: consolidate promotional apps into unified SPA with routing and shared assets"
+      }
+    ],
+    "Tuition_software": [
+      {
+        "time": "22:03:50",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add payroll management module with calculation service and UI components"
+      },
+      {
+        "time": "13:16:32",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: implement frontend web application and management modules"
+      }
+    ]
+  },
+  "2026-11-04": {
+    "promotional page kids": [
+      {
+        "time": "17:59:51",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(kids): remove Complete Curriculum Breakdown by Grade section"
+      },
+      {
+        "time": "18:01:23",
+        "author": "Sangeetha Priya",
+        "email": "269452889+ssangeethapriya94-droid@users.noreply.github.com",
+        "msg": "fix(footer): change '4 Kids AI & Tech Program' to '3 Kids AI & Tech Courses'"
+      },
+      {
+        "time": "17:55:38",
+        "author": "kanishkaarunanandh",
+        "email": "132815671+kanishkaarunanandh@users.noreply.github.com",
+        "msg": "Merge pull request #8 from projectsatriowings/kanishkaarunanandh"
+      },
+      {
+        "time": "17:54:38",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "image changes"
+      },
+      {
+        "time": "17:48:39",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: enlarge navbar logo and typography, harmonize AI for Kids theme with Digital Marketing brand palette"
+      },
+      {
+        "time": "17:43:28",
+        "author": "kanishkaarunanandh",
+        "email": "132815671+kanishkaarunanandh@users.noreply.github.com",
+        "msg": "Merge pull request #7 from projectsatriowings/kanishkaarunanandh"
+      },
+      {
+        "time": "17:32:36",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat: redesign Parent FAQ with chat-style component and enlarge Tools section with interactive category orbit"
+      },
+      {
+        "time": "17:19:16",
+        "author": "kanishkaarunanandh",
+        "email": "132815671+kanishkaarunanandh@users.noreply.github.com",
+        "msg": "Merge pull request #6 from projectsatriowings/kanishkaarunanandh"
+      },
+      {
+        "time": "16:44:30",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page- into kanishkaarunanandh"
+      },
+      {
+        "time": "16:40:36",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat: redesign Training Gallery with infinite loop and FLIP lightbox, redesign FAQ as interactive chat conversation, and remove Course Details section"
+      },
+      {
+        "time": "16:39:04",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page-"
+      },
+      {
+        "time": "15:20:39",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "chore: remove all remaining panel state variables and handlers from Career Opportunities"
+      },
+      {
+        "time": "15:13:10",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "revert: revert redesign AI for Kids course showcase and navbar adjustments (f5c802d)"
+      },
+      {
+        "time": "14:43:36",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat(careers): integrate all role details and skills directly into 3D cards, remove separate detail panel, and expand card dimensions to 320x420"
+      },
+      {
+        "time": "14:42:44",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: redesign AI for Kids course showcase with minimal cards, interactive motion, and dynamic in-page detail sections"
+      },
+      {
+        "time": "14:30:16",
+        "author": "kanishkaarunanandh",
+        "email": "132815671+kanishkaarunanandh@users.noreply.github.com",
+        "msg": "Merge pull request #5 from projectsatriowings/kanishkaarunanandh"
+      },
+      {
+        "time": "14:25:53",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "fix(careers): step-based 3D carousel rotation with discrete active highlight and synchronized panel"
+      },
+      {
+        "time": "14:10:41",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "chore: remove About the Course section, update navigation links to #curriculum, and delete unused asset"
+      },
+      {
+        "time": "14:02:22",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "fix(careers): fix 3D carousel clipping, dynamic radius, smooth color-mix blending, and single-source-of-truth front tracking"
+      },
+      {
+        "time": "13:47:03",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat(careers): redesign Career Opportunities section into 3D rotating carousel ring with drag, snap, detail panel, and zero icons"
+      },
+      {
+        "time": "12:48:28",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(footer): correct SVG fill from invalid fill-currentColor to fill-current text-slate-200 for social media icons"
+      },
+      {
+        "time": "12:46:00",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: remove final CTA banner section from both digital marketing and kids pages"
+      },
+      {
+        "time": "12:42:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(kids): remove official course banners section"
+      },
+      {
+        "time": "12:31:09",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(hero): slightly increase hero image height by ~0.5cm"
+      },
+      {
+        "time": "12:28:36",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat(tools): enlarge section, add category chips, stat boxes with count-up, and responsive orbit"
+      },
+      {
+        "time": "12:26:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: remove About the Course section from Digital Marketing page"
+      },
+      {
+        "time": "12:19:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "style(hero): reduce hero student image height and scale background glow"
+      },
+      {
+        "time": "12:13:42",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "style(why-choose): restyle auto-cycling showcase to reference design with flat coral panel, compact list, and crisp circles"
+      },
+      {
+        "time": "12:07:13",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page- into kanishkaarunanandh"
+      },
+      {
+        "time": "12:05:25",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page- into kanishkaarunanandh"
+      },
+      {
+        "time": "12:04:08",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/promotional_page-"
+      },
+      {
+        "time": "11:59:45",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "feat(why-choose): redesign into animated auto-cycling showcase with 3D tilt, count-up stats, and progress bars"
+      },
+      {
+        "time": "11:59:16",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix: sync package-lock.json with react-router-dom and dependencies"
+      },
+      {
+        "time": "11:45:22",
+        "author": "kanishkaarunanandh",
+        "email": "132815671+kanishkaarunanandh@users.noreply.github.com",
+        "msg": "Merge pull request #4 from projectsatriowings/kanishkaarunanandh"
+      },
+      {
+        "time": "11:45:15",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "fix(orbit): rebuild orbit with centered badge, exact radial slot math, and aligned grid layout"
+      },
+      {
+        "time": "11:39:29",
+        "author": "kanishkaarunanandh",
+        "email": "kanishka0000012@gmail.com",
+        "msg": "digital marketing"
+      }
+    ],
+    "Tuition_software": [
+      {
+        "time": "17:57:24",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(mobile): lock react-native-svg to 15.2.0 compatible with Expo 51 and React Native 0.74"
+      },
+      {
+        "time": "17:45:56",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): adopt lucide icons across all screens, modals, navigation and empty states"
+      },
+      {
+        "time": "17:20:17",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into sharika"
+      },
+      {
+        "time": "17:09:04",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' into sharika: preserve payroll routes and adopt lazyWithRetry"
+      },
+      {
+        "time": "17:05:35",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(auth): fix student/parent initial credentials, remove forced password update, and refine credential modal"
+      },
+      {
+        "time": "16:58:39",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(web): suppress SSE stream proxy ECONNRESET in Vite dev logger"
+      },
+      {
+        "time": "15:51:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): add cloud and local wifi presets for server connection"
+      },
+      {
+        "time": "15:41:54",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(fees): add all-class tuition fee structures (Class 1-12) and prominent class badges in assignment modal"
+      },
+      {
+        "time": "15:23:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): add build:apk and build:apk:release convenience scripts"
+      },
+      {
+        "time": "15:16:29",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(mobile): bundle javascript assets into debug and release APKs for standalone install"
+      },
+      {
+        "time": "15:02:16",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(mobile): update org.gradle.java.home to local JDK 17 path"
+      },
+      {
+        "time": "14:35:52",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(fees): implement complete reusable fee structure management with Indian tuition components, installments & live assignment breakdown"
+      },
+      {
+        "time": "14:31:00",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(notifications,attendance): include full date in check-in alerts and ensure exact local calendar dates"
+      },
+      {
+        "time": "14:00:02",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(web): replace blood group text input with dropdown in student admission form"
+      },
+      {
+        "time": "13:15:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(web,fees): auto-recover from stale chunks on deployment and allow cross-institute fee statements for parents"
+      },
+      {
+        "time": "12:13:24",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(web): resolve @fix-webm-duration/fix with fallback utility and silence expected SSE proxy ECONNRESET"
+      },
+      {
+        "time": "12:12:33",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(parent): allow parents to view teachers and portal across all linked children and institutes"
+      },
+      {
+        "time": "11:45:51",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "test(payroll): verify full calculation engine and end-to-end database payroll pipeline"
+      }
+    ]
+  },
+  "2026-11-05": {
+    "Tuition_software": [
+      {
+        "time": "17:16:21",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(auth): configure super admin credentials as superadmin@gmail.com with admin@123"
+      },
+      {
+        "time": "16:34:48",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add mobile UI components and screens for admin and staff portals"
+      },
+      {
+        "time": "16:19:22",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add AI question generator modal component for mobile app"
+      },
+      {
+        "time": "16:18:23",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): add AdminPayrollModal component"
+      },
+      {
+        "time": "16:17:17",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(web): align AI Question Generator icon color with standard sidebar icons"
+      },
+      {
+        "time": "16:00:40",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add Android launcher icons and mobile app assets"
+      },
+      {
+        "time": "15:29:07",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add mobile components for branch management, fee structures, and staff attendance/payslips"
+      },
+      {
+        "time": "15:26:59",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): integrate main branch feature parity across all roles"
+      },
+      {
+        "time": "15:07:54",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "checkpoint: prior to fixing student profile data mapping and card navigation"
+      },
+      {
+        "time": "14:56:50",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #18 from projectsatriowings/sharika"
+      },
+      {
+        "time": "14:48:23",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' into sharika: resolve conflicts in Navbar and Sidebar preserving multi-branch selector and mobile drawer"
+      },
+      {
+        "time": "14:38:12",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add mobile api client service with caching and auto-refresh"
+      },
+      {
+        "time": "14:02:40",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(branches): automatically generate unique branch code from branch name with frontend auto-fill and backend fallback"
+      },
+      {
+        "time": "14:01:43",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: add AnimatedBottomNavItem and InteractiveBottomSheet mobile components"
+      },
+      {
+        "time": "14:00:38",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): reference-based motion enhancements across notifications, tab bar, bottom sheets, text fields, and auth"
+      },
+      {
+        "time": "13:46:53",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into sharika"
+      },
+      {
+        "time": "11:05:16",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "fix(web): resolve unique key warning in StaffMyAttendance and opt into React Router future flags"
+      },
+      {
+        "time": "11:01:31",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(multi-branch): implement enterprise multi-branch institute management, geofence shifts, student transfers, and conflict detection"
+      },
+      {
+        "time": "10:49:57",
+        "author": "Sri Padhma Piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(web): add mobile responsive sidebar drawer, backdrop lock and reflow content"
+      }
+    ]
+  },
+  "2026-11-02": {
+    "Tuition_software": [
+      {
+        "time": "20:29:03",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into padhma-priya"
+      },
+      {
+        "time": "19:42:27",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #17 from projectsatriowings/sharika"
+      },
+      {
+        "time": "19:30:57",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into padhma-priya"
+      },
+      {
+        "time": "18:55:09",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add server entry point and vercel deployment configuration"
+      },
+      {
+        "time": "17:45:23",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #16 from projectsatriowings/sharika"
+      },
+      {
+        "time": "17:26:57",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into sharika"
+      },
+      {
+        "time": "17:26:25",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add environment configuration and production validation module"
+      },
+      {
+        "time": "17:06:20",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #15 from projectsatriowings/sharika"
+      },
+      {
+        "time": "17:03:56",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into sharika"
+      },
+      {
+        "time": "16:53:21",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): implement Prompt 4 screen transitions, list polish, and final motion system"
+      },
+      {
+        "time": "16:44:40",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add shared package with core types and utilities"
+      },
+      {
+        "time": "16:43:00",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): implement Prompt 3 pop-ups, dialogs, sheets, and notification animations"
+      },
+      {
+        "time": "16:25:14",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): implement Prompt 2 touch feedback, pressable scale, and double-submit guards"
+      },
+      {
+        "time": "16:01:33",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat(mobile): implement Prompt 1 animation foundation, safe motion system, and representative ChangePasswordScreen"
+      },
+      {
+        "time": "15:49:42",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #14 from projectsatriowings/sharika"
+      },
+      {
+        "time": "15:32:29",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "Merge branch 'main' of https://github.com/projectsatriowings/Tuition_software into sharika"
+      },
+      {
+        "time": "15:29:42",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: initialize backend server with express and api routing"
+      },
+      {
+        "time": "15:29:08",
+        "author": "sri padhma piriya",
+        "email": "sripadhmapiriya12@gmail.com",
+        "msg": "feat: initialize mobile app structure with role-based screens and navigation"
+      },
+      {
+        "time": "15:19:08",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #13 from projectsatriowings/sharika"
+      },
+      {
+        "time": "15:18:12",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: initialize server package configuration and file storage utility"
+      },
+      {
+        "time": "13:18:05",
+        "author": "SHARIKA RAJAN",
+        "email": "151808048+Sharikarajan07@users.noreply.github.com",
+        "msg": "Merge pull request #12 from projectsatriowings/sharika"
+      },
+      {
+        "time": "13:16:26",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat: add core application layout, role-based routing, and staff management views"
+      },
+      {
+        "time": "10:45:37",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "fix(web): constrain staff photo upload preview dimensions and styling"
+      },
+      {
+        "time": "10:37:01",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(staff): add staff photo upload during staff creation and directory avatars"
+      },
+      {
+        "time": "10:09:18",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(web): modernize and redesign staff attendance admin page"
+      },
+      {
+        "time": "09:49:38",
+        "author": "Sharikarajan07",
+        "email": "shaarika.rajan@gmail.com",
+        "msg": "feat(wfh): add Single Day vs Date Range duration toggle and clean up single-day table display"
+      }
+    ]
+  }
+}

@@ -1,5 +1,6 @@
 import {
   CheckCircle2,
+  ExternalLink,
   Globe,
   Mail,
   MapPin,
@@ -96,21 +97,33 @@ export default function Contact() {
                 </div>
               </Reveal>
 
-              {/* Map Embed */}
+              {/* Map Embed & Direct Directions */}
               <Reveal delay={0.1}>
                 <div className="overflow-hidden rounded-2xl border border-gold-soft bg-ivory shadow-xs">
-                  <iframe
-                    title="Map to Seetha Rama Gurukulam Trust, Alwarpet, Chennai"
-                    src={site.mapEmbedUrl}
-                    width="600"
-                    height="280"
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    allowFullScreen
-                    className="w-full border-0"
-                  />
-                  <div className="p-3.5 bg-cream/70 text-xs text-ink-soft text-center border-t border-gold-soft/40">
-                    Veda Bhavan, No. 486, T.T.K. Road, Alwarpet, Chennai – 600018
+                  <div className="relative aspect-[16/10] sm:aspect-[2/1] w-full bg-cream">
+                    <iframe
+                      title="Map to Seetha Rama Gurukulam Trust, Alwarpet, Chennai"
+                      src={site.mapEmbedUrl}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      allowFullScreen
+                      className="absolute inset-0 h-full w-full border-0"
+                    />
+                  </div>
+                  <div className="flex flex-col sm:flex-row items-center justify-between gap-2 p-3.5 bg-cream/70 text-xs text-ink-soft border-t border-gold-soft/40">
+                    <div className="flex items-center gap-1.5 text-center sm:text-left">
+                      <MapPin size={14} className="text-saffron-deep shrink-0" />
+                      <span>{site.locationName}: {site.addressLines[0]}, {site.addressLines[1]}, {site.addressLines[2]}</span>
+                    </div>
+                    <a
+                      href={site.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 inline-flex items-center gap-1 font-semibold text-maroon hover:text-saffron-deep hover:underline"
+                    >
+                      <span>Open Map</span>
+                      <ExternalLink size={12} />
+                    </a>
                   </div>
                 </div>
               </Reveal>

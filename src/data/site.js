@@ -26,6 +26,8 @@ export const site = {
   ],
   fullAddress: 'New No. 486 (Old No. 176), T.T.K. Road, Alwarpet, Chennai – 600018, Tamil Nadu',
   locationName: 'Veda Bhavan, Alwarpet, Chennai',
+  mapEmbedUrl: 'https://maps.google.com/maps?q=486+TTK+Road,+Alwarpet,+Chennai+600018&t=&z=15&ie=UTF8&iwloc=&output=embed',
+  googleMapsUrl: 'https://maps.google.com/?q=486+TTK+Road,+Alwarpet,+Chennai+600018',
 
   // Chronology & Legal Standing (Strict PDF)
   patasalaStartedYear: '1996',

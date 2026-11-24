@@ -3,3 +3,5 @@ dist/
 .vite-react-ssg-temp/
 .env
 .DS_Store
+docs/screenshots/
+docs/audit-results.json

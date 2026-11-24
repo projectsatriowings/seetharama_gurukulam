@@ -93,7 +93,7 @@ export default function Header() {
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
             {/* Desktop & Tablet Primary Action: Admission Enquiry */}
             <Link
-              to="/admission"
+              to="/contact"
               className="hidden h-10 items-center justify-center rounded-full bg-saffron px-6 text-[14px] font-bold text-maroon-dark shadow-xs whitespace-nowrap transition-all duration-200 hover:-translate-y-px hover:bg-[#f0a64a] hover:shadow-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron focus-visible:ring-offset-2 active:translate-y-0 sm:inline-flex"
             >
               Admission Enquiry

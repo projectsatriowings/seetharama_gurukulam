@@ -59,7 +59,7 @@ export const site = {
   cta: {
     admission: {
       label: 'Admission Enquiry',
-      to: '/admission',
+      to: '/contact',
       shortLabel: 'Admission',
       ariaLabel: 'Enquire for Gurukulam student admission',
     },
@@ -100,7 +100,7 @@ export const site = {
     { label: 'About the Trust', to: '/about' },
     { label: 'Veda Patasala', to: '/gurukulam' },
     { label: 'Prayoga & Studies', to: '/parayanam-pooja' },
-    { label: 'Admission Enquiry', to: '/admission' },
+    { label: 'Admission Enquiry', to: '/contact' },
     { label: 'Gurukulam Gallery', to: '/gallery' },
     { label: 'Contact Details', to: '/contact' },
     { label: 'Privacy Policy', to: '/privacy' },

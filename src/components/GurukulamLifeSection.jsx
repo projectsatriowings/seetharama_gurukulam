@@ -311,7 +311,7 @@ export default function GurukulamLifeSection() {
                     />
                   </Link>
                   <Link
-                    to="/admission"
+                    to="/contact"
                     className="inline-flex items-center gap-1 rounded-full border border-gold-soft bg-ivory px-3.5 py-2 text-xs font-semibold text-saffron-deep transition hover:border-gold hover:bg-gold-soft/20"
                   >
                     <span>Admission Information</span>

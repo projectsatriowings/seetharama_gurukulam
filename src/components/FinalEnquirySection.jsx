@@ -91,7 +91,7 @@ export default function FinalEnquirySection() {
 
               <div className="mt-8 pt-6 border-t border-gold/20 flex flex-col sm:flex-row gap-3">
                 <Link
-                  to="/admission"
+                  to="/contact"
                   className="group inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-saffron px-5 py-3 font-sans text-sm font-bold text-maroon-dark shadow-sm transition hover:bg-[#f0a64a] focus:outline-none focus:ring-2 focus:ring-cream"
                 >
                   <span>Admission Enquiry</span>

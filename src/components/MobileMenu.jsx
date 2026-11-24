@@ -206,7 +206,7 @@ export default function MobileMenu({ open, onClose, triggerRef }) {
             {/* Call To Action Buttons */}
             <div className="border-t border-gold/25 bg-black/25 px-5 py-5 sm:px-6">
               <Link
-                to="/admission"
+                to="/contact"
                 onClick={onClose}
                 className="flex min-h-[48px] w-full items-center justify-center gap-2 rounded-full bg-saffron px-5 py-3 text-center text-[15px] font-bold text-maroon-dark shadow-md transition-all hover:bg-[#f0a64a] active:translate-y-px"
               >

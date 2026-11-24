@@ -303,7 +303,7 @@ export default function VedicTraditionSection() {
               </Link>
 
               <Link
-                to="/admission"
+                to="/contact"
                 className="inline-flex flex-1 md:flex-initial items-center justify-center gap-2 rounded-xl border border-gold/50 bg-ivory/10 px-5 py-3 font-sans text-xs sm:text-sm font-semibold text-ivory backdrop-blur-xs transition hover:bg-ivory/20 focus:outline-none focus:ring-2 focus:ring-gold"
               >
                 <span>Admission Enquiry</span>

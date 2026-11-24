@@ -4,6 +4,11 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/admission",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
       "source": "/donation-enquiry",
       "destination": "/contact",
       "permanent": true

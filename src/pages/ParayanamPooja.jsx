@@ -5,7 +5,6 @@ import {
   BookOpen,
   Calendar,
   CheckCircle2,
-  ChevronRight,
   Clock,
   ExternalLink,
   Flame,
@@ -18,7 +17,6 @@ import {
   ShieldCheck,
   Sparkles,
 } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import PageHero from '../components/PageHero.jsx'
 import Reveal from '../components/Reveal.jsx'
 import SEO from '../components/SEO.jsx'
@@ -422,22 +420,6 @@ export default function ParayanamPooja() {
                     className="transition-transform duration-300 group-hover:translate-x-1"
                   />
                 </a>
-
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 rounded-xl border border-gold/50 bg-ivory/10 px-6 py-3.5 font-sans text-sm font-semibold text-ivory backdrop-blur-xs transition hover:bg-ivory/20 focus:outline-none focus:ring-2 focus:ring-gold"
-                >
-                  <span>Visit Contact &amp; Seva Page</span>
-                  <ChevronRight size={15} />
-                </Link>
-
-                <Link
-                  to="/admission"
-                  className="inline-flex items-center gap-2 rounded-xl border border-gold/50 bg-ivory/10 px-6 py-3.5 font-sans text-sm font-semibold text-ivory backdrop-blur-xs transition hover:bg-ivory/20 focus:outline-none focus:ring-2 focus:ring-gold"
-                >
-                  <span>Admission Enquiry</span>
-                  <ChevronRight size={15} />
-                </Link>
               </div>
 
               {/* 80-G Tax Notice */}

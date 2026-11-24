@@ -31,7 +31,7 @@ export default function Home() {
         title="The Vedas – Eternal Glory of Our Tradition"
         subtitle="Founded in 1996 with two students under Veda Vidyalankara, Vidya Ratnam Sri V. Rajagopala Ganapatigal with the blessings of His Holiness Sri Paramacharyal of Sri Kanchi Kamakoti Peetam, imparting traditional Gurukula oral education in Krishna Yajur Veda."
         primary={{ label: 'Explore the Gurukulam', to: '/gurukulam' }}
-        secondary={{ label: 'Admission Enquiry', to: '/admission' }}
+        secondary={{ label: 'Admission Enquiry', to: '/contact' }}
       />
 
       {/* ─────────────────────────────────────────────────────────────

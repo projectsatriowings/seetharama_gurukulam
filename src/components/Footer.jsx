@@ -29,7 +29,7 @@ export default function Footer() {
           <nav aria-label="Footer enquiries">
             <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Enquiries</h3>
             <ul className="mt-4 space-y-2">
-              <li><Link to="/admission" className="text-cream/85 hover:text-gold-soft">Admission Enquiry</Link></li>
+              <li><Link to="/contact" className="text-cream/85 hover:text-gold-soft">Admission Enquiry</Link></li>
               <li><Link to="/parayanam-pooja" className="text-cream/85 hover:text-gold-soft">Prayoga & Studies</Link></li>
               <li><Link to="/contact" className="text-cream/85 hover:text-gold-soft">General & Seva Contact</Link></li>
             </ul>

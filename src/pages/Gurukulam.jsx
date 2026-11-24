@@ -550,7 +550,7 @@ export default function Gurukulam() {
               {/* Action Buttons */}
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <Link
-                  to="/admission"
+                  to="/contact"
                   className="group inline-flex items-center gap-2 rounded-xl bg-saffron px-6 py-3.5 font-sans text-sm font-bold text-maroon-dark shadow-md transition-all duration-300 hover:bg-[#f0a64a] hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-ivory"
                 >
                   <span>Admission Enquiry &amp; Eligibility</span>

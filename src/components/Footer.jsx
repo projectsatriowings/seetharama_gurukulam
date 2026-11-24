@@ -16,7 +16,9 @@ export default function Footer() {
               <h2 className="font-serif text-2xl font-semibold">{site.name}</h2>
             </div>
             <p className="mt-3 text-[15px] leading-relaxed text-cream/80">{site.tagline}. A place of traditional learning, discipline and seva.</p>
-            <p className="mt-4 text-sm text-gold-soft">{site.registrationNumber} · Established: {site.establishedYear}</p>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-gold-soft">
+              Patasala Started: {site.patasalaStartedYear} · Trust Regd: {site.trustRegisteredYear}
+            </p>
           </div>
           <nav aria-label="Footer quick links">
             <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-gold">Quick links</h3>
@@ -46,7 +48,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-gold/40 pt-6 text-center text-sm text-cream/70">
-          <p>{site.registrationNumber} · Established: {site.establishedYear}</p>
+          <p className="font-serif text-sm font-medium text-gold-soft">
+            Seetha Rama Gurukula Veda Patasala (Estd. {site.patasalaStartedYear}) · {site.trustType} (Regd. {site.trustRegisteredYear})
+          </p>
           <p className="mt-2">Made with devotion for the preservation of Vedic wisdom.</p>
           <p className="mt-1 text-xs text-gold-soft/90">Contributions to Seetha Rama Gurukulam Trust are eligible for tax exemption under Section 80-G of the Income Tax Act.</p>
         </div>

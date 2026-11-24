@@ -32,6 +32,8 @@ export const site = {
   // Chronology & Legal Standing (Strict PDF)
   patasalaStartedYear: '1996',
   trustRegisteredYear: '2008',
+  establishedYear: '1996 (Patasala) · 2008 (Trust)',
+  registrationNumber: 'Non-Profitable Charitable Trust',
   trustType: 'Non-Profitable Charitable Trust under the Indian Trusts Act',
   taxExemption: 'Contributions are eligible for tax exemption under Section 80-G of the Income Tax Act.',
 

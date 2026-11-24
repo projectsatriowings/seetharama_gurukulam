@@ -38,8 +38,9 @@ export default function Gallery() {
             aria-hidden="true"
           />
 
-          <div className="site-container relative z-10 text-center max-w-4xl mx-auto">
-            {/* Traditional Vedic Eyebrow */}
+          <div className="site-container relative z-10 text-center">
+            <div className="max-w-4xl mx-auto">
+              {/* Traditional Vedic Eyebrow */}
             <div className="inline-flex items-center justify-center gap-3">
               <span className="h-px w-8 sm:w-12 bg-gold/80" aria-hidden="true" />
               <span className="text-[11px] font-sans font-bold uppercase tracking-[0.28em] text-saffron-deep sm:text-xs">
@@ -82,7 +83,8 @@ export default function Gallery() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
         {/* ── SECTION TWO: CURATED VISUAL ARCHIVE GRID (ZERO DUPLICATION, NO 2-LINE DESCRIPTIONS) ── */}
         <section className="py-12 sm:py-16 lg:py-20">

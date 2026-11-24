@@ -350,9 +350,10 @@ export default function Contact() {
 
       {/* ── 4. CONTRIBUTIONS & SECTION 80-G EXEMPTION ── */}
       <section className="bg-cream py-16 sm:py-20 border-t border-gold-soft/50">
-        <div className="site-container max-w-4xl mx-auto">
-          <Reveal>
-            <div className="rounded-2xl border border-gold-soft bg-ivory p-6 sm:p-8 shadow-xs">
+        <div className="site-container">
+          <div className="max-w-4xl mx-auto">
+            <Reveal>
+              <div className="rounded-2xl border border-gold-soft bg-ivory p-6 sm:p-8 shadow-xs">
               <div className="flex items-center gap-2">
                 <ShieldCheck size={20} className="text-saffron-deep" />
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-saffron-deep">
@@ -393,7 +394,8 @@ export default function Contact() {
             </div>
           </Reveal>
         </div>
-      </section>
+      </div>
+    </section>
     </>
   )
 }

@@ -25,9 +25,10 @@ export default function About() {
 
       {/* ── 1. HISTORICAL FOUNDATION & SACRED BLESSINGS ── */}
       <section className="py-14 sm:py-18">
-        <div className="site-container grid grid-cols-1 gap-10 lg:grid-cols-12 w-full min-w-0 max-w-full">
-          {/* Institutional History */}
-          <div className="w-full min-w-0 max-w-full lg:col-span-7">
+        <div className="site-container">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
+            {/* Institutional History */}
+            <div className="lg:col-span-7">
             <Reveal>
               <div className="inline-flex items-center gap-2 rounded-full border border-gold-soft bg-cream px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-saffron-deep">
                 Institutional Origin
@@ -85,7 +86,7 @@ export default function About() {
           </div>
 
           {/* Acharya Blessing Card */}
-          <div className="w-full min-w-0 max-w-full lg:col-span-5">
+          <div className="lg:col-span-5">
             <Reveal delay={0.1}>
               <div className="h-full rounded-2xl border border-gold/40 bg-maroon-dark p-6 sm:p-8 text-cream shadow-warm flex flex-col justify-between">
                 <div>
@@ -113,7 +114,8 @@ export default function About() {
             </Reveal>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* ── 2. AIMS & OBJECTIVES OF THE TRUST ── */}
       <section className="bg-ivory py-14 sm:py-18 border-y border-gold-soft/50">
@@ -233,9 +235,10 @@ export default function About() {
 
       {/* ── 4. OFFICIAL TRUST & CONTRIBUTION INFORMATION ── */}
       <section className="bg-cream py-14 border-t border-gold-soft/50">
-        <div className="site-container max-w-4xl mx-auto">
-          <Reveal>
-            <div className="rounded-2xl border border-gold-soft bg-ivory p-6 sm:p-8 shadow-sm">
+        <div className="site-container">
+          <div className="max-w-4xl mx-auto">
+            <Reveal>
+              <div className="rounded-2xl border border-gold-soft bg-ivory p-6 sm:p-8 shadow-sm">
               <h3 className="font-serif text-2xl font-bold text-maroon">
                 Trust Registration &amp; Tax Exemption
               </h3>
@@ -270,7 +273,8 @@ export default function About() {
             </div>
           </Reveal>
         </div>
-      </section>
+      </div>
+    </section>
     </>
   )
 }

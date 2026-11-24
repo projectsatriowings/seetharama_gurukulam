@@ -16,6 +16,10 @@ export default function FinalEnquirySection() {
     site.whatsappNumber,
     whatsappMessages['/contact'] || 'Namaste, I would like to get in touch with Seetharama Gurukulam Trust.'
   )
+  const whatsappAdmissionUrl = whatsappLink(
+    site.whatsappNumber,
+    whatsappMessages['/admission'] || 'Namaste, I would like to enquire about student admission at Seetha Rama Gurukulam Veda Patasala.'
+  )
 
   return (
     <section
@@ -85,10 +89,10 @@ export default function FinalEnquirySection() {
                 </div>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-gold/20">
+              <div className="mt-8 pt-6 border-t border-gold/20 flex flex-col sm:flex-row gap-3">
                 <Link
                   to="/admission"
-                  className="group inline-flex w-full items-center justify-center gap-2 rounded-lg bg-saffron px-5 py-3 font-sans text-sm font-bold text-maroon-dark shadow-sm transition hover:bg-[#f0a64a] focus:outline-none focus:ring-2 focus:ring-cream"
+                  className="group inline-flex flex-1 items-center justify-center gap-2 rounded-lg bg-saffron px-5 py-3 font-sans text-sm font-bold text-maroon-dark shadow-sm transition hover:bg-[#f0a64a] focus:outline-none focus:ring-2 focus:ring-cream"
                 >
                   <span>Admission Enquiry</span>
                   <ArrowRight
@@ -96,6 +100,17 @@ export default function FinalEnquirySection() {
                     aria-hidden="true"
                   />
                 </Link>
+
+                <a
+                  href={whatsappAdmissionUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Enquire about Admission on WhatsApp"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg border border-gold/40 bg-maroon px-4 py-3 font-sans text-sm font-semibold text-cream hover:border-gold transition focus:outline-none focus:ring-2 focus:ring-gold"
+                >
+                  <MessageCircle className="h-4 w-4 text-whatsapp" aria-hidden="true" />
+                  <span className="hidden sm:inline">WhatsApp</span>
+                </a>
               </div>
             </div>
           </Reveal>
@@ -159,17 +174,29 @@ export default function FinalEnquirySection() {
         <Reveal>
           <div className="mt-12 rounded-xl border border-gold/25 bg-maroon/40 p-6 backdrop-blur-xs max-w-4xl mx-auto">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 text-center sm:text-left">
-              {/* Phone */}
+              {/* Phone & WhatsApp */}
               <div className="flex flex-col items-center sm:items-start">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-gold-soft">
                   Telephone & WhatsApp
                 </span>
-                <a
-                  href={`tel:${site.phoneTel}`}
-                  className="mt-1 font-serif text-base sm:text-lg font-bold text-cream hover:text-saffron transition"
-                >
-                  {site.phoneDisplay}
-                </a>
+                <div className="mt-1 flex items-center gap-2">
+                  <a
+                    href={`tel:${site.phoneTel}`}
+                    className="font-sans text-base sm:text-lg font-bold text-cream hover:text-saffron transition tracking-wide"
+                  >
+                    {site.phoneDisplay}
+                  </a>
+                  <a
+                    href={whatsappDevoteeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 rounded bg-whatsapp/20 px-2 py-0.5 text-xs font-semibold text-whatsapp hover:bg-whatsapp/30 transition"
+                    aria-label="Direct chat on WhatsApp"
+                  >
+                    <MessageCircle size={12} />
+                    <span>Chat</span>
+                  </a>
+                </div>
               </div>
 
               {/* Email */}

@@ -1,6 +1,7 @@
-import { Mail, MapPin, Phone } from 'lucide-react'
+import { Mail, MapPin, MessageCircle, Phone } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { site } from '../data/site.js'
+import { whatsappLink } from '../utils/whatsapp.js'
 import OrnamentDivider from './OrnamentDivider.jsx'
 
 export default function Footer() {
@@ -38,6 +39,7 @@ export default function Footer() {
             <address className="mt-4 space-y-3 text-[15px] not-italic text-cream/85">
               <p className="flex gap-2"><MapPin size={18} className="mt-1 shrink-0 text-gold" />{site.addressLines.join(', ')}</p>
               <p><a href={`tel:${site.phoneTel}`} className="flex gap-2 hover:text-gold-soft"><Phone size={18} className="mt-1 shrink-0 text-gold" />{site.phoneDisplay}</a></p>
+              <p><a href={whatsappLink('Namaste, I would like to contact Seetha Rama Gurukulam Trust.')} target="_blank" rel="noopener noreferrer" className="flex gap-2 hover:text-gold-soft"><MessageCircle size={18} className="mt-1 shrink-0 text-whatsapp" />WhatsApp: {site.phoneDisplay}</a></p>
               <p><a href={`mailto:${site.email}`} className="flex gap-2 hover:text-gold-soft"><Mail size={18} className="mt-1 shrink-0 text-gold" />{site.email}</a></p>
               {site.visitingHours ? <p>Visiting hours: {site.visitingHours}</p> : null}
             </address>

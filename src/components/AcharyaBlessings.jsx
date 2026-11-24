@@ -278,7 +278,7 @@ export default function AcharyaBlessings() {
                   {/* 1996 Milestone */}
                   <div className="group rounded-xl border border-gold/30 bg-black/20 p-4 transition-all duration-200 hover:border-gold hover:bg-black/30">
                     <div className="flex items-center gap-2">
-                      <span className="font-serif text-2xl font-bold text-saffron sm:text-3xl">
+                      <span className="font-sans text-2xl font-bold text-saffron sm:text-3xl">
                         1996
                       </span>
                       <span className="h-px flex-1 bg-gold/30" aria-hidden="true" />
@@ -295,7 +295,7 @@ export default function AcharyaBlessings() {
                   {/* 2008 Milestone */}
                   <div className="group rounded-xl border border-gold/30 bg-black/20 p-4 transition-all duration-200 hover:border-gold hover:bg-black/30">
                     <div className="flex items-center gap-2">
-                      <span className="font-serif text-2xl font-bold text-saffron sm:text-3xl">
+                      <span className="font-sans text-2xl font-bold text-saffron sm:text-3xl">
                         2008
                       </span>
                       <span className="h-px flex-1 bg-gold/30" aria-hidden="true" />

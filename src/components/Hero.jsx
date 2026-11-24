@@ -265,7 +265,7 @@ export default function Hero({
             <div className="mt-10 hidden grid-cols-4 divide-x divide-gold-soft/60 border-t border-gold-soft/60 pt-7 sm:grid lg:mt-12">
               {stats.map(({ value, label }) => (
                 <div key={label} className="px-3 first:pl-0 last:pr-0">
-                  <p className="font-serif text-[20px] font-bold leading-none text-maroon lg:text-[24px]">
+                  <p className="font-sans text-[20px] font-bold leading-none text-maroon lg:text-[24px]">
                     {value}
                   </p>
                   <p className="mt-1 text-[10px] font-medium uppercase tracking-wider text-ink-soft">
@@ -427,7 +427,7 @@ export default function Hero({
       <div className="mt-10 grid grid-cols-2 gap-px border-t border-gold-soft/50 bg-gold-soft/20 sm:hidden">
         {stats.map(({ value, label }) => (
           <div key={label} className="bg-[#FDFAF3] px-5 py-4">
-            <p className="font-serif text-[20px] font-bold text-maroon">{value}</p>
+            <p className="font-sans text-[20px] font-bold text-maroon">{value}</p>
             <p className="text-[10px] font-medium uppercase tracking-wider text-ink-soft">{label}</p>
           </div>
         ))}

@@ -2,6 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 
+ * UNIFORM NUMERICAL TYPOGRAPHY:
+ * All digits (0-9) across the entire website use the clean lining sans font (Manrope)
+ * from the right side of the institutional information bar.
+ */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('@fontsource/manrope/files/manrope-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  src: url('@fontsource/manrope/files/manrope-latin-500-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  src: url('@fontsource/manrope/files/manrope-latin-600-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  src: url('@fontsource/manrope/files/manrope-latin-700-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  src: url('@fontsource/manrope/files/manrope-latin-400-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  src: url('@fontsource/manrope/files/manrope-latin-600-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 700;
+  src: url('@fontsource/manrope/files/manrope-latin-700-normal.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
+
 :root {
   /* Typography Tokens */
   --font-head: 'Cormorant Garamond', Georgia, serif;
@@ -71,7 +126,13 @@
   .site-container { @apply mx-auto w-full max-w-content px-4 sm:px-6 lg:px-8; }
 }
 
-html { scroll-behavior: smooth; overflow-x: hidden; }
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-feature-settings: 'lnum' 1, 'tnum' 1;
+  font-feature-settings: 'lnum' 1, 'tnum' 1;
+}
 body { @apply bg-cream text-ink font-sans antialiased; font-family: var(--font-body); font-size: 17px; line-height: 1.7; overflow-x: hidden; width: 100%; }
 h1, h2, h3, h4, h5, h6 { font-family: var(--font-head); font-weight: 700; }
 ::selection { background: #fdeedd; color: #4a1212; }

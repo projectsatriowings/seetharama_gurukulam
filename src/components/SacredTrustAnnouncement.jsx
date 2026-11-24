@@ -10,9 +10,7 @@ import {
   Building,
   CheckCircle2,
   Heart,
-  History,
   Library,
-  MapPin,
   Scroll,
   ShieldCheck,
   Sparkles,
@@ -91,28 +89,6 @@ const officialObjectives = [
   },
 ]
 
-// Verified Chronology Milestones from PDF - Concise & Balanced
-const milestones = [
-  {
-    year: '1996',
-    title: 'Patasala Founded',
-    subtitle: 'Started with 2 students under Sri V. Rajagopala Ganapatigal with Sri Paramacharyal’s blessings.',
-    icon: History,
-  },
-  {
-    year: '2008',
-    title: 'Trust Registered',
-    subtitle: 'Registered Non-Profitable Charitable Trust under the Indian Trusts Act.',
-    icon: ShieldCheck,
-  },
-  {
-    year: 'Today',
-    title: 'Veda Bhavan, Alwarpet',
-    subtitle: 'Brahmasri R. Srikrishna Ganapatigal carries forward the sacred legacy.',
-    icon: MapPin,
-  },
-]
-
 export default function SacredTrustAnnouncement() {
   const [activeTab, setActiveTab] = useState(0)
   const [isHovering, setIsHovering] = useState(false)
@@ -139,7 +115,9 @@ export default function SacredTrustAnnouncement() {
     <section
       id="sacred-trust-announcement"
       aria-labelledby="trust-announcement-heading"
-      className="relative overflow-hidden bg-gradient-to-b from-[#FAF5EC] via-[#F6EEE1] to-[#FAF5EC] py-16 sm:py-20 lg:py-28 border-b border-gold-soft/50 text-ink"
+      className="relative overflow-hidden bg-gradient-to-b from-[#FAF5EC] via-[#F6EEE1] to-[#FAF5EC] py-16 sm:py-20 lg:py-24 border-b border-gold-soft/50 text-ink"
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
     >
       {/* Decorative Traditional Kolam Background Motif */}
       <div className="pattern-kolam absolute inset-0 opacity-[0.08]" aria-hidden="true" />
@@ -155,101 +133,48 @@ export default function SacredTrustAnnouncement() {
       />
 
       <div className="site-container relative z-10">
-        {/* ── PART 1: INSTITUTIONAL HERITAGE & HEROIC MILESTONE ── */}
-        <div className="mx-auto max-w-4xl text-center">
+        {/* ── SECTION HEADER: AIMS AND OBJECTIVES OF THE TRUST ── */}
+        <div className="mx-auto max-w-3xl text-center">
           <Reveal>
             <div className="inline-flex items-center gap-2 rounded-full border border-gold/50 bg-ivory/80 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.22em] text-saffron-deep shadow-xs backdrop-blur-xs">
               <Sparkles size={13} className="text-saffron animate-pulse" aria-hidden="true" />
-              <span>Historical Charter &amp; Foundation</span>
+              <span>Official Institutional Charter</span>
             </div>
 
             <h2
               id="trust-announcement-heading"
               className="mt-4 font-serif text-3xl font-bold leading-tight tracking-tight text-maroon sm:text-4xl md:text-5xl lg:text-[46px]"
             >
-              Seetha Rama Gurukulam Trust
+              Aims and Objectives of the Trust
             </h2>
 
-            <p className="mx-auto mt-4 max-w-3xl font-sans text-base leading-relaxed text-ink-soft sm:text-lg">
-              Seetha Rama Gurukula Veda Patasala started in <strong>1996</strong> with two students under{' '}
-              <em className="text-maroon font-medium">Veda Vidyalankara, Vidya Ratnam</em> Sri V.
-              Rajagopala Ganapatigal with the blessings and grace of His Holiness Sri Paramacharyal of
-              Sri Kanchi Kamakoti Peetam. Following its growth, the Trust was constituted and
-              registered in <strong>2008</strong> as a Non-Profitable Charitable Trust under the
-              Indian Trusts Act, later shifting to{' '}
-              <strong>Veda Bhavan, No. 486, T.T.K. Road, Alwarpet, Chennai – 600018</strong>. Today,{' '}
-              <strong className="text-maroon">Brahmasri R. Srikrishna Ganapatigal</strong> carries
-              forward the sacred work of his father and guru.
+            <p className="mx-auto mt-4 max-w-2xl font-sans text-base leading-relaxed text-ink-soft sm:text-[17px]">
+              The foundational pillars enshrined in the official charter of{' '}
+              <strong className="text-maroon font-semibold">Seetha Rama Gurukulam Trust</strong>,
+              constituted as a Non-Profitable Charitable Trust under the Indian Trusts Act at Veda
+              Bhavan, Alwarpet.
             </p>
-          </Reveal>
 
-          {/* ── 3-Stage Milestone Horizon (Compact Motion Timeline) ── */}
-          <div className="mt-7 grid grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4 text-left">
-            {milestones.map((item, idx) => {
-              const ItemIcon = item.icon
-              return (
-                <Reveal key={item.year} delay={idx * 0.08}>
-                  <div className="group relative flex h-full flex-col justify-between rounded-xl border border-gold-soft/80 bg-ivory/95 p-3.5 sm:p-4 shadow-2xs backdrop-blur-xs transition-all duration-300 hover:-translate-y-0.5 hover:border-gold hover:shadow-card">
-                    <div className="flex items-start justify-between gap-2">
-                      <div>
-                        <span className="font-serif text-xl sm:text-2xl font-bold text-saffron-deep leading-none">
-                          {item.year}
-                        </span>
-                        <h3 className="mt-1 font-serif text-sm sm:text-base font-bold text-maroon leading-tight">
-                          {item.title}
-                        </h3>
-                      </div>
-                      <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-saffron/10 text-maroon transition-transform duration-300 group-hover:scale-110">
-                        <ItemIcon size={14} aria-hidden="true" />
-                      </div>
-                    </div>
-                    <p className="mt-2 text-[11.5px] sm:text-xs text-ink-soft leading-relaxed">
-                      {item.subtitle}
-                    </p>
-                  </div>
-                </Reveal>
-              )
-            })}
-          </div>
-
-          {/* ── Institutional Credential Badges ── */}
-          <Reveal delay={0.25}>
-            <div className="mt-8 flex flex-wrap items-center justify-center gap-3 text-xs font-semibold text-maroon">
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-4 py-1.5 shadow-2xs transition hover:border-gold">
+            {/* Institutional Credential Badges */}
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-2.5 text-xs font-semibold text-maroon">
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-3.5 py-1.5 shadow-2xs">
                 <ShieldCheck size={14} className="text-saffron-deep" />
-                <span>Non-Profitable Charitable Trust (Regd. 2008)</span>
+                <span>Regd. Charitable Trust (2008)</span>
               </span>
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-4 py-1.5 shadow-2xs transition hover:border-gold">
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-3.5 py-1.5 shadow-2xs">
                 <Scroll size={14} className="text-saffron-deep" />
                 <span>Section 80-G Tax Exemption</span>
               </span>
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-4 py-1.5 shadow-2xs transition hover:border-gold">
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-gold-soft bg-ivory px-3.5 py-1.5 shadow-2xs">
                 <Award size={14} className="text-saffron-deep" />
-                <span>100% Free Vedic Education Throughout Course</span>
+                <span>100% Free Vedic Education</span>
               </span>
             </div>
           </Reveal>
         </div>
 
-        {/* ── PART 2: REDESIGNED MODERN AIMS & OBJECTIVES SHOWCASE ── */}
-        <div
-          className="mt-16 lg:mt-24"
-          onMouseEnter={() => setIsHovering(true)}
-          onMouseLeave={() => setIsHovering(false)}
-        >
-          {/* Header */}
-          <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-            <span className="text-[11px] font-bold uppercase tracking-[0.24em] text-saffron-deep">
-              Official Objectives
-            </span>
-            <h3 className="mt-2 font-serif text-3xl font-bold text-maroon sm:text-4xl">
-              Aims and Objectives of the Trust
-            </h3>
-            <p className="mt-3 text-sm text-ink-soft sm:text-base">
-              The foundational pillars enshrined in the official charter of Seetha Rama Gurukulam Trust.
-            </p>
-          </div>
-
+        {/* ── 5 OFFICIAL OBJECTIVES SHOWCASE (Motion Tabs & Bento Spotlight) ── */}
+        <div className="mt-12 sm:mt-14">
           {/* ── Interactive Objective Nav Tabs (Motion Slider) ── */}
           <div className="relative mx-auto max-w-5xl">
             <div className="no-scrollbar flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-3 pt-1 px-2">

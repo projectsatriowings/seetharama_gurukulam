@@ -353,7 +353,7 @@ export default function ParayanamPooja() {
                   </div>
 
                   <p className="mt-4 text-[11px] text-ink-muted italic">
-                    * Clearly distinguished as an institutional proposal currently under planning and not yet open for routine public enrolment.
+                    * Clearly distinguished as an institutional proposal currently under planning and not yet open for routine public enrollment.
                   </p>
                 </div>
               </div>

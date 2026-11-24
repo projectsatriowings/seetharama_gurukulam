@@ -80,7 +80,7 @@ export default function FinalEnquirySection() {
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-cream/80 sm:text-[15px]">
-                  Enrol your son in traditional Krishna Yajur Veda adhyayanam. Candidates are screened and selected after Upanayanam. All facilities—free Vedic education throughout the course, boarding, lodging, clothing, medical care, and travel expenses to hometown—are provided.
+                  Enroll your son in traditional Krishna Yajur Veda adhyayanam. Candidates are screened and selected after Upanayanam. All facilities—free Vedic education throughout the course, boarding, lodging, clothing, medical care, and travel expenses to hometown—are provided.
                 </p>
 
                 <div className="mt-4 inline-flex items-center gap-2 text-xs text-gold-soft/90">

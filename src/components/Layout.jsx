@@ -18,13 +18,13 @@ export default function Layout() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [pathname])
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col overflow-x-clip w-full max-w-full">
       <div aria-hidden="true" className="fixed left-0 top-0 z-[60] h-[3px] bg-saffron transition-[width] duration-150" style={{ width: `${progress}%` }} />
       <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-maroon focus:px-5 focus:py-3 focus:text-cream">
         Skip to main content
       </a>
       <Header />
-      <main id="main-content" className={pathname === "/" ? "flex-1" : "flex-1 pt-[76px] lg:pt-[84px]"}>
+      <main id="main-content" className={`flex-1 overflow-x-clip w-full max-w-full ${pathname === "/" ? "" : "pt-[76px] lg:pt-[84px]"}`}>
         <Outlet />
       </main>
       <Footer />

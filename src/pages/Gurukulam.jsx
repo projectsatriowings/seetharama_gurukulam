@@ -473,21 +473,21 @@ export default function Gurukulam() {
                   return (
                     <Reveal key={facility.id} delay={idx * 0.06}>
                       <div className="group rounded-xl border border-gold-soft/80 bg-ivory/95 p-4 sm:p-5 shadow-2xs transition-all duration-300 hover:border-gold hover:shadow-card hover:-translate-y-0.5">
-                        <div className="flex items-center justify-between gap-3">
-                          <div className="flex items-center gap-3.5">
-                            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-saffron/10 text-maroon transition-transform duration-300 group-hover:scale-110">
+                        <div className="flex items-center justify-between gap-2.5 sm:gap-3">
+                          <div className="flex items-center gap-2.5 sm:gap-3.5 min-w-0">
+                            <div className="flex h-9 w-9 sm:h-10 sm:w-10 shrink-0 items-center justify-center rounded-xl bg-saffron/10 text-maroon transition-transform duration-300 group-hover:scale-110">
                               <FacilityIcon size={18} aria-hidden="true" />
                             </div>
-                            <div>
-                              <h3 className="font-serif text-base font-bold text-maroon">
+                            <div className="min-w-0">
+                              <h3 className="font-serif text-sm sm:text-base font-bold text-maroon truncate sm:whitespace-normal">
                                 {facility.title}
                               </h3>
-                              <p className="mt-0.5 text-xs text-ink-soft leading-relaxed">
+                              <p className="mt-0.5 text-[11px] sm:text-xs text-ink-soft leading-relaxed line-clamp-1 sm:line-clamp-none">
                                 {facility.subtitle}
                               </p>
                             </div>
                           </div>
-                          <span className="shrink-0 rounded-full border border-gold-soft bg-cream px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-saffron-deep">
+                          <span className="shrink-0 rounded-full border border-gold-soft bg-cream px-2 sm:px-3 py-0.5 sm:py-1 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-saffron-deep">
                             {facility.tag}
                           </span>
                         </div>

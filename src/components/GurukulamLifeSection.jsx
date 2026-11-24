@@ -183,11 +183,11 @@ export default function GurukulamLifeSection() {
                     </div>
 
                     {/* Bottom Caption Overlay */}
-                    <div className="absolute bottom-0 inset-x-0 p-4 sm:p-5 text-cream">
-                      <p className="font-serif text-base sm:text-xl font-bold tracking-wide leading-snug">
+                    <div className="absolute bottom-0 inset-x-0 p-3.5 sm:p-5 text-cream">
+                      <p className="font-serif text-sm sm:text-xl font-bold tracking-wide leading-snug line-clamp-1 sm:line-clamp-none">
                         {photos[activePhoto].title}
                       </p>
-                      <p className="mt-1 text-xs sm:text-[13px] text-cream/85">
+                      <p className="mt-0.5 sm:mt-1 text-[11px] sm:text-[13px] text-cream/85 line-clamp-2">
                         {photos[activePhoto].caption}
                       </p>
                     </div>
@@ -195,7 +195,7 @@ export default function GurukulamLifeSection() {
                 </div>
 
                 {/* Interactive Thumbnail Selector beneath */}
-                <div className="mt-4 grid grid-cols-3 gap-3">
+                <div className="mt-3.5 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-3">
                   {photos.map((p, idx) => {
                     const isCurrent = idx === activePhoto
                     return (
@@ -203,7 +203,7 @@ export default function GurukulamLifeSection() {
                         key={p.id}
                         type="button"
                         onClick={() => setActivePhoto(idx)}
-                        className={`group relative overflow-hidden rounded-xl border text-left transition-all duration-300 cursor-pointer ${
+                        className={`group relative min-w-0 w-full overflow-hidden rounded-xl border text-left transition-all duration-300 cursor-pointer ${
                           isCurrent
                             ? 'border-gold bg-white ring-2 ring-gold/40 shadow-sm -translate-y-0.5'
                             : 'border-gold-soft/70 bg-cream/70 opacity-75 hover:opacity-100 hover:border-gold hover:bg-white'
@@ -217,8 +217,8 @@ export default function GurukulamLifeSection() {
                             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
                         </div>
-                        <div className="px-2.5 py-1.5">
-                          <p className="truncate text-[10.5px] font-bold text-maroon tracking-wide">
+                        <div className="px-1.5 py-1 sm:px-2.5 sm:py-1.5">
+                          <p className="truncate text-[10px] sm:text-[10.5px] font-bold text-maroon tracking-tight sm:tracking-wide">
                             {p.badge}
                           </p>
                         </div>

@@ -109,7 +109,7 @@ export default function FinalEnquirySection() {
                   className="inline-flex items-center justify-center gap-2 rounded-lg border border-gold/40 bg-maroon px-4 py-3 font-sans text-sm font-semibold text-cream hover:border-gold transition focus:outline-none focus:ring-2 focus:ring-gold"
                 >
                   <MessageCircle className="h-4 w-4 text-whatsapp" aria-hidden="true" />
-                  <span className="hidden sm:inline">WhatsApp</span>
+                  <span>WhatsApp</span>
                 </a>
               </div>
             </div>
@@ -163,7 +163,7 @@ export default function FinalEnquirySection() {
                   className="inline-flex items-center justify-center gap-2 rounded-lg border border-gold/40 bg-maroon px-4 py-3 font-sans text-sm font-semibold text-cream hover:border-gold transition focus:outline-none focus:ring-2 focus:ring-gold"
                 >
                   <MessageCircle className="h-4 w-4 text-whatsapp" aria-hidden="true" />
-                  <span className="hidden sm:inline">WhatsApp</span>
+                  <span>WhatsApp</span>
                 </a>
               </div>
             </div>

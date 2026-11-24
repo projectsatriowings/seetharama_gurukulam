@@ -1,4 +1,3 @@
-import { Phone } from 'lucide-react'
 import { useLocation } from 'react-router-dom'
 import { site } from '../data/site.js'
 import { messageForRoute, whatsappLink } from '../utils/whatsapp.js'
@@ -15,14 +14,19 @@ export default function WhatsAppButton() {
   const { pathname } = useLocation()
   const href = whatsappLink(messageForRoute(pathname))
   return (
-    <div className="fixed bottom-5 right-4 z-40 flex flex-col items-end gap-3 sm:bottom-6 sm:right-6">
-      <a href={`tel:${site.phoneTel}`} aria-label={`Call ${site.name}`} className="flex h-12 w-12 items-center justify-center rounded-full bg-maroon text-cream shadow-warm transition hover:bg-saffron-deep sm:hidden">
-        <Phone size={22} />
-      </a>
-      <a href={href} target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp" className="group flex items-center gap-3">
-        <span className="hidden rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink shadow-card group-hover:block sm:group-hover:block">Chat with us</span>
-        <span className="whatsapp-pulse flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-warm">
-          <WhatsAppIcon />
+    <div className="fixed bottom-4 right-4 z-40 flex items-center sm:bottom-6 sm:right-6">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
+        className="group flex items-center gap-2 sm:gap-3"
+      >
+        <span className="hidden rounded-full bg-white px-3.5 py-1.5 text-xs font-semibold text-ink shadow-card group-hover:block sm:group-hover:block">
+          Chat with us
+        </span>
+        <span className="whatsapp-pulse flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-warm transition-transform duration-300 hover:scale-105">
+          <WhatsAppIcon size={24} />
         </span>
       </a>
     </div>

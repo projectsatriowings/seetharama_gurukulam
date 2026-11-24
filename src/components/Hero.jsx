@@ -455,7 +455,7 @@ export default function Hero({
           {/* ── LEFT: Editorial content ── */}
           <div className="lg:col-span-6 xl:col-span-5">
             {/* Exact PDF Heading: The Vedas – Eternal Glory of Our Tradition */}
-            <h1 className="font-serif text-[34px] sm:text-[46px] md:text-[52px] lg:text-[52px] xl:text-[58px] font-bold leading-[1.1] tracking-tight text-maroon">
+            <h1 className="font-serif text-[30px] xs:text-[34px] sm:text-[46px] md:text-[52px] lg:text-[52px] xl:text-[58px] font-bold leading-[1.12] tracking-tight text-maroon">
               The Vedas –{' '}
               <span className="block font-serif italic font-normal text-saffron-deep">
                 Eternal Glory of Our Tradition
@@ -489,16 +489,16 @@ export default function Hero({
               onMouseLeave={() => setIsHovered(false)}
             >
               {/* Showcase Top Header Pill */}
-              <div className="mb-3 flex items-center gap-2 px-2">
-                <span className="flex h-2 w-2 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
-                <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-maroon/80">
+              <div className="mb-2.5 sm:mb-3 flex items-center gap-2 px-1 sm:px-2">
+                <span className="flex h-2 w-2 shrink-0 rounded-full bg-saffron animate-pulse" aria-hidden="true" />
+                <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider sm:tracking-[0.2em] text-maroon/80 truncate">
                   Gurukula Oral Vedic Education · Visual Showcase
                 </span>
               </div>
 
               {/* 3D Coverflow Cards Stage */}
               <div
-                className="relative h-[340px] sm:h-[390px] lg:h-[420px] w-full overflow-hidden py-3"
+                className="relative h-[310px] xs:h-[340px] sm:h-[390px] lg:h-[420px] w-full overflow-hidden py-3"
                 style={{
                   perspective: '1100px',
                   perspectiveOrigin: 'center center',
@@ -531,7 +531,7 @@ export default function Hero({
                           setActiveIndex(idx)
                         }
                       }}
-                      className="absolute left-1/2 top-1/2 w-[215px] h-[285px] sm:w-[255px] sm:h-[340px] lg:w-[275px] lg:h-[365px] transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] select-none"
+                      className="absolute left-1/2 top-1/2 w-[190px] h-[255px] xs:w-[215px] xs:h-[285px] sm:w-[255px] sm:h-[340px] lg:w-[275px] lg:h-[365px] transition-all duration-700 ease-[cubic-bezier(0.25,1,0.5,1)] select-none"
                       style={{
                         transform: `translate(-50%, -50%) translateX(${transform.xPercent}%) translateZ(${transform.zOffset}px) rotateY(${transform.rotateY}deg) scale(${transform.scale})`,
                         transformStyle: 'preserve-3d',

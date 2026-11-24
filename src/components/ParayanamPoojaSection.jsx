@@ -31,9 +31,9 @@ export default function ParayanamPoojaSection() {
       />
 
       <div className="site-container relative">
-        <div className="grid items-center gap-12 lg:grid-cols-12 lg:gap-14">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14 w-full min-w-0 max-w-full">
           {/* Narrative Column (7 cols) */}
-          <div className="lg:col-span-7">
+          <div className="w-full min-w-0 max-w-full lg:col-span-7">
             <Reveal>
               <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-maroon/60 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-saffron-soft shadow-xs backdrop-blur-xs">
                 <Flame className="h-3 w-3 text-saffron" aria-hidden="true" />
@@ -120,7 +120,7 @@ export default function ParayanamPoojaSection() {
           </div>
 
           {/* Authentic Photograph Column (5 cols) */}
-          <div className="lg:col-span-5">
+          <div className="w-full min-w-0 max-w-full lg:col-span-5">
             <Reveal>
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div

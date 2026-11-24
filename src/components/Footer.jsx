@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="bg-maroon-dark text-cream">
       <div className="site-container pb-28 pt-14 sm:pb-14">
         <OrnamentDivider className="mb-10 opacity-80" />
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-3">
               <img src="/logo-circle.png" alt="" width="56" height="56" className="h-14 w-14 shrink-0 rounded-full object-cover" />

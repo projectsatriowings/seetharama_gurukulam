@@ -25,9 +25,9 @@ export default function About() {
 
       {/* ── 1. HISTORICAL FOUNDATION & SACRED BLESSINGS ── */}
       <section className="py-14 sm:py-18">
-        <div className="site-container grid gap-10 lg:grid-cols-12">
+        <div className="site-container grid grid-cols-1 gap-10 lg:grid-cols-12 w-full min-w-0 max-w-full">
           {/* Institutional History */}
-          <div className="lg:col-span-7">
+          <div className="w-full min-w-0 max-w-full lg:col-span-7">
             <Reveal>
               <div className="inline-flex items-center gap-2 rounded-full border border-gold-soft bg-cream px-3 py-1 text-[11px] font-bold uppercase tracking-[0.2em] text-saffron-deep">
                 Institutional Origin
@@ -69,7 +69,7 @@ export default function About() {
               </div>
 
               {/* Verified Chronology Tiles */}
-              <div className="mt-8 grid grid-cols-2 gap-4">
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="rounded-xl border border-gold-soft bg-cream p-4">
                   <span className="font-sans text-2xl font-bold text-saffron-deep sm:text-3xl">1996</span>
                   <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-maroon">Patasala Founded</p>
@@ -85,7 +85,7 @@ export default function About() {
           </div>
 
           {/* Acharya Blessing Card */}
-          <div className="lg:col-span-5">
+          <div className="w-full min-w-0 max-w-full lg:col-span-5">
             <Reveal delay={0.1}>
               <div className="h-full rounded-2xl border border-gold/40 bg-maroon-dark p-6 sm:p-8 text-cream shadow-warm flex flex-col justify-between">
                 <div>
@@ -132,7 +132,7 @@ export default function About() {
             </div>
           </Reveal>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {aimsAndObjectives.map((aim, idx) => (
               <Reveal key={aim.id} delay={idx * 0.06}>
                 <div className="flex h-full flex-col justify-between rounded-xl border border-gold-soft bg-cream p-5 sm:p-6 shadow-xs transition hover:shadow-card hover:border-gold">
@@ -166,7 +166,7 @@ export default function About() {
             />
           </Reveal>
 
-          <div className="mt-10 grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+          <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 max-w-4xl mx-auto">
             {/* Founder */}
             <Reveal>
               <div className="flex h-full flex-col rounded-2xl border border-gold-soft bg-cream p-6 sm:p-8 shadow-xs">
@@ -239,7 +239,7 @@ export default function About() {
               <h3 className="font-serif text-2xl font-bold text-maroon">
                 Trust Registration &amp; Tax Exemption
               </h3>
-              <dl className="mt-4 grid gap-4 sm:grid-cols-3">
+              <dl className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-3">
                 <div className="rounded-lg bg-cream/70 p-3.5 border border-gold-soft/40">
                   <dt className="text-[10px] font-bold uppercase tracking-widest text-ink-soft">Legal Constitution</dt>
                   <dd className="mt-1 text-sm font-semibold text-maroon">Non-Profitable Charitable Trust</dd>

@@ -119,11 +119,11 @@ export default function AcharyaBlessings() {
       />
 
       <div className="site-container relative">
-        <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-12 xl:gap-14">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-12 xl:gap-14 w-full min-w-0 max-w-full">
           {/* ─────────────────────────────────────────────────────────────
               LEFT SIDE: Sacred Archival Peetam Inscription & Memorial Plaque
              ───────────────────────────────────────────────────────────── */}
-          <div className="lg:col-span-5">
+          <div className="w-full min-w-0 max-w-full lg:col-span-5">
             <Reveal>
               <div className="relative mx-auto max-w-[460px] lg:max-w-none">
                 {/* Outer ornamental gold double border */}
@@ -209,7 +209,7 @@ export default function AcharyaBlessings() {
           {/* ─────────────────────────────────────────────────────────────
               RIGHT SIDE: Editorial Quotation, Storytelling & Milestones
              ───────────────────────────────────────────────────────────── */}
-          <div className="lg:col-span-7">
+          <div className="w-full min-w-0 max-w-full lg:col-span-7">
             <Reveal delay={0.1}>
               {/* Eyebrow Badge */}
               <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.22em] text-gold-soft">
@@ -274,7 +274,7 @@ export default function AcharyaBlessings() {
                   Chronology of Divine Guidance
                 </p>
 
-                <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {/* 1996 Milestone */}
                   <div className="group rounded-xl border border-gold/30 bg-black/20 p-4 transition-all duration-200 hover:border-gold hover:bg-black/30">
                     <div className="flex items-center gap-2">

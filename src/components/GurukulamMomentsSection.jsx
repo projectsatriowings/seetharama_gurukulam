@@ -39,7 +39,7 @@ export default function GurukulamMomentsSection() {
         {/* Seamless Editorial Grid */}
         <div className="mt-10 sm:mt-14 space-y-5">
           {/* Top Row: Balanced 2-Column Hero Split (100% full width, flush to both margins) */}
-          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 w-full min-w-0 max-w-full">
             {/* Image 1: Veda Parayanam Chanting Session */}
             <Reveal className="h-full w-full">
               <Link
@@ -106,7 +106,7 @@ export default function GurukulamMomentsSection() {
           </div>
 
           {/* Bottom Row: 3 Equal-Width Editorial Tiles (100% full width, flush to both margins) */}
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 w-full min-w-0 max-w-full">
             {/* Image 3: Vidyarthis of Gurukulam */}
             <Reveal className="h-full w-full" delay={0.12}>
               <Link

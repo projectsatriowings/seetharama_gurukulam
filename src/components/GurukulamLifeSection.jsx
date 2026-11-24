@@ -139,18 +139,18 @@ export default function GurukulamLifeSection() {
         </Reveal>
 
         {/* 2-Column Modern Grid */}
-        <div className="mt-12 lg:mt-16 grid items-center gap-10 lg:grid-cols-12 lg:gap-10 xl:gap-12">
+        <div className="mt-12 lg:mt-16 grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-10 xl:gap-12 w-full min-w-0 max-w-full">
           {/* ── LEFT: Dynamic Photo Showcase with Floating Badges (7 cols) ── */}
-          <div className="lg:col-span-7">
+          <div className="w-full min-w-0 max-w-full lg:col-span-7">
             <Reveal>
               <div
-                className="relative"
+                className="relative w-full min-w-0 max-w-full"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
                 {/* Main Active Featured Photo Frame */}
-                <div className="group relative overflow-hidden rounded-3xl border border-gold-soft/90 bg-white p-2.5 sm:p-3 shadow-card transition-all duration-300 hover:shadow-warm">
-                  <div className="relative aspect-[16/11] w-full overflow-hidden rounded-[20px] bg-cream">
+                <div className="group relative w-full overflow-hidden rounded-2xl sm:rounded-3xl border border-gold-soft/90 bg-white p-2 sm:p-3 shadow-card transition-all duration-300 hover:shadow-warm">
+                  <div className="relative aspect-[16/11] sm:aspect-[16/10] w-full overflow-hidden rounded-[14px] sm:rounded-[20px] bg-cream">
                     {photos.map((p, idx) => (
                       <img
                         key={p.id}
@@ -172,7 +172,7 @@ export default function GurukulamLifeSection() {
                     />
 
                     {/* Top Floating Glass Badges */}
-                    <div className="absolute top-3.5 left-3.5 z-10 flex items-center gap-1.5 rounded-full border border-gold-soft/80 bg-ivory/95 px-3 py-1 text-[10.5px] font-bold uppercase tracking-wider text-maroon backdrop-blur-md shadow-xs">
+                    <div className="absolute top-3 left-3 sm:top-3.5 sm:left-3.5 z-10 flex items-center gap-1.5 rounded-full border border-gold-soft/80 bg-ivory/95 px-2.5 py-0.5 sm:px-3 sm:py-1 text-[10px] sm:text-[10.5px] font-bold uppercase tracking-wider text-maroon backdrop-blur-md shadow-xs">
                       <span className="h-1.5 w-1.5 rounded-full bg-saffron animate-pulse" />
                       <span>{photos[activePhoto].badge}</span>
                     </div>
@@ -183,7 +183,7 @@ export default function GurukulamLifeSection() {
                     </div>
 
                     {/* Bottom Caption Overlay */}
-                    <div className="absolute bottom-0 inset-x-0 p-3.5 sm:p-5 text-cream">
+                    <div className="absolute bottom-0 inset-x-0 p-3 sm:p-5 text-cream">
                       <p className="font-serif text-sm sm:text-xl font-bold tracking-wide leading-snug line-clamp-1 sm:line-clamp-none">
                         {photos[activePhoto].title}
                       </p>
@@ -195,7 +195,7 @@ export default function GurukulamLifeSection() {
                 </div>
 
                 {/* Interactive Thumbnail Selector beneath */}
-                <div className="mt-3.5 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-3">
+                <div className="mt-3 sm:mt-4 grid grid-cols-3 gap-2 sm:gap-3 w-full min-w-0 max-w-full">
                   {photos.map((p, idx) => {
                     const isCurrent = idx === activePhoto
                     return (
@@ -210,15 +210,15 @@ export default function GurukulamLifeSection() {
                         }`}
                         aria-label={`View ${p.title}`}
                       >
-                        <div className="aspect-[16/10] w-full overflow-hidden bg-cream">
+                        <div className="aspect-[16/10] w-full min-w-0 overflow-hidden bg-cream">
                           <img
                             src={p.src}
                             alt=""
                             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                           />
                         </div>
-                        <div className="px-1.5 py-1 sm:px-2.5 sm:py-1.5">
-                          <p className="truncate text-[10px] sm:text-[10.5px] font-bold text-maroon tracking-tight sm:tracking-wide">
+                        <div className="px-1.5 py-1 sm:px-2.5 sm:py-1.5 min-w-0">
+                          <p className="truncate text-center text-[9.5px] sm:text-[10.5px] font-bold text-maroon tracking-tight sm:tracking-wide">
                             {p.badge}
                           </p>
                         </div>
@@ -231,7 +231,7 @@ export default function GurukulamLifeSection() {
           </div>
 
           {/* ── RIGHT: Motion-Rich Facilities Hub (5 cols) ── */}
-          <div className="lg:col-span-5">
+          <div className="w-full min-w-0 max-w-full lg:col-span-5">
             <Reveal delay={0.1}>
               <div className="rounded-3xl border border-gold-soft bg-ivory/95 p-6 sm:p-7 lg:p-8 shadow-card backdrop-blur-xs">
                 {/* Header Badge & Title */}

@@ -238,10 +238,10 @@ export default function SacredTrustAnnouncement() {
                   animate={reduceMotion || !mounted ? {} : { opacity: 1, y: 0 }}
                   exit={reduceMotion || !mounted ? {} : { opacity: 0, y: -14 }}
                   transition={{ duration: 0.35, ease: 'easeOut' }}
-                  className="relative z-10 grid gap-8 lg:grid-cols-12 lg:items-center"
+                  className="relative z-10 grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center w-full min-w-0 max-w-full"
                 >
                   {/* Left Column: Number badge, icon & details */}
-                  <div className="lg:col-span-8 space-y-4">
+                  <div className="w-full min-w-0 max-w-full lg:col-span-8 space-y-4">
                     <div className="flex items-center gap-3">
                       <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-tr from-saffron to-gold text-maroon-dark shadow-sm">
                         <ActiveIcon size={24} aria-hidden="true" />

@@ -451,9 +451,9 @@ export default function Hero({
       </svg>
 
       <div className="site-container relative">
-        <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10">
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-8 xl:gap-10 w-full min-w-0 max-w-full">
           {/* ── LEFT: Editorial content ── */}
-          <div className="lg:col-span-6 xl:col-span-5">
+          <div className="w-full min-w-0 max-w-full lg:col-span-6 xl:col-span-5">
             {/* Exact PDF Heading: The Vedas – Eternal Glory of Our Tradition */}
             <h1 className="font-serif text-[30px] xs:text-[34px] sm:text-[46px] md:text-[52px] lg:text-[52px] xl:text-[58px] font-bold leading-[1.12] tracking-tight text-maroon">
               The Vedas –{' '}
@@ -482,7 +482,7 @@ export default function Hero({
           </div>
 
           {/* ── RIGHT: 3D Coverflow Cards Showcase (Image 1 Design) ── */}
-          <div className="min-w-0 lg:col-span-6 xl:col-span-7">
+          <div className="w-full min-w-0 max-w-full lg:col-span-6 xl:col-span-7">
             <div
               className="relative w-full"
               onMouseEnter={() => setIsHovered(true)}

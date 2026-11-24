@@ -59,9 +59,9 @@ export default function Contact() {
       {/* ── 1. CONTACT CARDS & INTERACTIVE LOCATION ── */}
       <section className="py-14 sm:py-18">
         <div className="site-container">
-          <div className="grid gap-10 lg:grid-cols-12 items-start">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 items-start w-full min-w-0 max-w-full">
             {/* Contact Details & Direct Help */}
-            <div className="lg:col-span-5 space-y-6">
+            <div className="w-full min-w-0 max-w-full lg:col-span-5 space-y-6">
               <Reveal>
                 <div className="rounded-2xl border border-gold-soft bg-ivory p-6 sm:p-8 shadow-xs">
                   <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-saffron-deep">
@@ -229,7 +229,7 @@ export default function Contact() {
           </Reveal>
 
           {/* Guidelines Cards Grid */}
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+          <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
             <Reveal delay={0.05}>
               <div className="flex h-full flex-col justify-between rounded-2xl border border-gold-soft bg-white p-6 shadow-xs transition hover:shadow-md">
                 <div>
@@ -328,7 +328,7 @@ export default function Contact() {
             </div>
           </Reveal>
 
-          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
             {freeStudentFacilities.map((facility, idx) => (
               <Reveal key={facility} delay={idx * 0.05}>
                 <div className="flex items-start gap-3.5 rounded-2xl border border-gold-soft bg-white p-4 sm:p-5 shadow-xs">
@@ -369,7 +369,7 @@ export default function Contact() {
               </p>
 
               {/* Supported Contribution Schemes */}
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
                 {contributions.schemes.map((scheme) => (
                   <div key={scheme} className="flex items-center gap-2 rounded-lg bg-cream/70 p-3 border border-gold-soft/40 text-xs font-medium text-ink">
                     <CheckCircle2 size={16} className="text-saffron-deep shrink-0" />

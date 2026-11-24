@@ -156,7 +156,7 @@ export default function VedicTraditionSection() {
         </div>
 
         {/* ── 3-CARD SACRED BENTO SHOWCASE (Completely Unique Architecture) ── */}
-        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-7">
+        <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-7 w-full min-w-0 max-w-full">
           {traditionPillars.map((pillar, idx) => {
             const PillarIcon = pillar.icon
             const isFeatured = pillar.featured

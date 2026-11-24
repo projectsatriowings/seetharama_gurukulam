@@ -151,9 +151,9 @@ export default function ParayanamPooja() {
         />
 
         <div className="site-container relative z-10">
-          <div className="grid items-center gap-10 lg:grid-cols-12 lg:gap-14">
+          <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-14 w-full min-w-0 max-w-full">
             {/* Visual Photography Column (5 cols) */}
-            <div className="lg:col-span-5 order-2 lg:order-1">
+            <div className="w-full min-w-0 max-w-full lg:col-span-5 order-2 lg:order-1">
               <Reveal>
                 <div className="relative mx-auto max-w-md lg:max-w-none">
                   {/* Decorative Frame Offset */}
@@ -201,7 +201,7 @@ export default function ParayanamPooja() {
             </div>
 
             {/* Narrative & Context Column (7 cols) */}
-            <div className="lg:col-span-7 order-1 lg:order-2">
+            <div className="w-full min-w-0 max-w-full lg:col-span-7 order-1 lg:order-2">
               <Reveal>
                 <div className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-ivory/90 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.22em] text-saffron-deep shadow-2xs backdrop-blur-xs">
                   <Flame size={12} className="text-saffron" aria-hidden="true" />
@@ -260,7 +260,7 @@ export default function ParayanamPooja() {
               </div>
             </Reveal>
 
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {prayogaFunctions.map((fn, idx) => (
                 <Reveal key={fn.id} delay={0.12 + idx * 0.06}>
                   <motion.div
@@ -329,7 +329,7 @@ export default function ParayanamPooja() {
                   </p>
 
                   {/* Proposed Subject Areas Grid */}
-                  <div className="mt-8 grid gap-3 sm:grid-cols-3">
+                  <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
                     {proposedSrowthaClasses.subjects.map((subj) => (
                       <div
                         key={subj}

@@ -261,19 +261,19 @@ export default function Hero({
             </div>
 
             {/* Verified Stats strip */}
-            <div className="mt-9 hidden grid-cols-4 divide-x divide-gold-soft/60 border-t border-gold-soft/60 pt-6 sm:grid lg:mt-11">
-              {stats.map(({ value, label }) => (
-                <div key={label} className="flex flex-col justify-start px-2 sm:px-3 lg:px-2.5 xl:px-3.5 first:pl-0 last:pr-0">
-                  <div className="flex h-7 items-center">
-                    <p className="font-sans text-[17px] sm:text-[19px] md:text-[21px] lg:text-[19px] xl:text-[22px] font-bold leading-none text-maroon whitespace-nowrap tracking-tight">
+            <div className="mt-8 border-t border-gold-soft/60 pt-6 hidden sm:block lg:mt-10">
+              <div className="grid grid-cols-2 gap-x-5 gap-y-4 sm:grid-cols-4 sm:gap-x-3 lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 xl:grid-cols-4 xl:gap-x-4">
+                {stats.map(({ value, label }) => (
+                  <div key={label} className="min-w-0 border-l-2 border-gold-soft/80 pl-3">
+                    <p className="font-sans text-[17px] sm:text-[18px] md:text-[20px] lg:text-[19px] xl:text-[21px] font-bold leading-tight text-maroon tracking-tight">
                       {value}
                     </p>
+                    <p className="mt-0.5 text-[10px] sm:text-[10.5px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">
+                      {label}
+                    </p>
                   </div>
-                  <p className="mt-1 text-[10px] sm:text-[10.5px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">
-                    {label}
-                  </p>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
 
@@ -405,8 +405,8 @@ export default function Hero({
       {/* ── Stats strip (mobile only) ── */}
       <div className="mt-10 grid grid-cols-2 gap-px border-t border-gold-soft/50 bg-gold-soft/20 sm:hidden">
         {stats.map(({ value, label }) => (
-          <div key={label} className="bg-[#FDFAF3] px-5 py-4">
-            <p className="font-sans text-[20px] font-bold text-maroon whitespace-nowrap">{value}</p>
+          <div key={label} className="min-w-0 bg-[#FDFAF3] px-5 py-4">
+            <p className="font-sans text-[19px] font-bold text-maroon">{value}</p>
             <p className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-ink-soft/90 leading-snug">{label}</p>
           </div>
         ))}

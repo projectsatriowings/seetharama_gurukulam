@@ -188,40 +188,274 @@ export default function Hero({
 
   return (
     <section className="relative overflow-hidden bg-[#FDFAF3] pt-24 pb-12 sm:pt-28 sm:pb-16 lg:pt-32 lg:pb-20 border-b border-gold-soft/40">
-      {/* Decorative SVG lotus vine – top-left */}
+      {/* Decorative SVG Vedic Scriptures & Study illustration – top-left */}
       <svg
         aria-hidden="true"
-        className="pointer-events-none absolute -left-10 top-20 w-56 opacity-[0.13] sm:w-72 lg:-left-6 lg:w-80"
+        className="pointer-events-none absolute -left-12 top-16 w-60 opacity-[0.16] sm:w-76 lg:-left-6 lg:w-84"
         viewBox="0 0 320 480"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M160 480 C160 300, 100 220, 80 100" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" />
-        <ellipse cx="80" cy="90" rx="22" ry="38" fill="#C9A24B" transform="rotate(-20 80 90)" />
-        <ellipse cx="80" cy="90" rx="22" ry="38" fill="#C9A24B" transform="rotate(20 80 90)" />
-        <ellipse cx="80" cy="90" rx="14" ry="30" fill="#E8871E" transform="rotate(-40 80 90)" />
-        <ellipse cx="80" cy="90" rx="14" ry="30" fill="#E8871E" transform="rotate(40 80 90)" />
-        <circle cx="80" cy="98" r="10" fill="#C9A24B" />
-        <path d="M120 220 C170 190, 190 240, 140 260 C140 260, 115 240, 120 220Z" fill="#C9A24B" />
-        <path d="M100 320 C60 290, 40 340, 90 360 C90 360, 115 340, 100 320Z" fill="#C9A24B" />
+        {/* Soft aura glow behind open scripture */}
+        <circle cx="160" cy="180" r="95" fill="#E8871E" opacity="0.08" />
+
+        {/* Radiating Wisdom Rays from Scripture */}
+        <g stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="3 4" opacity="0.6">
+          <line x1="160" y1="90" x2="160" y2="58" />
+          <line x1="120" y1="105" x2="95" y2="78" />
+          <line x1="200" y1="105" x2="225" y2="78" />
+          <line x1="85" y1="140" x2="52" y2="128" />
+          <line x1="235" y1="140" x2="268" y2="128" />
+        </g>
+
+        {/* Sacred Deepam / Lamp of Learning above open book */}
+        <g transform="translate(160, 95)">
+          {/* Flame of knowledge */}
+          <path d="M0 -30 C-6 -18 -8 -10 0 0 C8 -10 6 -18 0 -30 Z" fill="#E8871E" opacity="0.9" />
+          <path d="M0 -22 C-3 -14 -4 -8 0 0 C4 -8 3 -14 0 -22 Z" fill="#F4D06F" />
+          {/* Lamp Base / Diya */}
+          <path d="M-14 0 C-10 8 10 8 14 0 C16 4 12 7 0 7 C-12 7 -16 4 -14 0 Z" fill="#C9A24B" />
+          <path d="M-4 7 L4 7 L6 13 L-6 13 Z" fill="#C9A24B" />
+          <ellipse cx="0" cy="13" rx="10" ry="2.5" fill="#C9A24B" />
+        </g>
+
+        {/* ── OPEN VEDIC SCRIPTURE (Pustaka / Grantha on Reading Stand) ── */}
+        {/* Back cover / shadow */}
+        <path
+          d="M48 160 C100 148 152 170 160 178 C168 170 220 148 272 160 L272 232 C220 220 168 242 160 250 C152 242 100 220 48 232 Z"
+          fill="#8A2525"
+          opacity="0.25"
+        />
+        {/* Page thickness block */}
+        <path
+          d="M50 164 C100 152 152 174 160 182 C168 174 220 152 270 164 L270 236 C220 224 168 246 160 254 C152 246 100 224 50 236 Z"
+          fill="#C9A24B"
+          opacity="0.35"
+        />
+        {/* Main Open Pages (Ivory leaf parchment) */}
+        <path
+          d="M54 156 C102 144 154 166 160 174 C166 166 218 144 266 156 L266 226 C218 214 166 236 160 244 C154 236 102 214 54 226 Z"
+          fill="#FFFDF7"
+          stroke="#C9A24B"
+          strokeWidth="2"
+        />
+        {/* Center Spine Crease */}
+        <line x1="160" y1="174" x2="160" y2="244" stroke="#8A2525" strokeWidth="2" />
+        <path d="M160 174 C158 200 158 220 160 244" stroke="#C9A24B" strokeWidth="1.5" />
+
+        {/* Flowing Bookmark Ribbon (Silk thread) */}
+        <path
+          d="M160 244 C162 265 170 275 166 295 C163 305 158 315 162 325"
+          stroke="#8A2525"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+
+        {/* Shloka Verse lines on Left Page */}
+        <g stroke="#C9A24B" strokeWidth="1.2" opacity="0.65" strokeLinecap="round">
+          <line x1="72" y1="168" x2="142" y2="178" />
+          <line x1="72" y1="180" x2="142" y2="190" />
+          <line x1="72" y1="192" x2="142" y2="202" />
+          <line x1="72" y1="204" x2="130" y2="212" />
+          <line x1="72" y1="216" x2="115" y2="222" />
+        </g>
+
+        {/* Shloka Verse lines on Right Page */}
+        <g stroke="#C9A24B" strokeWidth="1.2" opacity="0.65" strokeLinecap="round">
+          <line x1="178" y1="178" x2="248" y2="168" />
+          <line x1="178" y1="190" x2="248" y2="180" />
+          <line x1="178" y1="202" x2="248" y2="192" />
+          <line x1="178" y1="212" x2="236" y2="204" />
+          <line x1="178" y1="222" x2="221" y2="216" />
+        </g>
+
+        {/* ── WOODEN BOOKSTAND (Vyasapeeth / Rehal) ── */}
+        <g stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          {/* Crossed wooden legs */}
+          <path d="M125 242 L185 305" />
+          <path d="M195 242 L135 305" />
+          {/* Base rests */}
+          <line x1="115" y1="305" x2="148" y2="305" strokeWidth="3" />
+          <line x1="172" y1="305" x2="205" y2="305" strokeWidth="3" />
+          {/* Central carved joint medallion */}
+          <circle cx="160" cy="273" r="5" fill="#FFFDF7" stroke="#8A2525" strokeWidth="2" />
+        </g>
+
+        {/* ── STACK OF BOUND VEDIC GRANTHAS (Palm Leaf & Scripture Books) ── */}
+        {/* Book 1 (Top Stack Grantha) */}
+        <g transform="translate(0, 318)">
+          <rect x="75" y="0" width="170" height="22" rx="4" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="1.8" />
+          <rect x="75" y="0" width="16" height="22" rx="3" fill="#8A2525" opacity="0.8" />
+          <line x1="105" y1="11" x2="225" y2="11" stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="3 3" opacity="0.7" />
+          <line x1="233" y1="4" x2="233" y2="18" stroke="#E8871E" strokeWidth="1.5" />
+        </g>
+
+        {/* Book 2 (Middle Stack - Traditional Bound Pothi Scripture) */}
+        <g transform="translate(0, 348)">
+          <rect x="58" y="0" width="204" height="26" rx="4" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="2" />
+          <rect x="58" y="0" width="20" height="26" rx="3" fill="#C9A24B" opacity="0.6" />
+          {/* Bound Sacred Cord (Sutra tie) */}
+          <line x1="120" y1="0" x2="120" y2="26" stroke="#8A2525" strokeWidth="2" />
+          <line x1="200" y1="0" x2="200" y2="26" stroke="#8A2525" strokeWidth="2" />
+          {/* Title plate inscription */}
+          <rect x="135" y="6" width="50" height="14" rx="2" fill="#FDFAF3" stroke="#C9A24B" strokeWidth="1" />
+          <line x1="140" y1="13" x2="180" y2="13" stroke="#8A2525" strokeWidth="1.2" />
+        </g>
+
+        {/* Book 3 (Base Large Samhita Grantha Volume) */}
+        <g transform="translate(0, 382)">
+          <rect x="42" y="0" width="236" height="32" rx="5" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="2.2" />
+          <rect x="42" y="0" width="24" height="32" rx="4" fill="#8A2525" opacity="0.85" />
+          {/* Gold foil embossed ribs on spine */}
+          <line x1="44" y1="7" x2="64" y2="7" stroke="#C9A24B" strokeWidth="1.5" />
+          <line x1="44" y1="16" x2="64" y2="16" stroke="#C9A24B" strokeWidth="1.5" />
+          <line x1="44" y1="25" x2="64" y2="25" stroke="#C9A24B" strokeWidth="1.5" />
+          {/* Page gilding line */}
+          <line x1="76" y1="16" x2="266" y2="16" stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="4 2" opacity="0.6" />
+        </g>
+
+        {/* Floating Sacred Wisdom Motifs */}
+        <g fill="#C9A24B" opacity="0.75">
+          <circle cx="50" cy="115" r="3" />
+          <circle cx="270" cy="115" r="3" />
+          <circle cx="40" cy="270" r="2.5" />
+          <circle cx="280" cy="270" r="2.5" />
+        </g>
       </svg>
 
-      {/* Decorative SVG lotus vine – top-right */}
+      {/* Decorative SVG Vedic Scriptures & Study illustration – top-right */}
       <svg
         aria-hidden="true"
-        className="pointer-events-none absolute -right-10 top-16 w-56 opacity-[0.12] sm:w-72 lg:-right-4 lg:w-80"
+        className="pointer-events-none absolute -right-12 top-16 w-60 opacity-[0.15] sm:w-76 lg:-right-6 lg:w-84"
         viewBox="0 0 320 480"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d="M160 480 C160 300, 220 220, 240 100" stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" />
-        <ellipse cx="240" cy="90" rx="22" ry="38" fill="#C9A24B" transform="rotate(20 240 90)" />
-        <ellipse cx="240" cy="90" rx="22" ry="38" fill="#C9A24B" transform="rotate(-20 240 90)" />
-        <ellipse cx="240" cy="90" rx="14" ry="30" fill="#E8871E" transform="rotate(40 240 90)" />
-        <ellipse cx="240" cy="90" rx="14" ry="30" fill="#E8871E" transform="rotate(-40 240 90)" />
-        <circle cx="240" cy="98" r="10" fill="#C9A24B" />
-        <path d="M200 220 C150 190, 130 240, 180 260 C180 260, 205 240, 200 220Z" fill="#C9A24B" />
-        <path d="M220 320 C260 290, 280 340, 230 360 C230 360, 205 340, 220 320Z" fill="#C9A24B" />
+        {/* Soft aura glow behind open scripture */}
+        <circle cx="160" cy="180" r="95" fill="#E8871E" opacity="0.08" />
+
+        {/* Radiating Wisdom Rays from Scripture */}
+        <g stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="3 4" opacity="0.6">
+          <line x1="160" y1="90" x2="160" y2="58" />
+          <line x1="120" y1="105" x2="95" y2="78" />
+          <line x1="200" y1="105" x2="225" y2="78" />
+          <line x1="85" y1="140" x2="52" y2="128" />
+          <line x1="235" y1="140" x2="268" y2="128" />
+        </g>
+
+        {/* Sacred Deepam / Lamp of Learning above open book */}
+        <g transform="translate(160, 95)">
+          {/* Flame of knowledge */}
+          <path d="M0 -30 C-6 -18 -8 -10 0 0 C8 -10 6 -18 0 -30 Z" fill="#E8871E" opacity="0.9" />
+          <path d="M0 -22 C-3 -14 -4 -8 0 0 C4 -8 3 -14 0 -22 Z" fill="#F4D06F" />
+          {/* Lamp Base / Diya */}
+          <path d="M-14 0 C-10 8 10 8 14 0 C16 4 12 7 0 7 C-12 7 -16 4 -14 0 Z" fill="#C9A24B" />
+          <path d="M-4 7 L4 7 L6 13 L-6 13 Z" fill="#C9A24B" />
+          <ellipse cx="0" cy="13" rx="10" ry="2.5" fill="#C9A24B" />
+        </g>
+
+        {/* ── OPEN VEDIC SCRIPTURE (Pustaka / Grantha on Reading Stand) ── */}
+        {/* Back cover / shadow */}
+        <path
+          d="M48 160 C100 148 152 170 160 178 C168 170 220 148 272 160 L272 232 C220 220 168 242 160 250 C152 242 100 220 48 232 Z"
+          fill="#8A2525"
+          opacity="0.25"
+        />
+        {/* Page thickness block */}
+        <path
+          d="M50 164 C100 152 152 174 160 182 C168 174 220 152 270 164 L270 236 C220 224 168 246 160 254 C152 246 100 224 50 236 Z"
+          fill="#C9A24B"
+          opacity="0.35"
+        />
+        {/* Main Open Pages (Ivory leaf parchment) */}
+        <path
+          d="M54 156 C102 144 154 166 160 174 C166 166 218 144 266 156 L266 226 C218 214 166 236 160 244 C154 236 102 214 54 226 Z"
+          fill="#FFFDF7"
+          stroke="#C9A24B"
+          strokeWidth="2"
+        />
+        {/* Center Spine Crease */}
+        <line x1="160" y1="174" x2="160" y2="244" stroke="#8A2525" strokeWidth="2" />
+        <path d="M160 174 C158 200 158 220 160 244" stroke="#C9A24B" strokeWidth="1.5" />
+
+        {/* Flowing Bookmark Ribbon (Silk thread) */}
+        <path
+          d="M160 244 C158 265 150 275 154 295 C157 305 162 315 158 325"
+          stroke="#8A2525"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
+
+        {/* Shloka Verse lines on Left Page */}
+        <g stroke="#C9A24B" strokeWidth="1.2" opacity="0.65" strokeLinecap="round">
+          <line x1="72" y1="168" x2="142" y2="178" />
+          <line x1="72" y1="180" x2="142" y2="190" />
+          <line x1="72" y1="192" x2="142" y2="202" />
+          <line x1="72" y1="204" x2="130" y2="212" />
+          <line x1="72" y1="216" x2="115" y2="222" />
+        </g>
+
+        {/* Shloka Verse lines on Right Page */}
+        <g stroke="#C9A24B" strokeWidth="1.2" opacity="0.65" strokeLinecap="round">
+          <line x1="178" y1="178" x2="248" y2="168" />
+          <line x1="178" y1="190" x2="248" y2="180" />
+          <line x1="178" y1="202" x2="248" y2="192" />
+          <line x1="178" y1="212" x2="236" y2="204" />
+          <line x1="178" y1="222" x2="221" y2="216" />
+        </g>
+
+        {/* ── WOODEN BOOKSTAND (Vyasapeeth / Rehal) ── */}
+        <g stroke="#C9A24B" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          {/* Crossed wooden legs */}
+          <path d="M125 242 L185 305" />
+          <path d="M195 242 L135 305" />
+          {/* Base rests */}
+          <line x1="115" y1="305" x2="148" y2="305" strokeWidth="3" />
+          <line x1="172" y1="305" x2="205" y2="305" strokeWidth="3" />
+          {/* Central carved joint medallion */}
+          <circle cx="160" cy="273" r="5" fill="#FFFDF7" stroke="#8A2525" strokeWidth="2" />
+        </g>
+
+        {/* ── STACK OF BOUND VEDIC GRANTHAS (Palm Leaf & Scripture Books) ── */}
+        {/* Book 1 (Top Stack Grantha) */}
+        <g transform="translate(0, 318)">
+          <rect x="75" y="0" width="170" height="22" rx="4" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="1.8" />
+          <rect x="229" y="0" width="16" height="22" rx="3" fill="#8A2525" opacity="0.8" />
+          <line x1="95" y1="11" x2="215" y2="11" stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="3 3" opacity="0.7" />
+          <line x1="87" y1="4" x2="87" y2="18" stroke="#E8871E" strokeWidth="1.5" />
+        </g>
+
+        {/* Book 2 (Middle Stack - Traditional Bound Pothi Scripture) */}
+        <g transform="translate(0, 348)">
+          <rect x="58" y="0" width="204" height="26" rx="4" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="2" />
+          <rect x="242" y="0" width="20" height="26" rx="3" fill="#C9A24B" opacity="0.6" />
+          {/* Bound Sacred Cord (Sutra tie) */}
+          <line x1="120" y1="0" x2="120" y2="26" stroke="#8A2525" strokeWidth="2" />
+          <line x1="200" y1="0" x2="200" y2="26" stroke="#8A2525" strokeWidth="2" />
+          {/* Title plate inscription */}
+          <rect x="135" y="6" width="50" height="14" rx="2" fill="#FDFAF3" stroke="#C9A24B" strokeWidth="1" />
+          <line x1="140" y1="13" x2="180" y2="13" stroke="#8A2525" strokeWidth="1.2" />
+        </g>
+
+        {/* Book 3 (Base Large Samhita Grantha Volume) */}
+        <g transform="translate(0, 382)">
+          <rect x="42" y="0" width="236" height="32" rx="5" fill="#FFFDF7" stroke="#C9A24B" strokeWidth="2.2" />
+          <rect x="254" y="0" width="24" height="32" rx="4" fill="#8A2525" opacity="0.85" />
+          {/* Gold foil embossed ribs on spine */}
+          <line x1="256" y1="7" x2="276" y2="7" stroke="#C9A24B" strokeWidth="1.5" />
+          <line x1="256" y1="16" x2="276" y2="16" stroke="#C9A24B" strokeWidth="1.5" />
+          <line x1="256" y1="25" x2="276" y2="25" stroke="#C9A24B" strokeWidth="1.5" />
+          {/* Page gilding line */}
+          <line x1="54" y1="16" x2="244" y2="16" stroke="#C9A24B" strokeWidth="1.2" strokeDasharray="4 2" opacity="0.6" />
+        </g>
+
+        {/* Floating Sacred Wisdom Motifs */}
+        <g fill="#C9A24B" opacity="0.75">
+          <circle cx="50" cy="115" r="3" />
+          <circle cx="270" cy="115" r="3" />
+          <circle cx="40" cy="270" r="2.5" />
+          <circle cx="280" cy="270" r="2.5" />
+        </g>
       </svg>
 
       <div className="site-container relative">

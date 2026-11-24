@@ -368,8 +368,25 @@ export default function Gurukulam() {
                     {proposedSrowthaClasses.description}
                   </p>
 
+                  {/* Embedded Archival Photo for Srowtha & Higher Studies */}
+                  <div className="relative mt-5 aspect-[16/9] w-full overflow-hidden rounded-xl border border-gold-soft/70 bg-cream">
+                    <img
+                      src="/photos/naimisharanya-mandapam-pandits.jpg"
+                      alt="Vedic pandits and scholars gathered for Srowtha assemblies and higher studies"
+                      loading="lazy"
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div
+                      className="absolute inset-0 bg-gradient-to-t from-maroon-dark/60 via-transparent to-transparent"
+                      aria-hidden="true"
+                    />
+                    <span className="absolute bottom-2 left-3 rounded bg-ivory/95 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-maroon">
+                      Higher Vedic Studies &amp; Assemblies
+                    </span>
+                  </div>
+
                   {/* Sacred Srowtha Overview Box */}
-                  <div className="mt-5 rounded-xl border border-gold/30 bg-ivory/80 p-5 shadow-2xs">
+                  <div className="mt-6 rounded-xl border border-gold/30 bg-ivory/80 p-5 shadow-2xs">
                     <div className="flex items-center gap-2 text-maroon text-xs font-bold uppercase tracking-wider">
                       <Flame size={14} className="text-saffron-deep" />
                       <span>Proposed Subject Areas:</span>

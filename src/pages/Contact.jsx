@@ -262,7 +262,7 @@ export default function Contact() {
               </div>
             </Reveal>
 
-            <Reveal delay={0.15}>
+            <Reveal delay={0.15} className="sm:col-span-2 sm:max-w-md sm:mx-auto lg:col-span-1 lg:max-w-none w-full">
               <div className="flex h-full flex-col justify-between rounded-2xl border border-gold-soft bg-white p-6 shadow-xs transition hover:shadow-md">
                 <div>
                   <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-saffron-soft text-saffron-deep">
@@ -328,22 +328,31 @@ export default function Contact() {
             </div>
           </Reveal>
 
-          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
-            {freeStudentFacilities.map((facility, idx) => (
-              <Reveal key={facility} delay={idx * 0.05}>
-                <div className="flex items-start gap-3.5 rounded-2xl border border-gold-soft bg-white p-4 sm:p-5 shadow-xs">
-                  <CheckCircle2 size={20} className="mt-0.5 shrink-0 text-saffron-deep" aria-hidden="true" />
-                  <div>
-                    <h3 className="font-serif text-base font-bold text-maroon">
-                      {facility}
-                    </h3>
-                    <p className="mt-1 text-xs text-ink-soft">
-                      No tuition fees, boarding fees, or living charges are ever levied.
-                    </p>
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-6 max-w-5xl mx-auto">
+            {freeStudentFacilities.map((facility, idx) => {
+              const colClass =
+                idx === 3
+                  ? 'lg:col-span-2 lg:col-start-2 sm:col-span-1'
+                  : idx === 4
+                  ? 'lg:col-span-2 sm:col-span-2 sm:max-w-md sm:mx-auto w-full lg:max-w-none'
+                  : 'lg:col-span-2 sm:col-span-1'
+
+              return (
+                <Reveal key={facility} delay={idx * 0.05} className={`h-full ${colClass}`}>
+                  <div className="flex h-full items-start gap-3.5 rounded-2xl border border-gold-soft bg-white p-4 sm:p-5 shadow-xs">
+                    <CheckCircle2 size={20} className="mt-0.5 shrink-0 text-saffron-deep" aria-hidden="true" />
+                    <div>
+                      <h3 className="font-serif text-base font-bold text-maroon">
+                        {facility}
+                      </h3>
+                      <p className="mt-1 text-xs text-ink-soft">
+                        No tuition fees, boarding fees, or living charges are ever levied.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Reveal>
-            ))}
+                </Reveal>
+              )
+            })}
           </div>
         </div>
       </section>

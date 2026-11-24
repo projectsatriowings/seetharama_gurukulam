@@ -134,24 +134,33 @@ export default function About() {
             </div>
           </Reveal>
 
-          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {aimsAndObjectives.map((aim, idx) => (
-              <Reveal key={aim.id} delay={idx * 0.06}>
-                <div className="flex h-full flex-col justify-between rounded-xl border border-gold-soft bg-cream p-5 sm:p-6 shadow-xs transition hover:shadow-card hover:border-gold">
-                  <div>
-                    <span className="font-serif text-2xl font-bold text-gold-soft">
-                      0{aim.id}
-                    </span>
-                    <h3 className="mt-2 font-serif text-lg font-bold text-maroon">
-                      {aim.title}
-                    </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                      {aim.description}
-                    </p>
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-6">
+            {aimsAndObjectives.map((aim, idx) => {
+              const colClass =
+                idx === 3
+                  ? 'lg:col-span-2 lg:col-start-2 sm:col-span-1'
+                  : idx === 4
+                  ? 'lg:col-span-2 sm:col-span-2 sm:max-w-md sm:mx-auto w-full lg:max-w-none'
+                  : 'lg:col-span-2 sm:col-span-1'
+
+              return (
+                <Reveal key={aim.id} delay={idx * 0.06} className={`h-full ${colClass}`}>
+                  <div className="flex h-full flex-col justify-between rounded-xl border border-gold-soft bg-cream p-5 sm:p-6 shadow-xs transition hover:shadow-card hover:border-gold">
+                    <div>
+                      <span className="font-serif text-2xl font-bold text-gold-soft">
+                        0{aim.id}
+                      </span>
+                      <h3 className="mt-2 font-serif text-lg font-bold text-maroon">
+                        {aim.title}
+                      </h3>
+                      <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                        {aim.description}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </Reveal>
-            ))}
+                </Reveal>
+              )
+            })}
           </div>
         </div>
       </section>
